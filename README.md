@@ -24,7 +24,6 @@
 - [證書](https://github.com/fengqian0914/fengqian.github.io#certificate)
 - [在校成績單](https://github.com/fengqian0914/fengqian.github.io#School_transcript)
 - [興趣](https://github.com/fengqian0914/fengqian.github.io#Interest)
-![image](https://github.com/fengqian0914/fengqian.github.io/assets/168825658/2d878f0e-ccf6-4def-9aaf-1a5470a530ab)
 
 
 
