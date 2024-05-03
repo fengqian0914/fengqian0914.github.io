@@ -53,7 +53,7 @@ OOXXX<br>
 OOXXX<br>
 OOXXX<br>
 
-<h2 id="Educational_qualifications"> 學歷 </h2>
+<h2 id="Educational_qualifications">學歷</h2>
 
   - 致理科技大學
     - 本系：商務科技管理系(資訊模組) 預計於113年修業完畢
