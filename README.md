@@ -10,7 +10,7 @@
 <h2 > 目錄 </h2>
 
 - [自傳](https://github.com/fengqian0914/fengqian.github.io#Autobiography)
-- [學歷](https://github.com/fengqian0914/fengqian.github.io#Educational_qualifications)
+- [學歷](https://github.com/fengqian0914/fengqian.github.io?tab=readme-ov-file#-%E5%AD%B8%E6%AD%B7-)
 - [專業技能](https://github.com/fengqian0914/fengqian.github.io#Professional_skills)
   - [程式開發](https://github.com/fengqian0914/fengqian.github.io#Program_Development)
   - [辦公室軟體](https://github.com/fengqian0914/fengqian.github.io#Office_software)
