@@ -1,5 +1,5 @@
 
-# 關於我
+<h1 > 關於我</h1>
 
 - 姓名：徐逢謙 (Jack)
 - 生日 : 09/14/2002
@@ -8,7 +8,8 @@
   - 輔系：致理科技大學-資訊管理系              預計於113年修業完畢
 - 居住 : 新北市
 - 信箱 : fengqian0914@gmail.com
-## 目錄
+<h2 > 目錄 </h2>
+
 - [自傳](https://github.com/fengqian0914/fengqian.github.io#Autobiography)
 - [學歷](https://github.com/fengqian0914/fengqian.github.io#Educational_qualifications)
 - [專業技能](https://github.com/fengqian0914/fengqian.github.io#Professional_skills)
@@ -28,19 +29,21 @@
 
 
 
-## <mark id="Interest">自傳</mark>
+<h2 >  自傳 </h2>
 
-## 學歷
+<h2 > 學歷 </h2>
+
   - 致理科技大學
     - 本系：商務科技管理系(資訊模組) 預計於113年修業完畢
     - 輔系：致理科技大學-資訊管理系  預計於113年修業完畢
   - 新北市立新北高級工業職業學校
     - 資料處理科 
 
-## 專業技能
+<h2 > 專業技能</h2>
 
-##### 程式開發
----
+<h4 > 程式開發</h4>
+
+--- 
   - HTML、CSS、JS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$  
     - 使用具意義的方式來構建HTML。
     - 熟悉RWD以及Bootstrap3、4。
@@ -50,29 +53,33 @@
   - Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
   - Android Kotlin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
 
-##### 辦公室軟體
---- 
+<h4 > 辦公室軟體</h4>
+
+---  
   - Microsoft Word &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$  
   - Microsoft PowerPoint &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$  
   - Microsoft Excel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$
 
-##### 圖形設計和影像處理
----
+<h4 > 圖形設計和影像處理</h4>
+
+--- 
   - Adobe Photoshop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{#FF9224}中等}}$
     - 基礎使用：影像編修、平面設計。
   - Adobe Illustrator &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{#FF9224}中等}}$
     - 基礎使用：商業識別設計。
       
-##### 其他    
----
+<h4 >其他</h4>
+
+--- 
   - 企業資源規劃(ERP) 鼎新系統 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
   - Qilk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
   - Google Analytics 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
     
-## 競賽紀錄/其他獎狀
+<h2> 競賽紀錄/其他獎狀</h2>
 
-##### 競賽紀錄 
----
+<h4 > 競賽紀錄 </h4>
+
+--- 
   - 2023 GSS AI Chatbot Hackathon 校園組 亞軍  `Line Bot 機器人`
     - 影片
       [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg)](https://www.youtube.com/watch?v=MeMtXf6m2OI)
@@ -86,8 +93,9 @@
     
 
 
-<h2 id="certificate_of_merit">獎狀 </h2>
----
+<h4  id="certificate_of_merit">獎狀 </h4>
+
+--- 
   > 大學
   >- 2023 GSS AI Chatbot Hackathon 校園組 亞軍
   >- 2022 大二上 班級排名 第三名
@@ -95,11 +103,11 @@
   >>- 2020 2020臺灣學校網界博覽會 銅獎
   >>- 2020 高三班級模範生
 
-## 證照
+<h2> 證照</h2>
 
-## 作品集
+<h2> 作品集</h2>
 
-## 在校成績單
+<h2>在校成績單</h2>
 
-## 興趣
+<h2> 興趣</h2>
 
