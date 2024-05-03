@@ -1,4 +1,4 @@
-
+![image](https://github.com/fengqian0914/fengqian.github.io/assets/168825658/9caf28e1-163d-4450-9f81-32ee91567294)
 <h1 > 關於我</h1>
 
 - 姓名：徐逢謙 (Jack)
@@ -29,9 +29,9 @@
 
 
 
-<h2 >  自傳 </h2>
+<h2 id="Autobiography">  自傳 </h2>
 
-<h2 > 學歷 </h2>
+<h2 id="Educational_qualifications"> 學歷 </h2>
 
   - 致理科技大學
     - 本系：商務科技管理系(資訊模組) 預計於113年修業完畢
@@ -39,9 +39,9 @@
   - 新北市立新北高級工業職業學校
     - 資料處理科 
 
-<h2 > 專業技能</h2>
+<h2 id="Professional_skills"> 專業技能</h2>
 
-<h4 > 程式開發</h4>
+<h4 id="Program_Development"> 程式開發</h4>
 
 --- 
   - HTML、CSS、JS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$  
@@ -53,14 +53,14 @@
   - Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
   - Android Kotlin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
 
-<h4 > 辦公室軟體</h4>
+<h4 id="Office_software" > 辦公室軟體</h4>
 
 ---  
   - Microsoft Word &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$  
   - Microsoft PowerPoint &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$  
   - Microsoft Excel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$
 
-<h4 > 圖形設計和影像處理</h4>
+<h4 id="Graphic_design_and_imageprocessing" > 圖形設計和影像處理</h4>
 
 --- 
   - Adobe Photoshop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{#FF9224}中等}}$
@@ -68,16 +68,16 @@
   - Adobe Illustrator &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{#FF9224}中等}}$
     - 基礎使用：商業識別設計。
       
-<h4 >其他</h4>
+<h4 id="Other">其他</h4>
 
 --- 
   - 企業資源規劃(ERP) 鼎新系統 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
   - Qilk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
   - Google Analytics 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
     
-<h2> 競賽紀錄/其他獎狀</h2>
+<h2 id="Competition_records/Certificates"> 競賽紀錄/其他獎狀</h2>
 
-<h4 > 競賽紀錄 </h4>
+<h4 id="Contest_Record"> 競賽紀錄 </h4>
 
 --- 
   - 2023 GSS AI Chatbot Hackathon 校園組 亞軍  `Line Bot 機器人`
@@ -93,7 +93,7 @@
     
 
 
-<h4  id="certificate_of_merit">獎狀 </h4>
+<h4  id="Certificates">獎狀 </h4>
 
 --- 
   > 大學
@@ -103,11 +103,11 @@
   >>- 2020 2020臺灣學校網界博覽會 銅獎
   >>- 2020 高三班級模範生
 
-<h2> 證照</h2>
+<h2 id="Portfolio"> 證照</h2>
 
-<h2> 作品集</h2>
+<h2 id="certificate"> 作品集</h2>
 
-<h2>在校成績單</h2>
+<h2 id="School_transcript">在校成績單</h2>
 
-<h2> 興趣</h2>
+<h2 id="Interest"> 興趣</h2>
 
