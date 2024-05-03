@@ -8,7 +8,7 @@
 - 居住 : 新北市
 - 信箱 : fengqian0914@gmail.com
 ## 目錄
-  <a href="#certificate_of_merit">獎狀</a>
+  <a href="#certificate_of_merit" style="font-size=30px">獎狀</a>
 ## 自傳
 
 ## 學歷
