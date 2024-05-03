@@ -1,4 +1,3 @@
-![image](https://github.com/fengqian0914/fengqian.github.io/assets/168825658/9caf28e1-163d-4450-9f81-32ee91567294)
 <h1 > 關於我</h1>
 
 - 姓名：徐逢謙 (Jack)
