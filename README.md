@@ -147,24 +147,71 @@ OOXXX<br>
 OOXXX<br>
 
 <h2 id="certificate"> 作品集</h2>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
+<table align="center" width="100vw">
+  <tr>
+    <th>作品名稱</th>
+    <th>類型</th>
+    <th>範例</th>
+    <th>連結</th>
+    <th>介紹</th>
+  </tr>
+  <tr>
+      <td>集章達人</td>
+      <td>Android Application</td>
+      <td><img src="https://img.youtube.com/vi/nogRXboCR-I/maxresdefault.jpg"></td>     
+      <td><a href="https://www.youtube.com/watch?v=nogRXboCR-I"> Youtube</a></td>
+      <td>這是我們的大學專題題目，透過Android Studio製作</td>
+  </tr>
+  <tr>
+      <td>員工點餐系統</td>
+      <td>PHP</td>
+      <td></td>     
+      <td> Github </td>
+      <td>這是我們的大學專題題目，透過Android Studio製作</td>
+  </tr>
+  <tr>
+      <td>Line Chatbot機器人-校園百寶袋</td>
+      <td>Chatbot 機器人</td>
+      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
+      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Youtube</a></td>
+      <td>這是我們的大學專題題目，透過Android Studio製作</td>
+  </tr>
+  <tr>
+      <td>惜食網頁</td>
+      <td>HTML</td>
+      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
+      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Youtube</a></td>
+      <td>這是我們的大學專題題目，透過Android Studio製作</td>
+  </tr>
+  <tr>
+      <td>發票對獎器</td>
+      <td>App inventor</td>
+      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
+      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Youtube</a></td>
+      <td>這是我們的大學專題題目，透過Android Studio製作</td>
+  </tr>
+  <tr>
+      <td>台灣空氣品質監測系統</td>
+      <td>App inventor</td>
+      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
+      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Youtube</a></td>
+      <td>這是我們的大學專題題目，透過Android Studio製作</td>
+  </tr>
+  <tr>
+      <td>C#作業</td>
+      <td>C#</td>
+      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
+      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Youtube</a></td>
+      <td>這是我們的大學專題題目，透過Android Studio製作</td>
+  </tr>
+    <tr>
+      <td>浪浪想要家</td>
+      <td>HTML</td>
+      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
+      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Github</a></td>
+      <td>這是我們的大學專題題目，透過Android Studio製作</td>
+  </tr>
+</table>
 
 <h2 id="School_transcript">在校成績單</h2>
 OOXXX<br>
