@@ -186,15 +186,15 @@ OOXXX<br>
   <tr>
       <td>發票對獎器</td>
       <td>App inventor</td>
-      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
-      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Youtube</a></td>
+      <td><img src="https://img.youtube.com/vi/pYU0oFyyljk/maxresdefault.jpg"></td>     
+      <td><a href="https://www.youtube.com/watch?v=pYU0oFyyljk"> Youtube</a></td>
       <td>這是我們的大學專題題目，透過Android Studio製作</td>
   </tr>
   <tr>
       <td>台灣空氣品質監測系統</td>
       <td>App inventor</td>
-      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
-      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Youtube</a></td>
+      <td><img src="https://img.youtube.com/vi/MTLUURhkKLc/maxresdefault.jpg"></td>     
+      <td><a href="https://www.youtube.com/watch?v=MTLUURhkKLc"> Youtube</a></td>
       <td>這是我們的大學專題題目，透過Android Studio製作</td>
   </tr>
   <tr>
