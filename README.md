@@ -194,7 +194,9 @@ OOXXX<br>
       <td>台灣空氣品質監測系統</td>
       <td>App inventor</td>
       <td><img src="https://img.youtube.com/vi/MTLUURhkKLc/maxresdefault.jpg"></td>     
-      <td><a href="https://www.youtube.com/watch?v=MTLUURhkKLc"> Youtube</a></td>
+      <td>
+        <a href="https://www.youtube.com/watch?v=MTLUURhkKLc"> Youtube</a>
+    <a href="https://www.youtube.com/watch?v=MTLUURhkKLc">  github  </a> </td>
       <td>這是我們的大學專題題目，透過Android Studio製作</td>
   </tr>
   <tr>
