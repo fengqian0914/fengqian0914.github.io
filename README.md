@@ -197,7 +197,7 @@ OOXXX<br>
       <td>
         <ul>
           <li> <a href="https://www.youtube.com/watch?v=MTLUURhkKLc"> Youtube</a></li>
-          <li> <a href="https://www.youtube.com/watch?v=MTLUURhkKLc">  github  </a></li>
+          <li> <a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/App_inventor/%E5%8F%B0%E7%81%A3%E7%A9%BA%E6%B0%A3%E5%93%81%E8%B3%AA%E7%9B%A3%E6%B8%AC%E7%B3%BB%E7%B5%B1">  github  </a></li>
         </ul>
     </td>
       <td>這是我們的大學專題題目，透過Android Studio製作</td>
