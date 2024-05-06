@@ -179,14 +179,14 @@ OOXXX<br>
   <tr>
       <td>惜食網頁</td>
       <td>HTML</td>
-      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
+      <td><img src="HTML/Cherish-food/img/Preview.jpg"></td>     
       <td><a href="https://fengqian0914.github.io/HTML/Cherish-food/"> Github</a></td>
       <td>這是我們的大學專題題目，透過Android Studio製作</td>
   </tr>
   <tr>
       <td>發票對獎器</td>
       <td>App inventor</td>
-      <td><img src="HTML/Cherish-food/img/Preview.jpg"></td>     
+      <td><img src="https://img.youtube.com/vi/pYU0oFyyljk/maxresdefault.jpg"></td>     
       <td><a href="https://www.youtube.com/watch?v=pYU0oFyyljk"> Youtube</a></td>
       <td>這是我們的大學專題題目，透過Android Studio製作</td>
   </tr>
