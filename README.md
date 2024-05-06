@@ -194,14 +194,19 @@ OOXXX<br>
       <td>台灣空氣品質監測系統</td>
       <td>App inventor</td>
       <td><img src="https://img.youtube.com/vi/MTLUURhkKLc/maxresdefault.jpg"></td>     
-      <td><a href="https://www.youtube.com/watch?v=MTLUURhkKLc"> Youtube</a></td>
+      <td>
+        <ul>
+          <li> <a href="https://www.youtube.com/watch?v=MTLUURhkKLc"> Youtube</a></li>
+          <li> <a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/App_inventor/%E5%8F%B0%E7%81%A3%E7%A9%BA%E6%B0%A3%E5%93%81%E8%B3%AA%E7%9B%A3%E6%B8%AC%E7%B3%BB%E7%B5%B1">  github  </a></li>
+        </ul>
+    </td>
       <td>這是我們的大學專題題目，透過Android Studio製作</td>
   </tr>
   <tr>
       <td>C#作業</td>
       <td>C#</td>
       <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
-      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Youtube</a></td>
+      <td><a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/App_inventor/%E5%8F%B0%E7%81%A3%E7%A9%BA%E6%B0%A3%E5%93%81%E8%B3%AA%E7%9B%A3%E6%B8%AC%E7%B3%BB%E7%B5%B1"> Github</a></td>
       <td>這是我們的大學專題題目，透過Android Studio製作</td>
   </tr>
     <tr>
