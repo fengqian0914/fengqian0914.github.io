@@ -183,13 +183,19 @@ Vue.createApp({
 }).mount("#main_data")
 
 function getscroll() {
-    var scrollY = document.documentElement.scrollTop || document.body.scrollTop
-    scrollY += window.innerHeight
-    docHeight = document.body.scrollHeight
-    scrollnum = Math.round(scrollY / docHeight * 10000) / 100
+    var scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+    scrollY += window.innerHeight;
+    var docHeight = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight);
+    var scrollnum = Math.round((scrollY / docHeight) * 10000) / 100;
     console.log(docHeight);
-    $(".navscroll div").css("width", scrollnum + "%");
-};
+
+    // 获取要设置宽度的元素
+    var navscrollDiv = document.querySelector(".navscroll div");
+    if (navscrollDiv) {
+        navscrollDiv.style.width = scrollnum + "%";
+    }
+}
+
 
 // $(window).load(function () { // 確認整個頁面讀取完畢再將這三個div隱藏起來
 //     $("#status").delay(2000).fadeOut(1000); //delay --> 延遲幾秒才fadeOut
