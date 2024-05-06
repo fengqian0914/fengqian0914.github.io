@@ -11,13 +11,15 @@
     <link href="img/logo.ico" rel="icon" type="image/x-icon">
     <script src="https://kit.fontawesome.com/4e29a18947.js">
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <title>食在浪費FWO</title>
 </head>
 
 <body onscroll="getscroll()">
     <div id="preloader">
         <div class="pre-flex">
-            <div id="status"><img src="img/loading.svg" /></div>
+            <div id="status"><img alt="image" src="img/loading.svg" /></div>
         </div>
     </div>
     <nav id="nav">
@@ -25,7 +27,7 @@
             <div class="nav-flex logo">
                 <div>
                     <a href="index.html">
-                        <img src="img/icon.ico" id="logo">
+                        <img alt="image" src="img/icon.ico" id="logo">
                     </a>
                 </div>
 
@@ -59,9 +61,9 @@
     </nav>
     <div class="home">
         <ul class="slides">
-            <input type="radio" name="control" id="control-1" checked>
-            <input type="radio" name="control" id="control-2">
-            <input type="radio" name="control" id="control-3">
+            <input type="radio" name="control" id="control-1" checked title="a1">
+            <input type="radio" name="control" id="control-2" title="a2">
+            <input type="radio" name="control" id="control-3" title="a3">
             <li class="slide"></li>
             <li class="slide"></li>
             <li class="slide"></li>
@@ -79,7 +81,7 @@
             <h1 class="center_css">糧食浪費的驚人統計</h1>
             <hr>
             <div class="row center_css">
-                <div class="w-50 "><img src="img/index_phone/投影片3.JPG"></div>
+                <div class="w-50 "><img alt="image" src="img/index_phone/投影片3.JPG"></div>
                 <div class="w-50  ">
                     <h2 class="center_css">全球每年浪費10億噸食物</h2>
                     <p>聯合國於2021年發布的糧食浪費指數報告中顯示，<span>全球每年浪費近 10 億噸的食物</span>，加上農場端、供應鏈的浪費，總計有1/3的食物從未被食用。</p>
@@ -87,7 +89,7 @@
                 </div>
             </div>
             <div class="row center_css" style="flex-direction: row-reverse;">
-                <div class="w-50"><img src="img/index_phone/投影片5.PNG"></div>
+                <div class="w-50"><img alt="image" src="img/index_phone/投影片5.PNG"></div>
                 <div class="w-50">
                     <h2 class="center_css">台灣每年產生52萬噸廚餘</h2>
                     <p>根據環保署統計，台灣近年廚餘回收量達52萬公噸，將這些廚餘疊起來，高度相當於<span>12,000座台北101的高度</span>。台灣平均每人每年產生22.2公斤的廚餘，數量相當可觀。
@@ -98,7 +100,7 @@
             <h1 class="center_css">浪費的背後，隱藏著不為人知的饑荒?!</h1>
             <hr>
             <div class="row center_css">
-                <div class="w-50"><img src="img/index_phone/people_phone.jpeg"></div>
+                <div class="w-50"><img alt="image" src="img/index_phone/people_phone.jpeg"></div>
                 <div class="w-50">
                     <h2 class="center_css">疫情+氣候雙重夾擊，窮人吃不起飯</h2>
                     <p>依據台灣世界展望會統計資料，全世界有8.11億人處於飢餓狀態，<span>每分鐘就有11人因營養不良而死亡</span>，多數人民生活在低收入國家。</p>
@@ -110,7 +112,7 @@
     <footer class="center_css">
         <div class="w-100" class="center_css">
             <div class="w-30">
-                <img src="img/logo_design2.png" alt="">
+                <img alt="image" src="img/logo_design2.png" alt="">
                 <p>我們期盼在現今面對多重考驗之下的我們，能保持著節省資源的理念，且不僅僅是能源，也包含每天都會吃到的食物，如何節省食物讓食物可以妥善的循環。
                 </p>
             </div>
@@ -229,7 +231,6 @@
     </footer>
     <script src="https://unpkg.com/vue"></script>
     <script src="https://unpkg.com/vue-cal"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script>
     <script src="js/all.js"></script>
 </body>
 
