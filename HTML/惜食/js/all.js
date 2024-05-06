@@ -191,10 +191,10 @@ function getscroll() {
     $(".navscroll div").css("width", scrollnum + "%");
 };
 
-/*$(window).load(function () { // 確認整個頁面讀取完畢再將這三個div隱藏起來
+$(window).load(function () { // 確認整個頁面讀取完畢再將這三個div隱藏起來
     $("#status").delay(2000).fadeOut(1000); //delay --> 延遲幾秒才fadeOut
     $("#preloader").delay(3000).fadeOut(1000);
-})*/
+})
 var icon = document.getElementById("icon");
 var logo = document.getElementById("logo");
 var iconcontain = document.getElementById("iconcontain");
