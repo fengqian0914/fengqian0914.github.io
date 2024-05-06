@@ -195,6 +195,8 @@ $(window).load(function () { // 確認整個頁面讀取完畢再將這三個div
     $("#status").delay(2000).fadeOut(1000); //delay --> 延遲幾秒才fadeOut
     $("#preloader").delay(3000).fadeOut(1000);
 })
+
+
 var icon = document.getElementById("icon");
 var logo = document.getElementById("logo");
 var iconcontain = document.getElementById("iconcontain");
