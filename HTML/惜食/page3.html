@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/page3.css" rel="stylesheet" type="text/css">
+    <link href="img/logo.ico" rel="icon" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4e29a18947.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+    <title>食在浪費FWO</title>
+</head>
+
+<body onscroll="getscroll()">
+    <!-- <div id="preloader">
+        <div class="pre-flex">
+            <div id="status"><img src="img/loading.svg" /></div>
+        </div>
+    </div> -->
+    <nav id="nav">
+        <div class="contain">
+            <div class="nav-flex logo">
+                <div>
+                    <a href="index.html">
+                        <img src="img/icon.ico" id="logo">
+                    </a>
+                </div>
+
+            </div>
+            <div class="nav_toggle">
+
+                <ul class="nav-flex nav-flex-2">
+                    <li v-for="item in nav_li" class="nav-item">
+                        <a :href="item.URL" class="nav_link">{{item.name}}
+                        </a>
+                    </li>
+                </ul>
+                <div class="icon nav-flex nav-item">
+                    <i class="fa-solid fa-moon" id="icon"></i>
+                    <span id="iconcontain">夜晚模式</span>
+                </div>
+            </div>
+
+            <div id="hamburger">
+                <div>
+                    <section>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </section>
+                </div>
+            </div>
+            <div class="navscroll">
+                <div></div>
+            </div>
+    </nav>
+    <div class="home">
+        <ul class="slides">
+            <input type="radio" name="control" id="control-1" checked>
+            <input type="radio" name="control" id="control-2">
+            <input type="radio" name="control" id="control-3">
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <div class="controls-visible">
+                <label for="control-1"></label>
+                <label for="control-2"></label>
+                <label for="control-3"></label>
+
+            </div>
+
+        </ul>
+    </div>
+    <section id="main">
+        <div class="p3-1" id="p3_1">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">前言</h1>
+                <div class="p3_flex center_css">
+                    <div class="w-40">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Zf09vEHWxEw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="w-60">
+                        <p>餐廳作為現在上班族常用來解決溫飽的場所，在這個餐廳需求越來越大，自己煮飯越來越少的時代裏面，有多少食物是被餐廳或是客人所浪費掉的呢?根據聯合國統計全球有將近4成的食物是浪費掉的，而2017年曾統計過，餐飲量販店超商超市等，每年因過期或賣向不佳，丟掉約38億元的食物，近年來環保署推動惜食觀念，目前全台22縣市，已經有超過200間店家，惜食行動。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="p3_flex center_css">
+                    <div class="w-40"><img src="img/page3/1.jpg"></div>
+
+                    <div class="w-60">
+                        <p>近年來，台灣社會漸漸意識到食物浪費問題的嚴重性，台灣大學農經系教授徐世勳研究團隊以推算的方式首次看見在食物的生產到餐桌的過程中，台灣糧食總損耗及浪費至少達到373萬噸!?根據聯合國統計全球有將近4成的食物是浪費掉的，而2017年曾統計過，餐飲量販店超商超市等，每年因過期或賣向不佳，丟掉約38億元的食物，近年來環保署推動惜食觀念，目前全台22縣市，已經有超過200間店家，惜食行動。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p3-2 p3-contain" id="p3_2">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">食物在哪裡浪費最多?</h1>
+                <div class="p3_flex center_css">
+                    <div class="w-40"><img src="img/page3/3.jpg"></div>
+
+                    <div class="w-60">
+                        <p>據徐教授究團隊的資料顯示，台灣的食物浪費超過五成是在餐廳及消費者階段發生的，其中9成食材被浪費的原因為採購過量。目前，台灣的後端食物浪費模式與歐美大國相同，，若不及早改善台灣食物浪費的情況或習慣，他日終有可能影響我國的糧食供應安全。
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p3-3 p3-contain" id="p3_3">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">如何減少餐廳所製造的廚餘
+
+                </h1>
+                <div class="p3_flex center_css">
+                    <div class="w-40"><img src="img/page3/4.png"></div>
+                    <div class="w-60">
+                        <h2>餐廳的廚餘我們可以用幾點減少廚餘的產生:
+                        </h2>
+                        <p>1.選擇跟你的胃口相符合的餐點，不要點過多的餐點。
+
+                            <br><br>
+
+                            2.告訴店家你不喜歡吃甚麼，避免因為選到不喜歡的而浪費食物。
+
+                            <br><br>
+
+                            3.將吃剩的打包起來，留著之後再吃。(消費者)絕對不是食物浪費的最大元兇。有趣的是，年紀越大的參與者越認為消費者是食物浪費最大宗者。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p3-4 p3-contain" id="p3_4">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">惜食餐廳
+
+                </h1>
+                <h4 style="width: 80%;">
+                    師範大學環境教育研究所的同學拜訪多個餐廳和討論後，共同想出希望能鼓勵餐飲業者實踐的9個「惜食餐廳」項目，內容從食材的選擇及利用、食材或餐點的資訊揭露、餐點份量選擇及剩餘食材分享。而且，為鼓勵更多餐廳參加，餐廳只要符合其中3個或以上項目即可：
+
+                </h4>
+                <div class="p3_flex center_css" style="align-items: end;">
+
+
+                    <img src="img/page3/5.jpg">
+
+                    <img src="img/page3/6.png">
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <footer class="center_css">
+        <div class="w-100" class="center_css">
+            <div class="w-30">
+                <img src="img/logo_design2.png" alt="">
+                <p>我們期盼在現今面對多重考驗之下的我們，能保持著節省資源的理念，且不僅僅是能源，也包含每天都會吃到的食物，如何節省食物讓食物可以妥善的循環。
+                </p>
+            </div>
+            <div class="w-70">
+
+                <div class="footer_item">
+                    <h3>源頭</h3>
+                    <a href="page1.html#p1_1">
+                        <li>浪費原因</li>
+                    </a>
+                    <a href="page1.html#p1_2">
+                        <li>寒害</li>
+                    </a>
+                    <a href="page1.html#p1_3">
+                        <li>颱風</li>
+                    </a>
+                    <a href="page1.html#p1_4">
+                        <li>疫情</li>
+                    </a>
+                    <a href="page1.html#p1_5">
+                        <li>運輸</li>
+                    </a>
+                    <a href="page1.html#p1_6">
+                        <li>蟲害</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>加工</h3>
+                    <a href="page2.html#p2_1">
+                        <li>前言</li>
+                    </a>
+                    <a href="page2.html#p2_2">
+                        <li>賣場浪費</li>
+                    </a>
+                    <a href="page2.html#p2_3">
+                        <li>友善時光</li>
+                    </a>
+                    <a href="page2.html#p2_4">
+                        <li>其他賣場</li>
+                    </a>
+                    <a href="page2.html#p2_5">
+                        <li>省思</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>餐廳</h3>
+                    <a href="page3.html#p3_1">
+                        <li>前言</li>
+                    </a>
+                    <a href="page3.html#p3_2">
+                        <li>浪費地方</li>
+                    </a>
+                    <a href="page3.html#p3_3">
+                        <li>減少廚餘</li>
+                    </a>
+                    <a href="page3.html#p3_4">
+                        <li>惜食餐廳</li>
+                    </a>
+
+                </div>
+                <div class="footer_item">
+                    <h3>廚餘</h3>
+                    <a href="page4.html#p4_1">
+                        <li>聯合國報告</li>
+                    </a>
+                    <a href="page4.html#p4_2">
+                        <li>食物與環境關係</li>
+                    </a>
+                    <a href="page4.html#p4_3">
+                        <li>為何惜食</li>
+                    </a>
+                    <a href="page4.html#p4_4">
+                        <li>台灣廚餘現況</li>
+                    </a>
+                    <a href="page4.html#p4_6">
+                        <li>廚餘解決</li>
+                    </a>
+                    <a href="page4.html#p4_7">
+                        <li>國外活動</li>
+                    </a>
+                    <a href="page4.html#p4_8">
+                        <li>省思</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>基因改造</h3>
+                    <a href="page5.html#p5_1">
+                        <li>節流、開源</li>
+                    </a>
+                    <a href="page5.html#p5_2">
+                        <li>基因改造契機</li>
+                    </a>
+                    <a href="page5.html#p5_3">
+                        <li>基因改造原理</li>
+                    </a>
+
+
+                </div>
+                <div class="footer_item">
+                    <h3>關於我們</h3>
+                    <a href="page6.html#p6_1">
+                        <li>主題理念</li>
+                    </a>
+                    <a href="page6.html#p6_2">
+                        <li>設計流程</li>
+                    </a>
+                    <a href="page6.html#p6_3">
+                        <li>團隊分配</li>
+                    </a>
+                    <a href="page6.html#p6_4">
+                        <li>資料來源</li>
+                    </a>
+                </div>
+
+            </div>
+    </footer>
+
+    <script src="https://unpkg.com/vue@next">
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript">
+    </script>
+    <script src="js/all.js">
+    </script>
+
+
+</body>
+
+</html>

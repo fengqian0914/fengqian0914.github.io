@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/page1.css">
+
+    <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/4e29a18947.js" crossorigin="anonymous"></script>
+    <title>食在浪費FWO</title>
+</head>
+
+<body onscroll="getscroll()" id="main_data">
+
+    <!-- <div id="preloader">
+        <div class="pre-flex">
+            <div id="status"><img src="img/loading.svg" /></div>
+        </div>
+    </div> -->
+    <nav id="nav">
+        <div class="contain">
+            <div class="nav-flex logo">
+                <div>
+                    <a href="index.html">
+                        <img src="img/icon.ico" id="logo">
+                    </a>
+                </div>
+
+            </div>
+            <div class="nav_toggle">
+
+                <ul class="nav-flex nav-flex-2">
+                    <li v-for="item in nav_li" class="nav-item">
+                        <a :href="item.URL" class="nav_link">{{item.name}}
+                        </a>
+                    </li>
+                </ul>
+                <div class="icon nav-flex nav-item">
+                    <i class="fa-solid fa-moon" id="icon"></i>
+                    <span id="iconcontain">夜晚模式</span>
+                </div>
+            </div>
+
+            <div id="hamburger">
+                <div>
+                    <section>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </section>
+                </div>
+            </div>
+            <div class="navscroll">
+                <div></div>
+            </div>
+    </nav>
+    <div class="home">
+        <ul class="slides">
+            <input type="radio" name="control" id="control-1" checked>
+            <input type="radio" name="control" id="control-2">
+            <input type="radio" name="control" id="control-3">
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <div class="controls-visible">
+                <label for="control-1"></label>
+                <label for="control-2"></label>
+                <label for="control-3"></label>
+
+            </div>
+
+        </ul>
+    </div>
+    <section id="page1">
+        <section class="page1-1" id="p1_1">
+            <h1 class="center_css">食物還未被食用就被丟棄浪費的主要原因為這幾個:</h1>
+            <div class="row">
+                <div style="display: flex;">
+                    <div class="col-md-6"><img src="img/page1/圖片2.jpg"></div>
+                    <div class="col-md-6">
+                        <h2 class="center_css">食物長得醜、長太多都出局</h2>
+                        <p>食物要在食物界的生死戰中存活下來，首先必須長得符合市場規格，長得不夠「正」的，或是有些是被蟲咬、遭動物啃過，如經銹蟎叮咬、果皮呈黑褐色的「火燒柑」，或是彎曲的小黃瓜、長出好幾隻「腳」的紅蘿蔔等醜蔬果就會被淘汰，有的則是太酸、太澀，味道不合格而被銷毀，這些規格外的作物稱為NG品或格外品。
+                        </p>
+                        <p>然而，如果作物長得太好、太多也是個問題，因為市場偏好，農民會搶種某種特定的農產品，如果市場沒有銷售完就會導致過剩，然後剩餘的就會被丟掉，或是政府進口過量的特定農產品，如果沒有銷售完，也會導致進口農產品直接出局，所以因為以上的種種原因導致產銷失衡，市場無法吸收的食物就會直接出局。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="bg_scroll center_css" id="p1_2">
+            <div>寒害</div>
+        </div>
+        <section class="page1-2">
+            <div class="row">
+                <div class="col-md-6" v-for="item in page1_1">
+                    <img :src="item.src" class="card-img-top">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title center_css">{{item.title}}</h2>
+                            <p class="card-text">{{item.text}}</p>
+                            <a :href="item.href" target="_blank" class="card-read card-read1">閱讀更多</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bg_scroll center_css" id="p1_3">
+            <div>颱風</div>
+        </div>
+        <section class="page1-3 w-100">
+
+            <div class="cards ">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card card1">
+                            <div class="card_container">
+                                <img src="img/page1/圖片9.png" alt="">
+                            </div>
+                            <div class="details  center_css">
+                                <h3>蔬菜</h3>
+                                <p>當颱風來襲時，蔬菜的葉片會遭雨水打擊會產生破損，並且菜園積水過久的話，則會導致植株根部缺氧而腐爛，大雨之後照到大太陽，則易萎凋枯死，颱風除了帶來豪雨之外，強風也會導致作物根、莖及葉的機械性傷害，
+                                    因而影響根部的吸收功能、莖的輸導作用和葉片的光合作用。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card card2 ">
+                            <div class="card_container">
+                                <img src="img/page1/圖片10.jpg" alt="">
+                            </div>
+                            <div class="details center_css">
+                                <h3>果樹</h3>
+                                <p>颱風對於果樹為害程度依風速和豪雨量成正比，對果樹所產生的災害，包括豪雨使果園發生浸水、埋沒、流失，或強風使果樹枝條折斷及倒伏，颱風在果樹營養生長期侵襲，則會造成落葉、枝條斷裂及植株倒伏等傷害，嚴重時經常使植株枯死，如果颱風在生殖生長期來襲時，颱風會造成授粉不良、落花、落果等現象。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="bg_scroll center_css" id="p1_4">
+            <div>疫情</div>
+        </div>
+        <section class="page1-1 page1-4 w-100">
+
+            <div class="row">
+                <div style="display: flex;">
+                    <div class="col-md-6"><img src="img/page1/圖片12.jpg" width="50%"></div>
+                    <div class="col-md-6">
+                        <h2 class="center_css">疫情爆發太嚴重，菜商受害</h2>
+                        <p>在2021年的時候，有一些菜商，就提前買了很多的蔬菜，準備度過6月份雨季，沒想到5月份，遇上疫情攪局，餐廳、學校等等的銷售通路通通都沒了，大量蔬菜放在冷凍庫裡，由於無法長期存放，幾乎腐爛，只好當成綠肥丟進稻田。
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="bg_scroll center_css" id="p1_5">
+            <div>運輸</div>
+        </div>
+        <section class="page1-1 page1-5 w-100">
+
+            <div class="row">
+                <div style="display: flex;">
+                    <div class="col-md-6"><img src="img/page1/圖片14.jpg" width="50%"></div>
+                    <div class="col-md-6">
+                        <h2 class="center_css">運輸過程影響、海關的檢驗</h2>
+
+                        <p>台灣有一部分的食物是進口而來，包括從智力進口的車厘子、從紐西蘭進口的奇異果等等，這些食物經過空運、海運、陸運最終送來台灣，可是就在一條條的運輸線上，浪費悄然的發生，旅途的延誤、溫度濕度控制失誤等等都會造成運輸食物的損毀，並且就算食物抵達到台灣之後，有一些食物是沒有通過海關的檢驗，所以那些沒有通過海關檢驗的食物就會被擋在國門之外，基於以上的各個狀況，都會讓食物在我們還沒食用前就被丟棄。
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="bg_scroll center_css" id="p1_6">
+            <div>蟲害</div>
+        </div>
+        <section class="page1-1 page1-6 w-100">
+
+            <div class="row">
+                <div style="display: flex;">
+                    <div class="col-md-6"><img src="img/page1/圖片16.jpg" width="50%"></div>
+                    <div class="col-md-6">
+                        <h2 class="center_css">蟲害的解決辦法</h2>
+
+
+                        <p>農夫在菜園種菜時，農作物多多少少都會害蟲破壞，如果被啃食的太嚴重的作物就會被直接丟棄，我們在菜園裡看見坑坑洞洞的葉菜，就是被蝶蛾類的幼蟲、蝗蟲、金龜子等用咀嚼的方式啃食，為了減少蔬菜被破壞，我們就要盡可能的保護好蔬菜，並且由害蟲的天敵來對害蟲，譬如，蚜蟲的天敵是瓢蟲，雖然瓢蟲大約只能活3個禮拜，但是瓢蟲一天可以吃掉50個蚜蟲，另外螳螂雖然只能活大約140天左右，但是他擅長躲在綠色的葉菜裡來哺食白蝶。
+
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </section>
+    <footer class="center_css">
+        <div class="w-100" class="center_css">
+            <div class="w-30">
+                <img src="img/logo_design2.png" alt="">
+                <p>我們期盼在現今面對多重考驗之下的我們，能保持著節省資源的理念，且不僅僅是能源，也包含每天都會吃到的食物，如何節省食物讓食物可以妥善的循環。
+                </p>
+            </div>
+            <div class="w-70">
+
+                <div class="footer_item">
+                    <h3>源頭</h3>
+                    <a href="page1.html#p1_1">
+                        <li>浪費原因</li>
+                    </a>
+                    <a href="page1.html#p1_2">
+                        <li>寒害</li>
+                    </a>
+                    <a href="page1.html#p1_3">
+                        <li>颱風</li>
+                    </a>
+                    <a href="page1.html#p1_4">
+                        <li>疫情</li>
+                    </a>
+                    <a href="page1.html#p1_5">
+                        <li>運輸</li>
+                    </a>
+                    <a href="page1.html#p1_6">
+                        <li>蟲害</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>加工</h3>
+                    <a href="page2.html#p2_1">
+                        <li>前言</li>
+                    </a>
+                    <a href="page2.html#p2_2">
+                        <li>賣場浪費</li>
+                    </a>
+                    <a href="page2.html#p2_3">
+                        <li>友善時光</li>
+                    </a>
+                    <a href="page2.html#p2_4">
+                        <li>其他賣場</li>
+                    </a>
+                    <a href="page2.html#p2_5">
+                        <li>省思</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>餐廳</h3>
+                    <a href="page3.html#p3_1">
+                        <li>前言</li>
+                    </a>
+                    <a href="page3.html#p3_2">
+                        <li>浪費地方</li>
+                    </a>
+                    <a href="page3.html#p3_3">
+                        <li>減少廚餘</li>
+                    </a>
+                    <a href="page3.html#p3_4">
+                        <li>惜食餐廳</li>
+                    </a>
+
+                </div>
+                <div class="footer_item">
+                    <h3>廚餘</h3>
+                    <a href="page4.html#p4_1">
+                        <li>聯合國報告</li>
+                    </a>
+                    <a href="page4.html#p4_2">
+                        <li>食物與環境關係</li>
+                    </a>
+                    <a href="page4.html#p4_3">
+                        <li>為何惜食</li>
+                    </a>
+                    <a href="page4.html#p4_4">
+                        <li>台灣廚餘現況</li>
+                    </a>
+                    <a href="page4.html#p4_6">
+                        <li>廚餘解決</li>
+                    </a>
+                    <a href="page4.html#p4_7">
+                        <li>國外活動</li>
+                    </a>
+                    <a href="page4.html#p4_8">
+                        <li>省思</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>基因改造</h3>
+                    <a href="page5.html#p5_1">
+                        <li>節流、開源</li>
+                    </a>
+                    <a href="page5.html#p5_2">
+                        <li>基因改造契機</li>
+                    </a>
+                    <a href="page5.html#p5_3">
+                        <li>基因改造原理</li>
+                    </a>
+
+
+                </div>
+                <div class="footer_item">
+                    <h3>關於我們</h3>
+                    <a href="page6.html#p6_1">
+                        <li>主題理念</li>
+                    </a>
+                    <a href="page6.html#p6_2">
+                        <li>設計流程</li>
+                    </a>
+                    <a href="page6.html#p6_3">
+                        <li>團隊分配</li>
+                    </a>
+                    <a href="page6.html#p6_4">
+                        <li>資料來源</li>
+                    </a>
+                </div>
+
+            </div>
+    </footer>
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+:root {
+    --font-color: #000;
+    --h2-color: #1e6c93;
+}
+
+.dark {
+    --font-color: #fff;
+    --h2-color: #fff;
+}
+
+.slide:nth-of-type(1) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/page5/bg1.jpg");
+    background-size: 100% 100%;
+}
+
+.slide:nth-of-type(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/page5/bg2.jpg");
+
+    background-size: 100% 100%;
+    left: 100%;
+}
+
+.slide:nth-of-type(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/page5/bg3.jpg");
+    background-size: 100% 100%;
+    left: 200%;
+}
+
+.bg-top {
+    background: #1e6c93;
+    height: 80px;
+}
+
+#main h1 {
+    color: #1e6c93;
+    background: #f2f2f2;
+    height: 180px;
+    font-weight: bolder;
+}
+
+p {
+    color: var(--font-color);
+}
+
+.p5_flex {
+    width: 85%;
+    margin: 20px 0px;
+}
+
+.p5_flex .w-50:nth-of-type(1) {
+    width: 38%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.p5_flex img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.p5_flex .w-50:nth-of-type(2) h2 {
+    color: var(--h2-color);
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.p5_flex .w-50:nth-of-type(2) span {
+    color: #226e93;
+}
+
+
+.p5-3 .w-30 {
+    width: 30%;
+    padding: 0px 1.666667%;
+}
+
+.w-50 p {
+
+    padding: 20px;
+
+}
+
+
+
+.p5-contain {
+    margin: 30px 0px;
+}
+
+.p5-8 p {
+    padding: 30px 0;
+}
+
+@media screen and (max-width:951px) {
+
+    .p5_flex,
+    .p5-1 .p5_flex:nth-of-type(2) {
+        display: block;
+    }
+
+    .p5_flex .w-40,
+    .p5_flex .w-60,
+    .w-50,
+    .p5_flex .w-50,
+    .p5-3 .w-30 {
+        width: 100% !important;
+    }
+
+    .p5_flex .w-60 {
+        padding: 20px;
+    }
+
+    .p5_flex h2 {
+        text-align: center;
+    }
+
+    .p5-4 img:nth-child(1) {
+        width: 100%;
+    }
+
+    #main h1,
+    .p5-2 h2 {
+        padding: 0 50px;
+    }
+
+    .p5-2 img {
+        width: 100%;
+    }
+
+    .p5-3 .w-30 {
+        margin: 10px 0px;
+    }
+}

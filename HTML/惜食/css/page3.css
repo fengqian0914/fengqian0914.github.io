@@ -1,0 +1,144 @@
+:root {
+    --font-color: #000;
+    --h2-color: rgba(34, 110, 147, 1);
+}
+
+.dark {
+    --font-color: #fff;
+    --h2-color: #fff;
+}
+
+.slide:nth-of-type(1) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/page3/bg1.jpg");
+    background-size: 100% 100%;
+}
+
+.slide:nth-of-type(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/page3/bg2.jpg");
+
+    background-size: 100% 100%;
+    left: 100%;
+}
+
+.slide:nth-of-type(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/page3/bg3.jpg");
+    background-size: 100% 100%;
+    left: 200%;
+}
+
+.bg-top {
+    background: #a98962;
+    height: 80px;
+}
+
+#main h1 {
+    color: #a98962;
+    background: #f2f2f2;
+    height: 180px;
+    font-weight: bolder;
+}
+
+.p3_flex {
+    width: 85%;
+}
+
+.p3_flex .w-40 {
+    width: 38%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.p3-1 .p3_flex:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.p3_flex .w-60 {
+    width: 60%;
+    padding: 30px;
+}
+
+.p3_flex img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.p3_flex .w-60 h2 {
+    color: var(--h2-color);
+    font-weight: bolder;
+}
+
+.p3-4 img:nth-child(1) {
+    width: 30%;
+}
+
+.p3-4 img:nth-child(2) {
+    width: 20%;
+}
+
+
+.w-60 p,
+.w-60 h2,
+h4 {
+    color: var(--font-color);
+}
+
+.p3_flex .w-40 p,
+.p3_flex .w-50 p,
+.p3_flex .w-30 p {
+    width: 100%;
+    height: 100%;
+    background: #222;
+    padding: 20px;
+    text-align: center;
+
+}
+
+h4 {
+    margin: 30px 0px !important;
+}
+
+
+.p3-contain {
+    margin: 30px 0px;
+}
+
+@media screen and (max-width:951px) {
+
+    .p3_flex,
+    .p3-1 .p3_flex:nth-of-type(2) {
+        display: block;
+    }
+
+    .p3_flex .w-40,
+    .p3_flex .w-60,
+    .w-50,
+    .p3_flex .w-50 {
+        width: 100% !important;
+    }
+
+    .p3_flex .w-60 {
+        padding: 20px;
+    }
+
+    .p3_flex h2 {
+        text-align: center;
+    }
+
+    .p3-4 img:nth-child(1) {
+        width: 100%;
+    }
+
+    #main img {
+        margin: 15px 0px;
+    }
+
+    .p3-4 img:nth-child(2) {
+        display: none;
+    }
+
+    h1 {
+        padding: 0 40px !important;
+    }
+}

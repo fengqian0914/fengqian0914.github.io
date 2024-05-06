@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/page4.css" rel="stylesheet" type="text/css">
+    <link href="img/logo.ico" rel="icon" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4e29a18947.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+    <title>食在浪費FWO</title>
+</head>
+
+<body id="main" onscroll="getscroll()">
+    <!-- <div id="preloader">
+        <div class="pre-flex">
+            <div id="status"><img src="img/loading.svg" /></div>
+        </div>
+    </div> -->
+    <nav id="nav">
+        <div class="contain">
+            <div class="nav-flex logo">
+                <div>
+                    <a href="index.html">
+                        <img src="img/icon.ico" id="logo">
+                    </a>
+                </div>
+
+            </div>
+            <div class="nav_toggle">
+
+                <ul class="nav-flex nav-flex-2">
+                    <li v-for="item in nav_li" class="nav-item">
+                        <a :href="item.URL" class="nav_link">{{item.name}}
+                        </a>
+                    </li>
+                </ul>
+                <div class="icon nav-flex nav-item">
+                    <i class="fa-solid fa-moon" id="icon"></i>
+                    <span id="iconcontain">夜晚模式</span>
+                </div>
+            </div>
+
+            <div id="hamburger">
+                <div>
+                    <section>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </section>
+                </div>
+            </div>
+            <div class="navscroll">
+                <div></div>
+            </div>
+    </nav>
+    <div class="home">
+        <ul class="slides">
+            <input type="radio" name="control" id="control-1" checked>
+            <input type="radio" name="control" id="control-2">
+            <input type="radio" name="control" id="control-3">
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <div class="controls-visible">
+                <label for="control-1"></label>
+                <label for="control-2"></label>
+                <label for="control-3"></label>
+
+            </div>
+
+        </ul>
+    </div>
+    <section id="main">
+        <div class="p4-1" id="p4_1">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">全球食物浪費翻倍 聯合國報告：每年被丟棄糧食逼近10億!</h1>
+                <div class="p4_flex center_css">
+                    <div class="w-40">
+                        <img src="img/page4/廚餘1.jpg">
+                        <p>若食物浪費是一個國家<br>其碳排放量將僅次於美國和中國排世界第三</p>
+                    </div>
+                    <div class="w-60">
+                        <h2>報告指出：全球每年浪費近10億噸食物，糧食浪費造成10％碳排</h2>
+                        <p>根據聯合國環境( UNEP )發表的<span>糧食浪費指數報告</span>，全球每年浪費接近10億噸食物，為過去最佳估計值的兩倍。</p><br>
+                        <p>衛報報導，這份報告是目前最全面性的報告。其中指出，全球光是家庭食物浪費就高達每人每年74公斤。</p><br>
+                        <p>數十億飢餓或無力負擔健康飲食的人口，因食物浪費而無法溫飽，環境也受到影響。糧食浪費和損失造成約10％的排放量，助長氣候危機，加速全球暖化。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p4-2 p4-contain" id="p4_2">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">浪費食物和環境有關嗎？</h1>
+                <h2 style="text-align:center">用一張圖來講述食物浪費所造成的環境危害</h2>
+                <div class="p4_flex center_css"><img src="img/page4/圖片A1.png"></div>
+            </div>
+        </div>
+        <div class="p4-3 p4-contain" id="p4_3">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">為甚麼我們要惜食?</h1>
+                <div class="p4_flex center_css">
+                    <div class="w-40"><img src="img/page4/圖片A2.png"></div>
+                    <div class="w-60">
+                        <h2>食物浪費是誰的問題？</h2>
+                        <p>我們發現大眾對食物浪費的理解多停留在廚房的廚餘桶或餐盤中的剩餘，對於食物里程、不合理的食物外觀標準及焚燒廚餘和氣候變遷間的關係毫不知情。更重要的是，不論是大學生、年輕人或是社區媽媽們，大部份人均認為自己(消費者)絕對不是食物浪費的最大元兇。有趣的是，年紀越大的參與者越認為消費者是食物浪費最大宗者。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p4-4 p4-contain" id="p4_4">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">台灣廚餘現況</h1>
+                <div class="p4_flex center_css">
+                    <div class="w-40">
+                        <img src="img/page4/廚餘三.jpg">
+                        <p>2020南投縣草屯掩埋場堆置大量廢棄物</p>
+                    </div>
+                    <div class="w-60">
+                        <h2>2020全台廚餘產生量高 焚化量能減、掩埋量增!</h2>
+                        <p>2020年一般廢棄物總量較2019年成長約0.5%，增加了5.7萬噸；當中可以再細分，約有53%為資源垃圾、41%一般垃圾、5%廚餘。廚餘的年成長率更是高達6.3%，平均每人一年產生22.2公斤的廚餘與417公斤的一般廢棄物。
+                        </p>
+                    </div>
+                </div>
+                <div class="p4_flex center_css">
+                    <div class="w-40">
+                        <img src="img/page4/廚餘2.jpg">
+                        <p>自2018年有統計以來，未處理的暫存廢棄物量連年上升，而2021年衛生掩埋量也呈現上漲趨勢。</p>
+                    </div>
+                    <div class="w-60">
+                        <h2>2021年全國廢棄量突破千萬噸 暫存垃圾連年飆升</h2>
+                        <p>我國一般廢棄物產生量正式突破千萬噸。環保署統計資料顯示，全台一般廢棄物總量前（2020）年達到990萬噸，創下新高，去（2021）年則再次超越，來到1006萬2344噸。平均每人每年約產生20.6公斤的廚餘，以及428.5公斤的垃圾。
+                        </p>
+                    </div>
+                </div>
+                <h1 class="center_css">台灣廚餘統計表格</h1>
+                <div class="p4_flex center_css p4pc" width="600" height="600" style="flex-direction: column;"><canvas
+                        id="myChart"></canvas>
+                    <br><canvas id="myChart2"></canvas>
+                </div>
+                <div class="p4_flex center_css p4phone" style="flex-direction: column;">
+                    <div class="w-100"><img src="img/page4/f1.png" alt=""></div>
+                    <div class="w-100"><img src="img/page4/f2.png"></div>
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="p4-5 p4-contain" id="p4_5">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">台灣廚餘大致分為:</h1>
+                <div class="p4_flex center_css p4-5-1">
+                    <div class="w-30">
+                        <img alt="" src="img/page4/廚餘4.jpg">
+                        <p>家庭廚餘</p>
+                    </div>
+                    <div class="w-30">
+                        <img alt="" src="img/page4/廚餘5.jpg">
+                        <p>餐廳廚餘</p>
+                    </div>
+                    <div class="w-30">
+                        <img alt="" src="img/page4/廚餘6.jpg">
+                        <p>學校廚餘</p>
+                    </div>
+                </div>
+                <h1 class="center_css">廚餘衍伸的問題:非洲豬瘟</h1>
+                <div class="p4_flex center_css">
+                    <div class="w-40"><img src="img/page4/廚餘9.jpg"></div>
+                    <div class="w-60">
+                        <h2>不能送養豬場 六成廚餘如何去化？ 環保署急調度掩埋、焚化、高效處理廠</h2>
+                        <p>根據環保署統計，全國每天回收的廚餘量約2250公噸，透過養豬去化的量就佔了六成之多，如何妥善處理無法進入養豬場的大量廚餘，考驗著中央及地方環保單位的應變能力。</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="p4-6 p4-contain" id="p4_6">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">浪費廚餘解決方法</h1>
+                <div class="p4_flex center_css">
+                    <div class="w-40"><img src="img/page4/3.png"></div>
+                    <div class="w-60">
+                        <h2>家庭廚餘</h2>
+                        <p>每個人可以先從家庭廚餘開始著手，從自己開始做起減少廚餘的好習慣，以下幾點可以幫助減少家庭廚餘的產生:</p>
+                        <p>1.將吃剩的飯菜冰起來，等之後再吃。</p>
+                        <p>2.盡量避免買過多的食物，以免吃不完而導致浪費掉的情況。</p>
+                        <p>3.優先選擇在家快過期的食材來煮，避免過期而被浪費掉</p>
+                    </div>
+                </div>
+                <div class="p4_flex center_css">
+                    <div class="w-40"><img src="img/page4/擷取.PNG"></div>
+                    <div class="w-60">
+                        <h2>惜食四秘訣</h2>
+                        <p>1.列出購物清單，避免過度購買，減少浪費又省錢。</p>
+                        <p>2.冰箱擺放方法，快過期的放前面，冷凍延長保存期限。</p>
+                        <p>3.清冰箱的食物，打成蔬果汁、燉菜及烤肉也是絕佳清冰箱料理。</p>
+                        <p>4.分享食物，與朋友交換食物，或透過食物銀行，捐給有需要的人。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p4-7 p4-contain" id="p4_7">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">國外的惜食活動</h1>
+                <div class="p4_flex center_css">
+                    <div class="w-50"><img src="img/page4/1.png">
+                        <p>其宗旨為「停止浪費，解決飢餓」。本計劃致力通過減少食物浪費所產生的垃圾促進環保，以及用糧食幫助方式來扶助社會內有需要人士。
+                        </p>
+                    </div>
+                    <div class="w-50"><img src="img/page4/2.jpg">
+                        <p>將回收的新鮮食物經過我們篩選及加工後，會製作成美味健康的午膳，供培訓中心的失業學員享用。部份食品會直接轉送至需要人士手上。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p4-8 p4-contain" id="p4_8">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">省思</h1>
+                <div class="p4_flex center_css">
+                    <p>廚餘一直是台灣人不重視的一塊，但他卻是惜食非常重要的一環，大家對於減少廚餘的觀念普遍非常缺乏，只知道盡量吃完食物，但是其實還有很多的地方可以去減少廚餘，藉由這次的主題我們認識到了很多有關廚餘的觀念，希望藉由這次的學習可以讓我們切身行動，每個人從自己開始做起、自己開始盡一份心力，讓我們一起關注廚餘的問題吧!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="center_css">
+        <div class="w-100" class="center_css">
+            <div class="w-30">
+                <img src="img/logo_design2.png" alt="">
+                <p>我們期盼在現今面對多重考驗之下的我們，能保持著節省資源的理念，且不僅僅是能源，也包含每天都會吃到的食物，如何節省食物讓食物可以妥善的循環。
+                </p>
+            </div>
+            <div class="w-70">
+
+                <div class="footer_item">
+                    <h3>源頭</h3>
+                    <a href="page1.html#p1_1">
+                        <li>浪費原因</li>
+                    </a>
+                    <a href="page1.html#p1_2">
+                        <li>寒害</li>
+                    </a>
+                    <a href="page1.html#p1_3">
+                        <li>颱風</li>
+                    </a>
+                    <a href="page1.html#p1_4">
+                        <li>疫情</li>
+                    </a>
+                    <a href="page1.html#p1_5">
+                        <li>運輸</li>
+                    </a>
+                    <a href="page1.html#p1_6">
+                        <li>蟲害</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>加工</h3>
+                    <a href="page2.html#p2_1">
+                        <li>前言</li>
+                    </a>
+                    <a href="page2.html#p2_2">
+                        <li>賣場浪費</li>
+                    </a>
+                    <a href="page2.html#p2_3">
+                        <li>友善時光</li>
+                    </a>
+                    <a href="page2.html#p2_4">
+                        <li>其他賣場</li>
+                    </a>
+                    <a href="page2.html#p2_5">
+                        <li>省思</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>餐廳</h3>
+                    <a href="page3.html#p3_1">
+                        <li>前言</li>
+                    </a>
+                    <a href="page3.html#p3_2">
+                        <li>浪費地方</li>
+                    </a>
+                    <a href="page3.html#p3_3">
+                        <li>減少廚餘</li>
+                    </a>
+                    <a href="page3.html#p3_4">
+                        <li>惜食餐廳</li>
+                    </a>
+
+                </div>
+                <div class="footer_item">
+                    <h3>廚餘</h3>
+                    <a href="page4.html#p4_1">
+                        <li>聯合國報告</li>
+                    </a>
+                    <a href="page4.html#p4_2">
+                        <li>食物與環境關係</li>
+                    </a>
+                    <a href="page4.html#p4_3">
+                        <li>為何惜食</li>
+                    </a>
+                    <a href="page4.html#p4_4">
+                        <li>台灣廚餘現況</li>
+                    </a>
+                    <a href="page4.html#p4_6">
+                        <li>廚餘解決</li>
+                    </a>
+                    <a href="page4.html#p4_7">
+                        <li>國外活動</li>
+                    </a>
+                    <a href="page4.html#p4_8">
+                        <li>省思</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>基因改造</h3>
+                    <a href="page5.html#p5_1">
+                        <li>節流、開源</li>
+                    </a>
+                    <a href="page5.html#p5_2">
+                        <li>基因改造契機</li>
+                    </a>
+                    <a href="page5.html#p5_3">
+                        <li>基因改造原理</li>
+                    </a>
+
+
+                </div>
+                <div class="footer_item">
+                    <h3>關於我們</h3>
+                    <a href="page6.html#p6_1">
+                        <li>主題理念</li>
+                    </a>
+                    <a href="page6.html#p6_2">
+                        <li>設計流程</li>
+                    </a>
+                    <a href="page6.html#p6_3">
+                        <li>團隊分配</li>
+                    </a>
+                    <a href="page6.html#p6_4">
+                        <li>資料來源</li>
+                    </a>
+                </div>
+
+            </div>
+    </footer>
+
+    <script src="https://unpkg.com/vue@next">
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript">
+    </script>
+    <script src="js/all.js">
+    </script>
+    <script>
+        Chart.defaults.global.defaultFontSize = 20;
+        Chart.defaults.global.defaultFontColor = "Black";
+
+        new Chart(document.getElementById("myChart"), {
+
+            "type": "bar",
+            "data": {
+                "labels": ['2009年', "2010年", "2011年", "2012年", "2013年", "2014年", "2015年", "2016年", "2017年", "2018年", "2019年", "2020年"],
+                "datasets": [{
+                    "type": "line",
+                    "label": "各年廚餘量",
+                    "data": [721472, 769164, 811199, 834541, 765213, 720373, 609706, 575932, 551332, 594992, 498045, 529567],
+                    "fill": false,
+                    "borderColor": "rgb(75, 192, 192)",
+                    "lineTension": 0.1,
+                    yAxisID: 'A',
+                    order: 2,
+
+                }, {
+                    "type": 'line',
+                    "label": '回收再利用-堆肥',
+                    "data": [179306, 208881, 261532, 243840, 226074, 204472, 197107, 197307, 204598, 231676, 246367, 261480],
+                    "borderColor": "rgb(75, 0, 192)",
+                    "fill": false,
+
+                }, {
+                    "type": 'line',
+                    "label": '回收再利用-養豬',
+                    "data": [537881, 554245, 545610, 588808, 567621, 514770, 408524, 372280, 343906, 358229, 237849, 243795],
+                    "borderColor": "rgb(45, 80, 12)",
+                    "fill": false,
+
+
+                }, {
+                    "type": 'bar',
+                    "label": '平均每人年廚餘回收量',
+                    "data": [31.39, 33.22, 35.04, 35.77, 33.95, 30.66, 25.92, 24.46, 23.36, 25.19, 21.17, 22.27],
+
+                    "borderColor": "rgb(45, 80, 12)",
+
+                    "backgroundColor": [
+                        'rgba(255, 99, 132, 0.8)',
+                        'rgba(255, 159, 64, 0.8)',
+                        'rgba(255, 205, 86, 0.8)',
+                        'rgba(255, 99, 132, 0.8)',
+                        'rgba(255, 159, 64, 0.8)',
+                        'rgba(255, 205, 86, 0.8)',
+                        'rgba(255, 99, 132, 0.8)',
+                        'rgba(255, 159, 64, 0.8)',
+                        'rgba(255, 205, 86, 0.8)',
+                        'rgba(255, 99, 132, 0.8)',
+                        'rgba(255, 159, 64, 0.8)',
+                        'rgba(255, 205, 86, 0.8)',
+                    ],
+                    yAxisID: 'B',
+                    order: 1,
+                    fill: true,
+
+                },
+                ]
+            },
+            "options": {
+                responsive: true,
+                scales: {
+                    yAxes: [{
+                        id: 'A',
+                        type: 'linear',
+                        position: 'left',
+                        scaleLabel: {
+                            display: true,
+                            labelString: '公噸',
+
+                        },
+                        ticks: {
+                            beginAtZero: false,
+                            userCallback: function (value, index, values) {
+                                // Convert the number to a string and splite the string every 3 charaters from the end
+                                value = value.toString();
+                                value = value.split(/(?=(?:...)*$)/);
+                                value = value.join(',');
+                                return value;
+                            },
+
+                            fontSize: 15,
+                        }
+                    },
+                    {
+                        id: 'B',
+                        type: 'linear',
+                        position: 'right',
+                        ticks: {
+                            max: 50.00,
+                            min: 0,
+                            userCallback: function (value, index, values) {
+                                // Convert the number to a string and splite the string every 3 charaters from the end
+                                value = value.toString();
+                                value = value.split(/(?=(?:...)*$)/);
+                                value = value.join(',');
+                                return value;
+                            },
+
+
+                        },
+                        scaleLabel: {
+                            display: true,
+                            labelString: '公斤',
+
+                        },
+                    }
+                    ]
+
+                }, "tooltips": {
+                    "mode": 'label',
+                    "label": 'mylabel',
+
+
+                }
+            }
+
+
+
+        });
+
+
+
+
+        new Chart(document.getElementById("myChart2"), {
+            "type": "bar",
+            "data": {
+                "labels": [' 新北市', ' 臺北市', ' 桃園市', ' 臺中市', ' 臺南市', ' 高雄市', ' 宜蘭縣', ' 新竹縣', ' 苗栗縣', ' 彰化縣', ' 南投縣', ' 雲林縣', ' 嘉義縣', ' 屏東縣', ' 臺東縣', ' 花蓮縣', ' 澎湖縣', ' 基隆市', ' 新竹市', ' 嘉義市', ' 金門縣', ' 連江縣',],
+                "datasets": [{
+                    "label": "109年各縣市廚餘量",
+                    "data": [127112, 61028, 33703, 68630, 31417, 31184, 9824, 9098, 16225, 16586, 7436, 13207, 12594, 11078, 5072, 6564, 4637, 6581, 12313, 6676, 5296, 3296],
+                    "fill": false,
+                    yAxisID: 'A',
+
+                    "borderColor": "rgb(75, 192, 192)",
+                    "lineTension": 0.1,
+                    "backgroundColor": [
+                        'rgba(255, 99, 132, 0.8)',
+                        'rgba(255, 159, 64, 0.8)',
+                        'rgba(255, 205, 86, 0.8)',
+                        'rgba(75, 192, 192, 0.8)',
+                        'rgba(54, 162, 235, 0.8)',
+                        'rgba(153, 102, 255, 0.8)',
+                        'rgba(201, 203, 207, 0.8)',
+                        'rgba(241, 23, 27, 0.8)',
+                        'rgba(41, 243, 237, 0.8)',
+                        'rgba(91, 26, 37, 0.8)',
+                        'rgba(132, 204, 252, 0.8)',
+                        'rgba(131, 623, 177, 0.8)',
+                        'rgba(178, 88, 7, 0.8)',
+                        'rgba(61, 193, 97, 0.8)',
+                        'rgba(58, 3, 66, 0.8)',
+                        'rgba(30, 248, 48, 0.8)',
+                        'rgba(27, 163, 105, 0.8)',
+                        'rgba(138, 213, 109, 0.8)',
+                        'rgba(48, 223, 166, 0.8)',
+                        'rgba(130, 48, 148, 0.8)',
+                        'rgba(127, 63, 195, 0.8)',
+                        'rgba(13, 21, 169, 0.8)',
+                    ],
+                    order: 2,
+
+                }, {
+                    "type": 'line',
+                    yAxisID: 'B',
+
+                    "label": '109年各縣市每人平均廚餘量',
+                    "data": [31.39, 23.36, 14.97, 24.46, 32.49, 11.32, 21.54, 16.06, 29.57, 13.14, 14.97, 19.35, 25.19, 13.51, 23.36, 20.08, 43.80, 17.89, 27.38, 24.82, 37.60, 249.30],
+                    "borderColor": "rgb(75, 0, 192)",
+                    "fill": false,
+                    order: 1
+
+                }]
+            },
+            "options": {
+                responsive: true,
+                scales: {
+                    yAxes: [{
+                        id: 'A',
+                        type: 'linear',
+                        position: 'left',
+                        scaleLabel: {
+                            display: true,
+                            labelString: '公噸',
+
+                        },
+                        ticks: {
+                            beginAtZero: false,
+                            userCallback: function (value, index, values) {
+                                // Convert the number to a string and splite the string every 3 charaters from the end
+                                value = value.toString();
+                                value = value.split(/(?=(?:...)*$)/);
+                                value = value.join(',');
+                                return value;
+                            },
+
+                            fontSize: 15,
+                        }
+                    }, {
+                        id: 'B',
+                        type: 'linear',
+                        position: 'right',
+                        ticks: {
+                            max: 300,
+                            min: 0
+                        },
+                        scaleLabel: {
+                            display: true,
+                            labelString: '公斤',
+
+                        },
+
+                    }]
+                },
+                "tooltips": {
+                    "mode": 'label',
+                    "label": 'mylabel',
+
+
+
+                },
+            },
+        });
+
+    </script>
+
+</body>
+
+</html>

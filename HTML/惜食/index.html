@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/twicon.css">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+
+    <script src="https://kit.fontawesome.com/4e29a18947.js" crossorigin="anonymous"></script>
+    <script language=JavaScript>
+        var url = location.search;
+        var rid;
+        if (url.indexOf("?") == -1) {//電腦版網址後方沒有參數，就自動進入手機版判斷程式
+
+            if (navigator.userAgent.match(/Android|iPhone|iPad/i)) {
+                window.location = 'index_phone.html';
+            }
+
+        }
+
+        if (url.indexOf("?") != -1) {//電腦版網址後方有參數
+
+            var str = url.substr(1);
+            rid = str.split("=")[1];
+
+            if (rid != "web") {  //且第一個參數不是web，就自動進入手機般判斷程式
+                if (navigator.userAgent.match(/Android|iPhone|iPad/i)) {
+                    window.location = 'index_phone.html';
+                }
+
+            }
+        }
+
+    </script>
+    <title>食在浪費FWO</title>
+
+
+</head>
+
+<body>
+   <!-- <div id="preloader">
+        <div class="pre-flex">
+            <div id="status"><img src="img/loading.svg" /></div>
+        </div>
+    </div>-->
+    <div class="contain">
+        <section id="contain1_index">
+            <div id="main1">
+                <img src="img/index/earth_bg.png" alt="" id="earth_bg">
+                <h2 id="text1">聯合國於2021年發布的糧食浪費指數報告中顯示<br>全球每年浪費近<span id="title1_span1"> 10</span> 億噸的食物</h2>
+                <h2 id="text2">農場端、供應鏈的浪費，總計有<span id="title2_span1">1/3</span>的食物從未被食用。</h2>
+                <h2 id="text3"><span id="title3_span1">40%</span>的糧食作物在生產端就因為生產過剩、賣向不佳等原因直接遭到丟棄</h2>
+
+
+            </div>
+            <img src="img/index/earth2-1.png" alt="" id="earth">
+            <div id="main2">
+
+                <div class="main2title ">
+                    <p>
+                        <span id="title_y">2009</span>年廚餘量<span>(公噸)</span>
+                    </p>
+                </div>
+
+                <div class="main2_tw">
+                    <div class="row">
+                        <div class="center_css">
+                            <div class="w-50 center_css" style="justify-content:right;"> <i
+                                    class="twicon-main-island twicon-10x"></i>
+                                <div id="number_show">721,472</div>
+                            </div>
+                            <div class="w-50 center_css">
+                                <div class="taipei101">
+                                    <h2>相當於<span id="t101h">16.5</span>(千)座101</h2>
+                                    <i class="twicon-taipei101 twicon-4x" v-for="page in 10"></i>
+                                    <br>
+                                    <i class="twicon-taipei101 twicon-4x" v-for="page in 10"></i>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="time_bar" id="time_bar">
+
+                    <div class="timeLine">
+                        <div class="time_btn time_before" id="time_btn">
+                            <div><span></span> <span></span></div>
+                            <div><span></span> <span></span></div>
+                        </div>
+                        <ul class="times  slides2" id="times">
+
+                            <div class="slide2">
+                                <li v-for="item in times"> <span></span>
+                                    <div class="year_y">{{item.year}}</div>
+                                    <div class="year_number">{{item.number}}</div>
+                                    <div class="year_101h">{{item.t101_h}}</div>
+                                </li>
+
+                            </div>
+
+                            <div class="slide2">
+                                <li v-for="item in times2"> <span></span>
+                                    <div class="year_y">{{item.year}}</div>
+                                    <div class="year_number">{{item.number}}</div>
+                                    <div class="year_101h">{{item.t101_h}}</div>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="te">
+                    碰觸年份獲取該年度資料
+
+                </div>
+            </div>
+            <div id="main3">
+                <div id="main3_title">
+                    <div id="main3_title_1">
+                        <div class="row ">
+                            <div class="w-100">雙重夾擊，讓窮人吃不起飯
+                            </div>
+                            <div class="w-100">+</div>
+                            <div class="w-100 main3_a">
+                                <div class="center_css">氣候</div>
+                                <div class="center_css">疫情</div>
+                            </div>
+                            <div class="w-100">隱藏著不為人知的饑荒?!</div>
+                            <div class="w-100 m3-1"> 浪費的背後
+                            </div>
+                            <div class="w-100 center_css" style="flex-direction: column;text-align: center;">全球77.53
+                                億人<br>有8.11億人處於飢餓狀態 <br><br>
+                                占比10.46%<br>每分鐘就有11人因營養不良而死亡
+                                <div style="flex-direction: row;overflow:hidden ;"><img src="img/index/people.png"
+                                        v-for="c in 11"></div>
+                            </div>
+                            <div class="w-100 center_css" style="flex-direction:column;">
+                                全世界的糧食產量足以供應全球80億的人三餐溫飽
+                                <br>
+                                <section>
+                                    <h1 style="font-size:80px;font-weight: bold">但</h1>
+                                    <ul>
+                                        <li>全球化的經濟影響</li>
+                                        <li><span>貧</span>富差距擴大</li>
+                                        <li>糧食分布極為不均</li>
+                                        <li>富裕國家浪費<span>糧食</span></li>
+                                    </ul>
+                                    <h1 style="font-size:80px;font-weight: bold">使貧困國家越來越飢餓</h1>
+                                </section>
+                            </div>
+                            <div class="w-100 gogogo ">
+                                <div class="center_css" style="width:100%;height:100%;"> <a href="page1.html"
+                                        width="100%" height="100%" style="cursor: pointer;"><img
+                                            src="img/index/gopage1.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </section>
+    <div id="gopage"><a href="page1.html"><img src="img/index/gopage.png"></a></div>
+    <div style="height: 12000px;"></div>
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script src="js/all.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+        <script src="js/jquery-3.6.0.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

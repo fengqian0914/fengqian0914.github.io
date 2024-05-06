@@ -1,0 +1,76 @@
+:root {
+    --font-color: #226e93;
+    --font2-color: #000;
+}
+
+.dark {
+    --font-color: #fff;
+    --font2-color: #fff;
+}
+
+.slide:nth-of-type(1) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/index_phone/bg1.jpg");
+    background-size: 100% 100%;
+}
+
+.slide:nth-of-type(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/index_phone/bg2.jpg");
+
+    background-size: 100% 100%;
+    left: 100%;
+}
+
+.slide:nth-of-type(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/index_phone/bg3.jpg");
+    background-size: 100% 100%;
+    left: 200%;
+}
+
+.index_s1_flex {
+    margin: 30px 0px;
+}
+
+.index_s1_flex .w-50 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.index_s1_flex .row {
+    flex: 2;
+    margin: 50px 0;
+}
+
+.index_s1_flex h1,
+.index_s1_flex h2 {
+    font-weight: bolder;
+}
+
+.index_s1_flex h2 {
+    margin: 20px 0px;
+}
+
+.index_s1_flex h2,
+.index_s1_flex span {
+    color: var(--font-color);
+}
+
+.index_s1_flex p,
+.index_s1_flex h1 {
+    color: var(--font2-color);
+}
+
+.index_s1_flex span {
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width:951px) {
+    .index_s1_flex .w-50 {
+        width: 100% !important;
+    }
+
+
+}

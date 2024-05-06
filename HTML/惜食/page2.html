@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/page2.css">
+
+    <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/4e29a18947.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+    <title>食在浪費FWO</title>
+</head>
+
+<body onscroll="getscroll()">
+
+    <!-- <div id="preloader">
+        <div class="pre-flex">
+            <div id="status"><img src="img/loading.svg" /></div>
+        </div>
+    </div> -->
+    <nav id="nav">
+        <div class="contain">
+            <div class="nav-flex logo">
+                <div>
+                    <a href="index.html">
+                        <img src="img/icon.ico" id="logo">
+                    </a>
+                </div>
+
+            </div>
+            <div class="nav_toggle">
+
+                <ul class="nav-flex nav-flex-2">
+                    <li v-for="item in nav_li" class="nav-item">
+                        <a :href="item.URL" class="nav_link">{{item.name}}
+                        </a>
+                    </li>
+                </ul>
+                <div class="icon nav-flex nav-item">
+                    <i class="fa-solid fa-moon" id="icon"></i>
+                    <span id="iconcontain">夜晚模式</span>
+                </div>
+            </div>
+
+            <div id="hamburger">
+                <div>
+                    <section>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </section>
+                </div>
+            </div>
+            <div class="navscroll">
+                <div></div>
+            </div>
+    </nav>
+    <div class="home">
+        <ul class="slides">
+            <input type="radio" name="control" id="control-1" checked>
+            <input type="radio" name="control" id="control-2">
+            <input type="radio" name="control" id="control-3">
+            <li class="slide "></li>
+            <li class="slide "></li>
+            <li class="slide "></li>
+            <div class="controls-visible">
+                <label for="control-1"></label>
+                <label for="control-2"></label>
+                <label for="control-3"></label>
+
+            </div>
+
+        </ul>
+    </div>
+    <section id="main">
+        <div class="p2-1" id="p2_1">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">前言</h1>
+                <div class="p2_flex center_css">
+                    <div class="w-40">
+                        <img src="img/page2/w644.png">
+                    </div>
+                    <div class="w-60">
+                        <p>食品企業在訂定保存期限時會採取較保守的作法，也往往出現有些食品即使到達保存期限仍然還可食用的現象。然而這已非單純的科學議題，如何在減少食物浪費的情況下，同時確保食品品質與安全，使食物資源能更有效地被運用？這是一個值得大家思考與重視的議題。
+                        </p>
+                    </div>
+
+                </div>
+                <div class="p2_flex">
+                    <div class="w-50">
+                        <div class="card center_css">
+                            <div class="cardimg ">
+                                <img src="img/page2/555.jpeg" alt="">
+                                <div class="card_title center_css">加工業丟棄的食物
+                                </div>
+                            </div>
+                            <div class="card_contain">
+                                <div class="card_text">
+                                    <div class="card_title center_css">加工業丟棄的食物
+                                    </div>
+                                    <p>產品浪費現象出現在加工的生產線上，生產失誤或原料損壞而造成。
+                                        <br><br>
+                                        批發階段的損失則出現在儲存、裝卸及運輸的過程。
+                                        <br><br>
+                                        乳製品則是在運輸途中，流出和保存不善或加工製成優酪乳或乳酪的過程中失誤，成了浪費乳製品的原因。
+                                        <br><br>
+                                        水果、蔬菜、麵包、魚等...食物等生鮮食品的供應過剩導致會被大量丟棄。批發商的食物浪費有大部分是被商店退回的產品。例如，某品牌麵包供應商稱，每週被退回的麵包數量達到30立方公尺。
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="w-50">
+                        <div class="card center_css">
+                            <div class="cardimg ">
+                                <img src="img/page2/1.jpeg" alt="">
+                                <div class="card_title center_css">商店丟棄的食物
+                                </div>
+                            </div>
+                            <div class="card_contain">
+                                <div class="card_text">
+                                    <div class="card_title center_css">商店丟棄的食物
+                                    </div>
+                                    <p>商店內丟棄的食物來自配送損壞、送貨出錯、包裝不妥、超過保存期限等。商店是讓貨架擺滿商品，且商品外觀良好，所以極有可能浪費一部分包裝不優的商品；無論貨品的實際狀況如何，外觀不夠好或保存期限將至都會被丟棄，成為浪費的主因。
+                                    </p>
+                                    <h4>為什麼不退回供應商呢?
+                                    </h4>
+                                    <p>將貨品退回供應商不切實際，而降價銷售接近保存期限的商品不會賺錢，大多商店選擇將它們丟棄，因此大量食物被無端扔進了垃圾桶。 </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="p2-2 p2-contain" id="p2_2">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+                <h1 class="center_css">賣場浪費如何挽回
+                </h1>
+                <div class="p2_flex center_css">
+                    <div class="w-40"><img src="img/page2/3.jpg"></div>
+                    <div class="w-60">
+                        <h2>明明還能食用，為什麼還要丟呢?
+
+                        </h2>
+                        <p>第一&nbsp;捐贈有可能違反法律
+
+                            <br><br>
+
+                            第二&nbsp;捐給弱勢運送過程中如果變質誰負責？
+
+                            <br><br>
+
+                            第三&nbsp;在到期前打折促銷，賺什麼呢?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="p2_flex center_css" style="flex-direction: row-reverse;">
+                    <div class="w-40"><img src="img/page2/4.png"></div>
+                    <div class="w-60">
+                        <h2>超商推出了友善時光!!
+                        </h2>
+                        <p>便利商店在幾年前到現在都有推出「友善食光」的活動，不但不會讓即期食品被浪費，還能讓消費者可以用優惠的價格買到想吃的食物，還能不讓食物被浪費，達到惜食的效果。
+                        </p>
+                    </div>
+
+                </div>
+                <div class="p2_flex center_css">
+
+                </div>
+            </div>
+        </div>
+        <div class="p2-3 p2-contain" id="p2_3">
+            <div class="row bg-top"></div>
+            <div class="row center_css">
+
+                <h1 class="center_css">四大超商友善時光比較
+
+                </h1>
+
+                <div class="p2_flex center_css">
+                    <div class="cards">
+                        <div class="card w-50 center_css">
+                            <div class="cardimg center_css">
+                                <img src="img/page2/d1.png" alt="">
+                            </div>
+                            <div class="cardtext">
+                                <div class="cardtime_data">
+                                    <div class="data_t">
+                                        <p>時間</p>
+                                        <p>10:00&nbsp;～&nbsp;17:00</p>
+                                    </div>
+                                    <div class="data_c">
+                                        <p>項目</p>
+                                        <p>鮮食</p>
+                                    </div>
+                                </div>
+                                <div class="cardtime_data">
+
+                                    <div class="data_t">
+                                        <p>時間</p>
+                                        <p>20:00&nbsp;～&nbsp;03:00</p>
+                                    </div>
+                                    <div class="data_c">
+                                        <p>項目</p>
+                                        <p>鮮食、麵包，含三角與圓形飯糰
+                                        </p>
+                                    </div>
+                                    <div class="data_m">
+                                        <div>
+                                            <p>折扣</p>
+                                        </div>
+                                        <div>
+                                            <p>65折</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card w-50 center_css">
+                            <div class="cardimg center_css">
+                                <img src="img/page2/d2.jpg" alt="">
+                            </div>
+                            <div class="cardtext">
+                                <div class="cardtime_data">
+                                    <div class="data_t">
+                                        <p>時間</p>
+                                        <p>10:00&nbsp;～&nbsp;17:00</p>
+                                    </div>
+                                    <div class="data_c">
+                                        <p>項目</p>
+                                        <p>飯糰、壽司、手卷 </p>
+                                    </div>
+                                </div>
+                                <div class="cardtime_data">
+
+                                    <div class="data_t">
+                                        <p>時間</p>
+                                        <p>17:00&nbsp;～&nbsp;24:00</p>
+                                    </div>
+                                    <div class="data_c">
+                                        <p>項目</p>
+                                        <p>各種鮮食
+                                        </p>
+                                    </div>
+                                    <div class="data_m">
+                                        <div>
+                                            <p>折扣</p>
+                                        </div>
+                                        <div>
+                                            <p>7折</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p2_flex center_css">
+
+                    <div class="card w-50 center_css">
+                        <div class="cardimg center_css">
+                            <img src="img/page2/d3.png" alt="">
+                        </div>
+                        <div class="cardtext">
+                            <div class="cardtime_data">
+                                <div class="data_t">
+                                    <p>時間</p>
+                                    <p>18:00&nbsp;～&nbsp;24:00</p>
+                                </div>
+                                <div class="data_c">
+                                    <p>項目</p>
+                                    <p>麵包、鹹食、正餐</p>
+                                </div>
+                                <div class="data_m">
+                                    <div>
+                                        <p>折扣</p>
+                                    </div>
+                                    <div>
+                                        <p>7折</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-50 center_css">
+                        <div class="cardimg center_css">
+                            <img src="img/page2/d4.png" alt="">
+                        </div>
+                        <div class="cardtext">
+                            <div class="cardtime_data">
+                                <div class="data_t">
+                                    <p>時間</p>
+                                    <p>16:30&nbsp;～&nbsp;22:30</p>
+                                </div>
+                                <div class="data_c">
+                                    <p>項目</p>
+                                    <p>鮮食、麵包</p>
+                                </div>
+                                <div class="data_m">
+                                    <div>
+                                        <p>折扣</p>
+                                    </div>
+                                    <div>
+                                        <p>6折</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p2-4 p2-contain" id="p2_4">
+                <div class="row bg-top"></div>
+                <div class="row center_css">
+                    <h1 class="center_css">其他賣場
+                    </h1>
+                    <div class="p2_flex center_css">
+                        <div class="w-40"><img src="img/page2/M1.jpg"></div>
+                        <div class="w-60">
+                            <h2>家樂福</h2>
+                            <p>家樂福一直持續地在做續食計畫，將即期品送給每分店附近的弱勢團體；當然，家樂福也有即期品或快到保存期限的食物進行打折和促銷，熟食區的食物也會有8折做佑的優惠，為的就是不浪費食物。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="p2_flex center_css" style="flex-direction: row-reverse;">
+                        <div class="w-40"><img src="img/page2/M2.jpg"></div>
+                        <div class="w-60">
+                            <h2>全聯
+                            </h2>
+                            <p>全聯的惜食計畫:每項即期鮮食和醜蔬果，在保存期限最後一天會以8折或6折促銷，如果到當晚20時30分仍沒賣出，21時會貼上專屬惜食標章，轉變成惜食商品，由配合的社福機構攜帶標準冰桶到惜食門市領取，並簽署文件，再由社工帶回機構的廚房妥善保存，用來烹調美味佳餚給有需要的人。
+
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="p2-4 p2-contain" id="p2_5">
+                <div class="row bg-top"></div>
+                <div class="row center_css">
+                    <h1 class="center_css">省思
+                    </h1>
+                    <div class="p2_flex center_css">
+                        <p> 當然我相信也有許多機構有在推動惜食，這是件好事，世上有許多人都沒東西吃，浪費食物真的是不OK的行為。
+                            許多社福機構也都能透過管道拿到食物，再進行分送，讓弱勢族群也能都溫飽，能在台灣生活真的是很幸福的事情。也呼籲大家都要愛惜食物，不浪費唷~</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+    </section>
+    <footer class="center_css">
+        <div class="w-100" class="center_css">
+            <div class="w-30">
+                <img src="img/logo_design2.png" alt="">
+                <p>我們期盼在現今面對多重考驗之下的我們，能保持著節省資源的理念，且不僅僅是能源，也包含每天都會吃到的食物，如何節省食物讓食物可以妥善的循環。
+                </p>
+            </div>
+            <div class="w-70">
+
+                <div class="footer_item">
+                    <h3>源頭</h3>
+                    <a href="page1.html#p1_1">
+                        <li>浪費原因</li>
+                    </a>
+                    <a href="page1.html#p1_2">
+                        <li>寒害</li>
+                    </a>
+                    <a href="page1.html#p1_3">
+                        <li>颱風</li>
+                    </a>
+                    <a href="page1.html#p1_4">
+                        <li>疫情</li>
+                    </a>
+                    <a href="page1.html#p1_5">
+                        <li>運輸</li>
+                    </a>
+                    <a href="page1.html#p1_6">
+                        <li>蟲害</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>加工</h3>
+                    <a href="page2.html#p2_1">
+                        <li>前言</li>
+                    </a>
+                    <a href="page2.html#p2_2">
+                        <li>賣場浪費</li>
+                    </a>
+                    <a href="page2.html#p2_3">
+                        <li>友善時光</li>
+                    </a>
+                    <a href="page2.html#p2_4">
+                        <li>其他賣場</li>
+                    </a>
+                    <a href="page2.html#p2_5">
+                        <li>省思</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>餐廳</h3>
+                    <a href="page3.html#p3_1">
+                        <li>前言</li>
+                    </a>
+                    <a href="page3.html#p3_2">
+                        <li>浪費地方</li>
+                    </a>
+                    <a href="page3.html#p3_3">
+                        <li>減少廚餘</li>
+                    </a>
+                    <a href="page3.html#p3_4">
+                        <li>惜食餐廳</li>
+                    </a>
+
+                </div>
+                <div class="footer_item">
+                    <h3>廚餘</h3>
+                    <a href="page4.html#p4_1">
+                        <li>聯合國報告</li>
+                    </a>
+                    <a href="page4.html#p4_2">
+                        <li>食物與環境關係</li>
+                    </a>
+                    <a href="page4.html#p4_3">
+                        <li>為何惜食</li>
+                    </a>
+                    <a href="page4.html#p4_4">
+                        <li>台灣廚餘現況</li>
+                    </a>
+                    <a href="page4.html#p4_6">
+                        <li>廚餘解決</li>
+                    </a>
+                    <a href="page4.html#p4_7">
+                        <li>國外活動</li>
+                    </a>
+                    <a href="page4.html#p4_8">
+                        <li>省思</li>
+                    </a>
+                </div>
+                <div class="footer_item">
+                    <h3>基因改造</h3>
+                    <a href="page5.html#p5_1">
+                        <li>節流、開源</li>
+                    </a>
+                    <a href="page5.html#p5_2">
+                        <li>基因改造契機</li>
+                    </a>
+                    <a href="page5.html#p5_3">
+                        <li>基因改造原理</li>
+                    </a>
+
+
+                </div>
+                <div class="footer_item">
+                    <h3>關於我們</h3>
+                    <a href="page6.html#p6_1">
+                        <li>主題理念</li>
+                    </a>
+                    <a href="page6.html#p6_2">
+                        <li>設計流程</li>
+                    </a>
+                    <a href="page6.html#p6_3">
+                        <li>團隊分配</li>
+                    </a>
+                    <a href="page6.html#p6_4">
+                        <li>資料來源</li>
+                    </a>
+                </div>
+
+            </div>
+    </footer>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
