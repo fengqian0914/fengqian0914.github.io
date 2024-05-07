@@ -179,19 +179,21 @@
 </thead>
 <tbody style="text-align: center;">
   <tr>
-    <td rowspan="3"><img src="img/MapleStort_Preview.jpg"></td>
-    <td align="center">  <b>新楓之谷-經驗計算機</b> </td>
+    <td align="center">  <h3>新楓之谷-經驗計算機</h3> </td>
   </tr>
+ <tr>
+      <td ><img src="img/MapleStort_Preview.jpg"></td>
+ </tr>
   <tr>
     <td>介紹：
       <br><br>基於新楓之谷遊戲中經常提供許多秘藥，我們開發了一款方便使用的計算機工具，旨在幫助玩家最大化地利用這些秘藥，從而提高遊戲中的效益。
       <br><br>這款計算機工具具有直觀的用戶界面，讓玩家可以輕鬆地輸入不同的秘藥信息並進行計算。它可以根據玩家當前的情況和需求，提供最佳的秘藥使用方案。
       <br><br>並將此網站同步在社群平台上發布協助玩家計算工具網站，目前已有超過<b>2萬多人</b>使用過。
           <br><br>
-     <img src="img/tag1.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag2.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag3.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag1.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag2.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag3.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag15.png" width="200px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -202,57 +204,65 @@
     </td>
   </tr>
   <tr>
-    <td rowspan="3" align="center" >設計中</td>
-    <td align="center">  <b>會員點餐系統</b><br><b>開發中</b> </td>
+    <td align="center">  <h3>會員點餐系統 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;開發中</h3> </td>
   </tr>
+ <tr>
+      <td  align="center" >畫面設計中</td>
+ </tr>
   <tr>
     <td>
      這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。
           <br><br> 
-     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag11.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag17.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag15.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag11.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag17.png" width="200px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
     <td>連結：<br>暫無</td>
   </tr>
   <tr>
-    <td rowspan="3"><img src="HTML/Cherish-food/img/Preview.jpg"></td>
-    <td align="center">  <b>食在浪費-惜食網</b> </td>
+    <td align="center">  <h3>食在浪費-惜食網</h3> </td>
   </tr>
+ <tr>
+      <td ><img src="HTML/Cherish-food/img/Preview.jpg"></td>
+
+ </tr>
   <tr>
     <td>介紹：
       <br><br>本網站致力於介紹惜食相關議題，以引發社會對資源節約的關注。透過網站首頁的視差捲動效果和黑白模式，我們致力於提供更引人入勝的瀏覽體驗。
       <br><br>在現今面對多重挑戰的時代，我們期望能夠保持節約資源的理念。這種理念不僅僅限於能源，還包括我們每天所食用的食物。我們努力探討如何節省食物，讓食物得以妥善循環利用，從而實現可持續發展的目標。
           <br><br>
-     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag12.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag15.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag12.png" width="200px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
     <td>連結：<br><a href="https://fengqian0914.github.io/HTML/Cherish-food/"> Github</a></td>
   </tr>
   <tr>
-    <td rowspan="3"><img src="HTML/2020web/img/Preview.png"></td>
-    <td align="center">  <b>浪浪想要家</b> </td>
+    <td align="center">  <h3>浪浪想要家</h3> </td>
   </tr>
+ <tr>
+      <td><img src="HTML/2020web/img/Preview.png"></td>
+
+ </tr>
   <tr>
     <td>介紹：
         <br><br>在高中時期，我們參加了2020年台灣學校網界博覽會比賽，並且榮獲了銅獎。這次比賽是由老師安排，要求我們以團隊合作的方式完成專題。
         <br><br>比賽的主題是寵物保育，我們通過團隊合作，共同探討了寵物保育的重要性，並設計了相關的專題項目。我們努力研究和討論，克服了許多困難，最終成功地完成了專題。
         <br><br>我們的努力得到了肯定，順利地拿下了比賽的銅獎。這次比賽不僅讓我們更深入地了解了寵物保育的重要性，也增強了我們的團隊合作能力和解決問題的能力。這是一個難忘且有意義的經歷，也為我們的高中生活增添了色彩。
      <br><br>
-     <img src="img/tag18.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag12.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag18.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag15.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag12.png" width="200px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
     <td>連結：<br><a href="https://fengqian0914.github.io/HTML/2020web/index.html">Github</a></td>
   </tr>
 <!--   <tr>
-    <td rowspan="3">圖片</td>
+    <td >圖片</td>
     <td>亞比麵包店</td>
   </tr>
   <tr>
@@ -266,7 +276,9 @@
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
 <table>
 <thead>
   <tr>
@@ -275,19 +287,22 @@
 </thead>
 <tbody style="text-align: center;">
   <tr>
-    <td rowspan="3" width="60%"><img src="https://img.youtube.com/vi/nogRXboCR-I/maxresdefault.jpg"></td>
-    <td align="center" width="40%">  <b>集章達人</b> <br><b>開發中</b> </td>
+    <td align="center" >  <h3>集章達人  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 開發中 </h3> </td>
   </tr>
+ <tr>
+      <td ><img src="https://img.youtube.com/vi/nogRXboCR-I/maxresdefault.jpg"></td>
+
+ </tr>
   <tr>
     <td>介紹：
-      <br><br>基於新楓之谷遊戲中經常提供許多秘藥，我們開發了一款方便使用的計算機工具，旨在幫助玩家最大化地利用這些秘藥，從而提高遊戲中的效益。
-      <br><br>這款計算機工具具有直觀的用戶界面，讓玩家可以輕鬆地輸入不同的秘藥信息並進行計算。它可以根據玩家當前的情況和需求，提供最佳的秘藥使用方案。
-      <br><br>並將此網站同步在社群平台上發布協助玩家計算工具網站，目前已有超過<b>2萬多人</b>使用過。
+      <br><br>這款捷運集章達人App是使用Android Kotlin開發的應用程式。使用者可以利用App內建的QRcode掃描器，在捷運站內掃描隱藏的QRcode，將抵達的站點記錄下來。通過完成任務和達成成就，使用者可以獲得積分，並且可以用這些積分來兌換商品或獎勵。
+
+ <br><br>此外，這個App還提供了捷運API的功能，讓使用者可以在App中獲取路網、路線時程等捷運相關資訊，方便使用者在旅途中查詢和規劃路線。這款捷運集章達人App結合了遊戲性和實用性，讓使用者在使用捷運的同時，也能享受到集章的樂趣和獎勵。
           <br><br>
-     <img src="img/tag6.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag7.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag8.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag9.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag6.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag7.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag8.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag9.png" width="200px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -296,31 +311,37 @@
    </td>
   </tr>
   <tr>
-    <td rowspan="3" align="center" ><img src="https://img.youtube.com/vi/pYU0oFyyljk/maxresdefault.jpg"></td>
-    <td align="center">  <b>發票對獎器</b><br> </td>
+    <td align="center">  <h3>發票對獎器</h3><br> </td>
   </tr>
+ <tr>
+      <td  align="center" ><img src="https://img.youtube.com/vi/pYU0oFyyljk/maxresdefault.jpg"></td>
+
+ </tr>
   <tr>
-    <td>
-     這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。
-          <br><br> 
-     <img src="img/tag9.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag13.png" width="150px"> &nbsp;&nbsp;
+    <td>介紹：<br><br>
+這款發票對獎器的Appinventor應用程式提供了便捷的功能，讓使用者可以輕鬆地對獎。使用者可以在畫面上選擇要對獎的發票期數，並輸入發票尾數的末三碼，系統會立即告知是否中獎或需要注意的中獎情況。此外，使用者還可以使用語音輸入數字的方式，或者直接通過掃描QRcode的方式輸入發票信息，讓對獎過程更加方便快捷。          <br><br> 
+     <img src="img/tag9.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag13.png" width="200px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
     <td>連結：<br><a href="https://www.youtube.com/watch?v=pYU0oFyyljk"> Youtube</a> </td>
   </tr>
   <tr>
-    <td rowspan="3"><img src="https://img.youtube.com/vi/MTLUURhkKLc/maxresdefault.jpg"></td>
-    <td align="center">  <b>台灣空氣品質監測系統</b> </td>
+    <td align="center">  <h3>台灣空氣品質監測系統</h3> </td>
   </tr>
+ <tr>
+      <td ><img src="https://img.youtube.com/vi/MTLUURhkKLc/maxresdefault.jpg"></td>
+
+ </tr>
   <tr>
     <td>介紹：
-      <br><br>本網站致力於介紹惜食相關議題，以引發社會對資源節約的關注。透過網站首頁的視差捲動效果和黑白模式，我們致力於提供更引人入勝的瀏覽體驗。
-      <br><br>在現今面對多重挑戰的時代，我們期望能夠保持節約資源的理念。這種理念不僅僅限於能源，還包括我們每天所食用的食物。我們努力探討如何節省食物，讓食物得以妥善循環利用，從而實現可持續發展的目標。
+<br><br>這個程式的功能是為了解決台灣近年來一直受到關注的空氣品質問題。通過政府開放平台提供的即時數據，使用者可以立即查看各地區的空氣品質情況。
+
+<br><br>在程式的操作介面中，使用者可以選擇以帳號登入或以遊客身份進入系統。如果使用者想要註冊帳號，可以點擊註冊按鈕前往註冊頁面。註冊完成後，使用者的資料將會傳送至 firebase，之後便可使用帳號登入系統。登入後，系統會讀取資料，使用者可以從選單中選擇所在縣市的測站，查看相應的空氣品質資料。另外，在右上角的選單中，使用者還可以選擇修改密碼。如果使用者忘記密碼，可以在登入介面中輸入原本的信箱，系統會將驗證碼發送至該信箱，使用者便可通過驗證碼來修改新的密碼。
           <br><br>
-     <img src="img/tag9.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag13.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag9.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag13.png" width="200px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -330,7 +351,12 @@
  
 </tbody>
 </table>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <table>
 <thead>
   <tr>
@@ -339,49 +365,19 @@
 </thead>
 <tbody style="text-align: center;">
   <tr>
-    <td rowspan="3" width="60%"><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>
-    <td align="center" width="40%">  <b>Line Chatbot機器人-校園百寶袋</b>  </td>
-  </tr>
-  <tr>
-    <td>介紹：
-      <br><br>基於新楓之谷遊戲中經常提供許多秘藥，我們開發了一款方便使用的計算機工具，旨在幫助玩家最大化地利用這些秘藥，從而提高遊戲中的效益。
-      <br><br>這款計算機工具具有直觀的用戶界面，讓玩家可以輕鬆地輸入不同的秘藥信息並進行計算。它可以根據玩家當前的情況和需求，提供最佳的秘藥使用方案。
-      <br><br>並將此網站同步在社群平台上發布協助玩家計算工具網站，目前已有超過<b>2萬多人</b>使用過。
-          <br><br>
-     <img src="img/tag4.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag10.png" width="150px"> &nbsp;&nbsp;
-     <img src="img/tag19.png" width="150px"> &nbsp;&nbsp;
-    </td>
-  </tr>
-  <tr>
-    <td>連結: <br>
-      <a href="https://youtu.be/MeMtXf6m2OI?si=peKd87ahmE8NBDe-"> Youtube</a>
-   </td>
-  </tr>
-</tbody>
-</table>
-
-
-
-
-<table>
-<thead>
-  <tr>
-    <th colspan="2">其他</th>
-  </tr>
-</thead>
-<tbody style="text-align: center;">
-  <tr>
-    <td align="center"   <b>Line Chatbot機器人-校園百寶袋</b>  </td>
+    <td align="center">   <h3> Line Chatbot機器人-校園百寶袋</h3>  </td>
   </tr>
  <tr>
       <td ><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>
  </tr>
   <tr>
     <td>介紹：
-      <br><br>基於新楓之谷遊戲中經常提供許多秘藥，我們開發了一款方便使用的計算機工具，旨在幫助玩家最大化地利用這些秘藥，從而提高遊戲中的效益。
-      <br><br>這款計算機工具具有直觀的用戶界面，讓玩家可以輕鬆地輸入不同的秘藥信息並進行計算。它可以根據玩家當前的情況和需求，提供最佳的秘藥使用方案。
-      <br><br>並將此網站同步在社群平台上發布協助玩家計算工具網站，目前已有超過<b>2萬多人</b>使用過。
+
+<br><br>我們參加了GSS AI Chatbot Hackathon比賽，並推出了名為「校園百寶袋」的機器人。這款機器人可以登入學生或老師的帳號，提供了多項便捷的功能，包括查詢登記成績、查詢課表以及進行對話等功能。此外，我們還添加了圖書館功能，讓使用者能夠預約書本或租借研究小間。為了提升校園管理的效率，我們還整合了修繕以及遺失物的登記系統，讓使用者能夠快速回報相關問題。
+
+<br><br>除了校園管理功能，我們的機器人還提供了一些生活服務。我們連接了氣象局的API，讓使用者可以查詢所在地的3天內氣象預報結果。此外，我們還加入了隨機取得餐點的功能，並連接了Google Map API，以推薦使用者所在地附近的餐廳。
+
+<br><br>儘管我們的機器人為校園帶來了許多便利，但很遺憾地，由於主辦方平台的關閉，我們的機器人目前已失效，無法再提供以上功能。我们對此感到非常遺憾，希望有機會能夠重新啟動這個有用的機器人。
           <br><br>
      <img src="img/tag4.png" width="200px"> &nbsp;&nbsp;
      <img src="img/tag10.png" width="200px"> &nbsp;&nbsp;
@@ -395,6 +391,10 @@
   </tr>
 </tbody>
 </table>
+
+
+
+
 
 <h2 id="School_transcript">在校成績單</h2>
 <img src="img/School.png">
