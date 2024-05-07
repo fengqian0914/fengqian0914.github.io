@@ -237,7 +237,7 @@ OOXXX<br>
     <tr>
       <td>浪浪想要家</td>
       <td>HTML</td>
-      <td><img src="HTML/2020web/img/Preview.jpg"></td>     
+      <td><img src="HTML/2020web/img/Preview.png"></td>     
       <td><a href="https://fengqian0914.github.io/HTML/2020web/index.html">Github</a></td>
       <td>這是我們的大學專題題目，透過Android Studio製作</td>
   </tr>
