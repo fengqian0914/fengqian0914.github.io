@@ -174,75 +174,89 @@
 <h2 id="certificate"> 作品集</h2>
 <h4  align="center">網頁類</h4>
 
-<table align="center" width="100vw" boreder="1">
-  <tr>
-      <td><img src="https://img.youtube.com/vi/nogRXboCR-I/maxresdefault.jpg"></td>
-      <td> <p width="100vw" align="center" style="margin:0"><b>員工點餐系統</b></p>  <br> Github <br>這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。 </td>
 
+<table>
+<thead>
+  <tr>
+    <th colspan="2">網頁類</th>
   </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="4" width="60%">圖片</td>
+    <td width="40%">新楓之谷-經驗計算機</td>
+  </tr>
+
+  <tr>
+    <td>介紹</td>
+  </tr>
+  <tr>
+    <td>連結</td>
+  </tr>
+  <tr>
+    <td>標註</td>
+  </tr>
+  <tr>
+    <td rowspan="4">圖片</td>
+    <td style="text-align: center;">員工點餐系統　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{red}製作中}}$　</td>
+  </tr>
+
+  <tr>
+    <td>這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。</td>
+  </tr>
+  <tr>
+    <td>連結：</td>
+  </tr>
+  <tr>
+    <td>標註</td>
+  </tr>
+  <tr>
+    <td rowspan="4"><img src="HTML/Cherish-food/img/Preview.jpg"></td>
+    <td>食在浪費-惜食網頁</td>
+  </tr>
+
+  <tr>
+    <td>介紹</td>
+  </tr>
+  <tr>
+    <td><a href="https://fengqian0914.github.io/HTML/Cherish-food/"> Github</a></td>
+  </tr>
+  <tr>
+    <td>標註</td>
+  </tr>
+  <tr>
+    <td rowspan="4"><img src="HTML/2020web/img/Preview.png"></td>
+    <td>浪浪想要家</td>
+  </tr>
+
+  <tr>
+    <td>介紹</td>
+  </tr>
+  <tr>
+    <td><a href="https://fengqian0914.github.io/HTML/2020web/index.html">Github</a></td>
+  </tr>
+  <tr>
+    <td>標註</td>
+  </tr>
+  <tr>
+    <td rowspan="4">圖片</td>
+    <td>亞比麵包店</td>
+  </tr>
+
+  <tr>
+    <td>介紹</td>
+  </tr>
+  <tr>
+    <td>連結</td>
+  </tr>
+  <tr>
+    <td>標註</td>
+  </tr>
+</tbody>
 </table>
-  <tr>
-      <td>集章達人</td>
-      <td>Android Application</td>
-      <td><img src="https://img.youtube.com/vi/nogRXboCR-I/maxresdefault.jpg"></td>     
-      <td><a href="https://www.youtube.com/watch?v=nogRXboCR-I"> Youtube</a></td>
-      <td>這是我們的大學專題題目，透過Android Studio製作</td>
-  </tr>
-  <tr>
-      <td>員工點餐系統</td>
-      <td>PHP</td>
-      <td></td>     
-      <td> Github </td>
-      <td>這是我們的大學專題題目，透過Android Studio製作</td>
-  </tr>
-  <tr>
-      <td>Line Chatbot機器人-校園百寶袋</td>
-      <td>Chatbot 機器人</td>
-      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
-      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Youtube</a></td>
-      <td>這是我們的大學專題題目，透過Android Studio製作</td>
-  </tr>
-  <tr>
-      <td>惜食網頁</td>
-      <td>HTML</td>
-      <td><img src="HTML/Cherish-food/img/Preview.jpg"></td>     
-      <td><a href="https://fengqian0914.github.io/HTML/Cherish-food/"> Github</a></td>
-      <td>這是我們的大學專題題目，透過Android Studio製作</td>
-  </tr>
-  <tr>
-      <td>發票對獎器</td>
-      <td>App inventor</td>
-      <td><img src="https://img.youtube.com/vi/pYU0oFyyljk/maxresdefault.jpg"></td>     
-      <td><a href="https://www.youtube.com/watch?v=pYU0oFyyljk"> Youtube</a></td>
-      <td>這是我們的大學專題題目，透過Android Studio製作</td>
-  </tr>
-  <tr>
-      <td>台灣空氣品質監測系統</td>
-      <td>App inventor</td>
-      <td><img src="https://img.youtube.com/vi/MTLUURhkKLc/maxresdefault.jpg"></td>     
-      <td>
-        <ul>
-          <li> <a href="https://www.youtube.com/watch?v=MTLUURhkKLc"> Youtube</a></li>
-          <li> <a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/App_inventor/%E5%8F%B0%E7%81%A3%E7%A9%BA%E6%B0%A3%E5%93%81%E8%B3%AA%E7%9B%A3%E6%B8%AC%E7%B3%BB%E7%B5%B1">  github  </a></li>
-        </ul>
-    </td>
-      <td>這是我們的大學專題題目，透過Android Studio製作</td>
-  </tr>
-  <tr>
-      <td>C#作業</td>
-      <td>C#</td>
-      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
-      <td><a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/App_inventor/%E5%8F%B0%E7%81%A3%E7%A9%BA%E6%B0%A3%E5%93%81%E8%B3%AA%E7%9B%A3%E6%B8%AC%E7%B3%BB%E7%B5%B1"> Github</a></td>
-      <td>這是我們的大學專題題目，透過Android Studio製作</td>
-  </tr>
-    <tr>
-      <td>浪浪想要家</td>
-      <td>HTML</td>
-      <td><img src="HTML/2020web/img/Preview.png"></td>     
-      <td><a href="https://fengqian0914.github.io/HTML/2020web/index.html">Github</a></td>
-      <td>這是我們的大學專題題目，透過Android Studio製作</td>
-  </tr>
-</table>
+
+
+
 
 <h2 id="School_transcript">在校成績單</h2>
 OOXXX<br>
