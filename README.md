@@ -177,7 +177,7 @@
 <table align="center" width="100vw" boreder="1">
   <tr>
       <td><img src="https://img.youtube.com/vi/nogRXboCR-I/maxresdefault.jpg"></td>
-      <td> <p width="100vw" align="center"><b>員工點餐系統</b></p>  <br> Github <br>這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。 </td>
+      <td> <p width="100vw" align="center" style="margin:0px"><b>員工點餐系統</b></p>  <br> Github <br>這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。 </td>
 
   </tr>
 </table>
