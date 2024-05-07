@@ -1,0 +1,55 @@
+  body {
+      background: #072942;
+      font-family: 微軟正黑體;
+  }
+  
+  .content {
+      width: 80vw;
+      height: 100%;
+      margin: 10% auto;
+      background-color: #D2E9FF;
+      box-shadow: 0 0 20px 20px rgba(12, 67, 107, 0.75), inset 0 0 20px 20px #c0d6eb;
+  }
+  
+  .dogtitle {
+      font-size: 1.5em;
+  }
+  
+  .main h1 {
+      font-family: 微軟正黑體;
+      font-size: 3em;
+      margin: 0px auto;
+      padding: 6% 4%;
+      font-weight: bold;
+  }
+  
+  .main h2 {
+      font-size: 2em;
+      padding: 2% 0px 0px 2%;
+      font-family: 微軟正黑體;
+      font-weight: bold;
+      margin: 0px auto;
+      color: #c41818;
+  }
+  
+  .main .p1 {
+      text-indent: 2em;
+  }
+  
+  .main p {
+      font-size: 1.6em;
+      color: #000;
+      font-family: 微軟正黑體;
+      padding: 3%;
+  }
+  
+  table {
+      font-size: 1.4em;
+      color: #000;
+      font-family: 微軟正黑體;
+      width: 70vw;
+  }
+  
+  tbody {
+      width: 70vw;
+  }

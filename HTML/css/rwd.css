@@ -1,0 +1,38 @@
+@media screen and (max-width: 1800px) {
+    .main {
+        margin: 18% 5% 0% 5%;
+    }
+    .bds1 {
+        background-attachment: none !important;
+    }
+    .bds2 {
+        background-attachment: none !important;
+    }
+    .bds3 {
+        background-attachment: none !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .main-2 .a1 {
+        float: right;
+        width: 75vw;
+        height: 350px;
+        font-size: 1.2em;
+        padding: 0% 2%;
+        background: #E9C8C8;
+        margin: 10% 5% 0px 10%;
+    }
+    .bds1 {
+        background-attachment: none !important;
+    }
+    .bds2 {
+        background-attachment: none !important;
+    }
+    .bds3 {
+        background-attachment: none !important;
+    }
+    .handnav {
+        display: none !important;
+    }
+}
