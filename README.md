@@ -358,11 +358,43 @@
       <a href="https://youtu.be/MeMtXf6m2OI?si=peKd87ahmE8NBDe-"> Youtube</a>
    </td>
   </tr>
- 
- 
 </tbody>
 </table>
 
+
+
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2">其他</th>
+  </tr>
+</thead>
+<tbody style="text-align: center;">
+  <tr>
+    <td align="center"   <b>Line Chatbot機器人-校園百寶袋</b>  </td>
+  </tr>
+ <tr>
+      <td ><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>
+ </tr>
+  <tr>
+    <td>介紹：
+      <br><br>基於新楓之谷遊戲中經常提供許多秘藥，我們開發了一款方便使用的計算機工具，旨在幫助玩家最大化地利用這些秘藥，從而提高遊戲中的效益。
+      <br><br>這款計算機工具具有直觀的用戶界面，讓玩家可以輕鬆地輸入不同的秘藥信息並進行計算。它可以根據玩家當前的情況和需求，提供最佳的秘藥使用方案。
+      <br><br>並將此網站同步在社群平台上發布協助玩家計算工具網站，目前已有超過<b>2萬多人</b>使用過。
+          <br><br>
+     <img src="img/tag4.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag10.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag19.png" width="200px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td>連結: <br>
+      <a href="https://youtu.be/MeMtXf6m2OI?si=peKd87ahmE8NBDe-"> Youtube</a>
+   </td>
+  </tr>
+</tbody>
+</table>
 
 <h2 id="School_transcript">在校成績單</h2>
 <img src="img/School.png">
