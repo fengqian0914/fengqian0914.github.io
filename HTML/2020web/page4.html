@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/loading.js"></script>
+    <script src="js/top.js"></script>
+    <script src="js/wow.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/page4.css">
+    <link rel="stylesheet" type="text/css" href="css/handnav.css">
+
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/網頁.css">
+    <link rel="stylesheet" type="text/css" href="css/rwd.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3.css">
+
+    <title>浪浪想要家</title>
+    <script>
+        new WOW().init();
+    </script>
+    <style type="text/css">
+        .w3-container h2{
+                color: white;
+                font-family: 微軟正黑體;
+                font-size: 2em;
+        }
+        .button {
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            padding: 20px 20px;
+            border: 1px solid #1e6fc6;
+            border-radius: 20px;
+            background: #31b5ff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#31b5ff), to(#1e6fc6));
+            background: -moz-linear-gradient(top, #31b5ff, #1e6fc6);
+            background: linear-gradient(to bottom, #31b5ff, #1e6fc6);
+            -webkit-box-shadow: #2ea7ff 0px 0px 10px 0px;
+            -moz-box-shadow: #2ea7ff 0px 0px 10px 0px;
+            box-shadow: #2ea7ff 0px 0px 10px 0px;
+            text-shadow: #96c8fa 2px 1px 1px;
+            font: normal normal bold 20px arial;
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .button:hover,
+        .button:focus {
+            background: #3bd9ff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#3bd9ff), to(#2485ee));
+            background: -moz-linear-gradient(top, #3bd9ff, #2485ee);
+            background: linear-gradient(to bottom, #3bd9ff, #2485ee);
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .button:active {
+            background: #1e6fc6;
+            background: -webkit-gradient(linear, left top, left bottom, from(#1e6fc6), to(#1e6fc6));
+            background: -moz-linear-gradient(top, #1e6fc6, #1e6fc6);
+            background: linear-gradient(to bottom, #1e6fc6, #1e6fc6);
+        }
+        
+        .button:before {
+            content: "\0000a0";
+            display: inline-block;
+            height: 24px;
+            width: 24px;
+            line-height: 24px;
+            margin: 0 4px -6px -4px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIidWVsU6EQBRFzyM0rlYWJjYOgcZY+QsWJv6E37I/YO9P2PoDFhp6K+MSIKGx2MJoJG6WZ7NDcESdrGD0NvMC5N65981jBAgYEZa8+eR9M0TtOgiGrr8S+DFkaMI+uLYGjSh0xJrYRFugU1HSWVlcJHvRgcKO52bn4XJxe1dVbYM/RJQYcwJyiVJKQKINFeInoKqPwG5WFrV9Zh20iopcgZ4JpPd50cTGHAni6UDm4XJRr/gCy7tOk7170HuKEmO2FXnKivx1DfF3sAJtRLExh6LcKHK98bJ5XE+ez4F9dPW1XemtH1BOZ2VeW16/eBxy7WyvWztoXAet2JARwcj/InfQiE00AZ2ikmZl3g6aCOj3fegOWn9EYw0aVvGvDJo3ug5GE/r1G21Q/P+I3gCal5AWOcHtSgAAAABJRU5ErkJggg==") no-repeat left center transparent;
+            background-size: 100% 100%;
+        }
+        
+      
+        #aaaa {
+            display: none;
+        }
+        
+        #id01 {
+            padding: 200px 0%;
+        }
+        
+        .w3-container {
+            background: #92C4CE;
+            color: white;
+        }
+        
+        .w3-container li {
+            margin: 3% 0%;
+            list-style: none;
+            text-align: center;
+            font-size: 2em
+        }
+        
+        .w3-container li:hover {
+            background: #009688;
+            color: white;
+        }
+        
+        .w3-container a {
+            text-decoration: none;
+        }
+        
+        .w3-container a:hover {
+            color: white;
+        }
+        
+        .w3-container a:visited {
+            color: white;
+        }
+        
+        .w3-black,
+        .w3-hover-black:hover {
+            color: #000 !important;
+        }
+        
+        @media screen and (max-width: 1200px) {
+            #aaaa {
+                display: block;
+                background: none !important;
+            }
+            button {
+                margin: 2% 0%;
+                height: 80%;
+                position: absolute;
+                right: 5%;
+                color: #000;
+                float: right !important;
+            }
+            .lia {
+                display: none;
+            }
+            .lia-1 {
+                display: block;
+                width: 20vw;
+            }
+            .lia-1 img {
+                height: 10vh;
+                width: 25vw;
+            }
+            .nav {
+                height: 10%;
+            }
+        }
+        .lib {
+            width: 20%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="loading-wrapper">
+        <div class="loading la-square-jelly-box la-2x"><img src="img/奔跑.gif">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <ul class="ula">
+            <li class="lia lia-1">
+                <a href="index.html"><img src="img/1106.png"></a>
+            </li>
+            <li class="lia"><a href="page1.html">前言  </a>
+
+            </li>
+            <li class="lia"><a href="page2.html">安樂死</a>
+
+            </li>
+            <li class="lia"><a href="page3.html">Tnvr</a>
+
+            </li>
+            <li class="lia"><a href="page4.html"><span>領養</span></a>
+                <ul class="ulb">
+                    <li class="lib" id="p4g1">
+                        <a href="#">領養需知</a>
+                    </li>
+                    <li class="lib" id="p4g2">
+                        <a href="#">認養程序</a>
+                    </li>
+                    <li class="lib" id=p4g3>
+                        <a href="#">收容所數據
+</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="lia"><a href="page5.html">問卷</a></li>
+            <li class="lia"><a href="page6.html">專題結論</a></li>
+            <li class="lia"><a href="page7.html">參考資料</a></li>
+            <li class="lia"><a href="narrative.html">專題簡報</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black button" id="aaaa">MENU</button>
+
+        </ul>
+    </nav>
+    <nav class="handnav" id="handna">
+        <ul class="handul">
+            <li class="handli">
+                <div>
+                    <a href="#" id="s1"><img src="img/觸.png" id="p1">
+                    </a>
+                </div>
+            </li>
+            <li class="handli">
+                <div>
+                    <a href="#" id="s2"><img src="img/辦.png" id="p2">
+                    </a>
+                </div>
+            </li>
+            <li class="handli">
+                <div>
+                    <a href="#" id="s3"><img src="img/申.png" id="p3">
+                    </a>
+                </div>
+            </li>
+            <li class="handli">
+                <div>
+                    <a href="#" id="s4"><img src="img/健.png" id="p4">
+                    </a>
+                </div>
+            </li>
+            <li class="handli">
+                <div>
+                    <a href="#" id="s5"><img src="img/諮.png" id="p5">
+                    </a>
+                </div>
+            </li>
+            <li class="handli">
+                <div>
+                    <a href="#" id="s6"><img src="img/回.png" id="p6">
+                    </a>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="mmain">
+            <div class="row">
+                <div class="col-12 領養須知 main-1 ">
+                    <h1>領養須知</h1> 一、申請人：年滿20歲的民眾。未滿20歲者，須以法定代理人或法定監護人為飼主。
+                    <br> 二、申請步驟：
+
+                    <br> （一）申請人應攜帶身分證明文件，填寫領養申請書。
+
+                    <br> （二）承辦人員應核對認養人的身分證明文件，必要時得親自實地勘察。
+
+                    <br> （三）待認養動物條件：於收容所留置超過7日且無飼主認領或無身分標識者，並經過本處健康行為評估適於認養者。
+
+                    <br> （四）符合認養人資格者，經由管理人員協助，於可認養動物中，自行挑選合適的動物。
+
+                    <br> （五）繳交相關規費：晶片植入手續費250元、狂犬病預防注射費200元。
+
+                    <br> （六）未實施晶片植入、狂犬病預防注射及寵物登記之動物，應於完成晶片植入、狂犬病預防注射及寵物登記後才得以放行。只有8週齡以下幼犬暫時不用施打狂犬病疫苗。
+
+                    <br> （七）認養的動物自領出日起1個月內，若因任何原因無法續養，可將該動物交還本所，填寫「不擬續養動物申請切結書」放棄該動物的所有權，並送回寵物登記證及狂犬病預防注射證明辦理註銷。認養時所繳交的費用一概不退還。
+
+                    <br>
+                </div>
+
+                <div class="col-12 main-2">
+                    <h1>認養程序</h1>
+                    <div class="a1  col-4 col-xl-12">
+                        <h2><img src="img/5.png">接觸</h2>
+                        <p>與貓狗第一次接觸：
+                            <br>並參訪貓舍犬舍，從候選貓狗卡中挑選喜歡的貓狗，與選擇的貓狗來個初次相遇。
+                        </p>
+                    </div>
+                    <div class="a1 col-4 col-xl-12">
+                        <h2><img src="img/5.png">辦理</h2>
+                        <p>抽取資料卡(綠卡)至櫃檯辦理認養手續</p>
+                    </div>
+
+                    <div class="a1 col-4 col-xl-12">
+                        <h2><img src="img/5.png" >申請</h2>
+                        <p>填寫並核對申請書及身份證件、繳交其所需的費用。
+                        </p>
+                    </div>
+                    <div class="a1 col-4 col-xl-12">
+                        <h2><img src="img/5.png" >健檢</h2>
+                        <p> 動物健康檢查：
+                            <br>由獸醫師進行健康檢查，並將晶片植入、狂犬病預防疫苗注射及辦理寵物登記。
+                        </p>
+                    </div>
+                    <div class="a1 col-4 col-xl-12">
+                        <h2><img src="img/5.png" >諮詢</h2>
+                        <p> 諮詢協助服務：
+                            <br>接受櫃台服務人員的認養前諮詢及協助管道的提供，必要時派遣專業人員實施家庭訪問。
+                        </p>
+                    </div>
+                    <div class="a1 col-4 col-xl-12">
+                        <h2><img src="img/5.png" >回家</h2>
+                        <p> 帶新朋友回家：
+                            <br>帶已認養的動物回家，戴上新的項圈及扣上牽繩，您就可以帶新朋友回家。
+                        </p>
+                    </div>
+                    <div class="a1 col-12 a1-5">
+                        <h2><img src="img/5.png" >陪伴</h2>
+                        <p> 帶毛小孩回家後，多多的陪伴、照顧毛小孩，每個毛小孩都期盼能與主人有美好的時光。
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-12  數據">
+                    <h1>收容所數據</h1>
+                    <p>在離島或東部縣市，由於人口總數較少，流浪動物較多，導致人口和流浪動物比例較高，例如臺東縣每一百人就有3.87隻流浪動物（全國第一）</p>
+                    <div class="col-12 ">
+                        <img src="img/b1.png" width="100%" height="100%">
+                        <br>
+                        <p class="灰字">
+                            數據來源：動物保護資訊網 圖表製作：團隊自己製作
+                        </p>
+                        <br>
+                        <p>
+                            若又以每百人數據做百分比分析，臺東縣在占比當中也有16.8%，可見在東部縣市問題的嚴重性。</p>
+                        <img src="img/b2.png" width="100%" height="100%">
+                        <br>
+                        <p class="灰字">數據來源：動物保護資訊網 圖表製作：團隊自己製作</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="top">
+
+        <a href="#" id="goTop"><img src="img/top.png"></a>
+        <!--回首頁-->
+
+    </div>
+     <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-teal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">×</span>
+                <h2>浪浪想要家</h2>
+            </header>
+            <div class="w3-container">
+                <a href="page1.html">
+                    <li>前言</li>
+                </a>
+                <a href="page2.html">
+                    <li>安樂死</li>
+                </a>
+                <a href="page3.html">
+                    <li>Tnvr</li>
+                </a>
+                <a href="page4.html">
+                    <li>領養</li>
+                </a>
+                <a href="page5.html">
+                    <li>問卷</li>
+                </a>
+                <a href="page6.html">
+                    <li>專題結論</li>
+                </a>
+                <a href="page7.html">
+                    <li>參考資料</li>
+                </a>
+                <a href="narrative.html">
+                    <li>專題簡報</li>
+                </a>
+            </div>
+         
+        </div>
+    </div>
+    <footer>Chrome最佳瀏覽解析度1920*1080 │Copyright ©2019 </footer>
+
+</body>
+
+</html>

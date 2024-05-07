@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/top.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/網頁.css">
+    <link rel="stylesheet" type="text/css" href="css/rwd.css">
+    <link rel="stylesheet" type="text/css" href="css/page6.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3.css">
+    <title>浪浪想要家</title>
+    <style type="text/css">
+.w3-container h2{
+                color: white;
+                font-family: 微軟正黑體;
+                font-size: 2em;
+        }
+        .button {
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            padding: 20px 20px;
+            border: 1px solid #1e6fc6;
+            border-radius: 20px;
+            background: #31b5ff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#31b5ff), to(#1e6fc6));
+            background: -moz-linear-gradient(top, #31b5ff, #1e6fc6);
+            background: linear-gradient(to bottom, #31b5ff, #1e6fc6);
+            -webkit-box-shadow: #2ea7ff 0px 0px 10px 0px;
+            -moz-box-shadow: #2ea7ff 0px 0px 10px 0px;
+            box-shadow: #2ea7ff 0px 0px 10px 0px;
+            text-shadow: #96c8fa 2px 1px 1px;
+            font: normal normal bold 20px arial;
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .button:hover,
+        .button:focus {
+            background: #3bd9ff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#3bd9ff), to(#2485ee));
+            background: -moz-linear-gradient(top, #3bd9ff, #2485ee);
+            background: linear-gradient(to bottom, #3bd9ff, #2485ee);
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .button:active {
+            background: #1e6fc6;
+            background: -webkit-gradient(linear, left top, left bottom, from(#1e6fc6), to(#1e6fc6));
+            background: -moz-linear-gradient(top, #1e6fc6, #1e6fc6);
+            background: linear-gradient(to bottom, #1e6fc6, #1e6fc6);
+        }
+        
+        .button:before {
+            content: "\0000a0";
+            display: inline-block;
+            height: 24px;
+            width: 24px;
+            line-height: 24px;
+            margin: 0 4px -6px -4px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIidWVsU6EQBRFzyM0rlYWJjYOgcZY+QsWJv6E37I/YO9P2PoDFhp6K+MSIKGx2MJoJG6WZ7NDcESdrGD0NvMC5N65981jBAgYEZa8+eR9M0TtOgiGrr8S+DFkaMI+uLYGjSh0xJrYRFugU1HSWVlcJHvRgcKO52bn4XJxe1dVbYM/RJQYcwJyiVJKQKINFeInoKqPwG5WFrV9Zh20iopcgZ4JpPd50cTGHAni6UDm4XJRr/gCy7tOk7170HuKEmO2FXnKivx1DfF3sAJtRLExh6LcKHK98bJ5XE+ez4F9dPW1XemtH1BOZ2VeW16/eBxy7WyvWztoXAet2JARwcj/InfQiE00AZ2ikmZl3g6aCOj3fegOWn9EYw0aVvGvDJo3ug5GE/r1G21Q/P+I3gCal5AWOcHtSgAAAABJRU5ErkJggg==") no-repeat left center transparent;
+            background-size: 100% 100%;
+        }
+        
+      
+        #aaaa {
+            display: none;
+        }
+        
+        #id01 {
+            padding: 200px 0%;
+        }
+        
+        .w3-container {
+            background: #92C4CE;
+            color: white;
+        }
+        
+        .w3-container li {
+            margin: 3% 0%;
+            list-style: none;
+            text-align: center;
+            font-size: 2em
+        }
+        
+        .w3-container li:hover {
+            background: #009688;
+            color: white;
+        }
+        
+        .w3-container a {
+            text-decoration: none;
+        }
+        
+        .w3-container a:hover {
+            color: white;
+        }
+        
+        .w3-container a:visited {
+            color: white;
+        }
+        
+        .w3-black,
+        .w3-hover-black:hover {
+            color: #000 !important;
+        }
+        
+        @media screen and (max-width: 1200px) {
+            #aaaa {
+                display: block;
+                background: none !important;
+            }
+            button {
+                margin: 2% 0%;
+                height: 80%;
+                position: absolute;
+                right: 5%;
+                color: #000;
+                float: right !important;
+            }
+            .lia {
+                display: none;
+            }
+            .lia-1 {
+                display: block;
+                width: 20vw;
+            }
+            .lia-1 img {
+                height: 10vh;
+                width: 25vw;
+            }
+            .nav {
+                height: 10%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+     <div class="loading-wrapper">
+        <div class="loading la-square-jelly-box la-2x"><img src="img/奔跑.gif">
+            <div></div>
+            <div></div>
+        </div>
+    </div> 
+
+    <nav class="nav">
+        <ul class="ula">
+            <li class="lia lia-1">
+                <a href="index.html"><img src="img/1106.png"></a>
+            </li>
+            <li class="lia"><a href="page1.html">前言  </a>
+
+            </li>
+            <li class="lia"><a href="page2.html">安樂死</a>
+
+            </li>
+            <li class="lia"><a href="page3.html">Tnvr</a>
+
+            </li>
+            <li class="lia"><a href="page4.html">領養</a>
+
+            </li>
+            <li class="lia"><a href="page5.html">問卷</a></li>
+            <li class="lia"><a href="page6.html"><span>專題結論</span></a></li>
+            <li class="lia"><a href="page7.html">參考資料</a></li>
+            <li class="lia"><a href="narrative.html">專題簡報</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black button" id="aaaa">MENU</button>
+
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+
+            </div>
+            <div class="main-2">
+                <div class="col-12">
+                    <h2>心得</h2></div>
+                <div class="col-12 aaa">
+
+                    <div class="col-3 photo ">
+                        <p><img src="img/08.png"></p>
+                    </div>
+                    <div class="col-9 text ">
+                        <h1>李瑜庭</h1>經過這次參加網界博覽會的活動我學到了很多，透過參訪動物之家讓我了解到原來有很多的貓狗沒有一個溫暖的家，看著在籠子內的牠們十分讓人心疼，再加上我是第一次去動物之家所以讓我獲益良多，增加了許多動保方面的新知識。當然在討論的過程中我們也遇到了意見分歧不合的窘境，但因為彼此之間的互相尊重、互相包容、互相幫忙與配合，才能有辦法順利解決我們所遇到的困難，因此在分組討論的這段時間我領悟到了團隊合作的重要性，更重要的是我學習到了與人溝通的技巧和智慧所在。</div>
+                </div>
+                <div class="col-12 bbb">
+
+                    <div class="col-9 text1 ">
+                        <h1>黃琳真</h1> 藉由這次的機會，讓我注意到平常不太會去關心的議題，其實流浪動物的問題比我們想像的還要嚴重，去到流浪動物之家才發現，流浪貓狗的數量真的非常多，而且全台灣收容流浪動物的地方不只一個，但還是有很多流落在街頭上的動物還在等待一個能夠三餐溫飽、遮風避雨的家。流浪浪動物之家都是一些有愛心的人自願付出時間、體力和金錢來收容照顧這些動物，但資源有限，還無法完全改善問題，希望能有更多有愛心的人能伸出援手，也需要政府重視這個問題，提供更完善的措施與政策，幫助這些小生命也進而改善我們的生活環境和安全。
+                    </div>
+                    <div class="col-3 photo1 ">
+                        <p><img src="img/10.png"></p>
+                    </div>
+
+                </div>
+                <div class="col-12 aaa">
+
+                    <div class="col-3 photo ">
+                        <p><img src="img/12.png"></p>
+                    </div>
+                    <div class="col-9 text ">
+                        <h1>陳姍妮</h1> 原本就很喜歡狗的我，藉由這次的網界博覽會，讓我們有機會參訪動物之家。進到裡面真的很讓人揪心，每一隻狗都對著陌生的人類吠，從來都不知道原來流浪動物的數量這麼驚人。許多人沒有認真思考過就買回家，久了覺得麻煩就隨便棄養，造成全國各地到處都有許多流浪狗，經由我們做的網頁希望可以幫助到全國的流浪狗，讓大家知道其實我們的無所謂，卻使這些無辜的小動物受到不合理待遇。因為這次的分組不但學會分工合作與更加了解網頁製作，也讓大家的感情變得更融洽。
+                    </div>
+
+                </div>
+                <div class="col-12 bbb">
+
+                    <div class="col-9 text1 ">
+                        <h1>林芯如</h1>很多寵物在經歷被前主人毆打、禁食、當成一個成名的工具，利用完後卻是遭遇了丟棄在路邊自生自滅的下場，再過一段時間的流浪，才開始被救助，那些流浪的經歷以及被前主人的遺棄所造成的傷害，早已深深烙印在牠們心底深處，再次接觸人類時，卻遺忘了原本美好生活的回憶，若是人類想接近，牠們卻越發抗拒，此情景令人心痛不已。經過這次的專題討論，使我們更深入地去探討、理解，要去如何幫助那些被遺棄、流浪的寵物們，去打破牠們對於人類的害怕，讓牠們相信這世上還是有好主人想給與牠們一個美好的家。
+                    </div>
+                    <div class="col-3 photo1 ">
+                        <p><img src="img/13.png"></p>
+                    </div>
+
+                </div>
+                <div class="col-12 aaa">
+
+                    <div class="col-3 photo ">
+                        <p><img src="img/29.png"></p>
+                    </div>
+                    <div class="col-9 text ">
+                        <h1>徐逢謙</h1>透過這次的網頁博覽會，我負責的是網頁，因此學會了網頁製作的能力，從幾個月前程式碼看不懂，到現在能寫出一些東西出來，一點一滴摸索出打法，並加以嘗試，經過反覆的修改，改了許多次版型，終於完成這份作品，雖然過程中可能因為版型有爭吵，但依然能一起跟組員靜下心一起完成;我們這次的主題是關於動保的議題，我以前可能看到路上的流浪動物們，心中沒有特別的想法，但經過此專題研究之後，知道流浪動物所面臨的處境，也希望透過此次專題能讓更多人了解動保議題以及愛護毛小孩的重要性。</div>
+                </div>
+                <div class="col-12 bbb">
+
+                    <div class="col-9 text1 ">
+                        <h1>黃駿笙</h1>在這次網界博覽會的活動中，去了流浪動物之家，當面看到那些流浪動物跟在新聞、網路上看到的感覺完全不一樣，看到那麼多的貓狗都沒有一個溫暖的家、或著是那些曾經有但被拋棄的貓狗們，真的滿傷心的。經過幾次的探訪和查詢相關的資料才發現流浪動物問題的嚴重性，雖然有相關的政策，但觀念如果改不過來的話問題一樣還會一直存在，這次活動中雖然有些瓶頸，但經過大家的分工合作和多次的討論才能完成，雖然我是這組的組長，但如果沒有其他組員，可能會完成不了，所以我很感謝組員們的努力以及老師的指導。
+                    </div>
+                    <div class="col-3 photo1 ">
+                        <p><img src="img/30.png"></p>
+                    </div>
+
+                </div>
+                <div class="col-12 aaa">
+
+                    <div class="col-3 photo ">
+                        <p><img src="img/31.png"></p>
+                    </div>
+                    <div class="col-9 text ">
+                        <h1>陳菁筌</h1>透過這次參加網界博覽會，我瞭解到團隊之間的溝通以及分配工作的重要性，也發現了很多事情不是單憑一個人就能夠搞定的，就算能，也比許多人一起還要難的許多。正所謂團結力量大，許多人在有個共同的目標之後一起努力，即便是被認為是非常困難的事情也能在多人分工之後以輕鬆許多的方式完成。在這次的製作過程中三不五時會遇到一些瓶頸，在其他組員的幫忙之下便能順利解決。很榮幸能在這個組別完成網頁，也很感謝組員們忍受了自己許多的問題。
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="top">
+
+        <a href="#" id="goTop"><img src="img/top.png"></a>
+        <!--回首頁-->
+
+    </div>
+     <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-teal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">×</span>
+                <h2>浪浪想要家</h2>
+            </header>
+            <div class="w3-container">
+                <a href="page1.html">
+                    <li>前言</li>
+                </a>
+                <a href="page2.html">
+                    <li>安樂死</li>
+                </a>
+                <a href="page3.html">
+                    <li>Tnvr</li>
+                </a>
+                <a href="page4.html">
+                    <li>領養</li>
+                </a>
+                <a href="page5.html">
+                    <li>問卷</li>
+                </a>
+                <a href="page6.html">
+                    <li>專題結論</li>
+                </a>
+                <a href="page7.html">
+                    <li>參考資料</li>
+                </a>
+                <a href="narrative.html">
+                    <li>專題簡報</li>
+                </a>
+            </div>
+         
+        </div>
+    </div>
+    <footer>Chrome最佳瀏覽解析度1920*1080 │Copyright ©2019 </footer>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+     body {
+         font-family: 微軟正黑體
+     }
+     
+     .col-12 {
+         margin-top: 5%;
+         padding: 5%;
+     }
+     
+     .領養須知 {
+         height: 100%;
+         font-size: 1.5em;
+         font-family: 微軟正黑體;
+     }
+     
+     h1 {
+         text-align: center;
+     }
+     
+     h1 {
+         color: white;
+         font-weight: bold;
+         font-family: 微軟正黑體;
+     }
+     
+     .main-2 .a1 h2 {
+         border-bottom: 3px solid #000;
+         width: 80%;
+         font-weight: bold;
+         font-family: 微軟正黑體;
+         font-size: 1.5em;
+         position: relative;
+         left: 2%;
+         padding: 5%;
+         text-align: justify;
+     }
+     
+     .main-2 .a1 h2 img {
+         width: 120px;
+         height: 80px;
+         padding: 0px 2%;
+     }
+     
+     .main-2 .a1 {
+         float: right;
+         width: 50vw;
+         height: 350px;
+         font-size: 1.2em;
+         padding: 0% 2%;
+         background: #E9C8C8;
+         margin: 10% 5% 0px 10%;
+     }
+     
+     .main-2 .a1 p {
+         padding: 3%;
+         font-weight: bold;
+         font-family: 微軟正黑體;
+     }
+     
+     .main {
+         background: #6996F0;
+     }
+     
+     .main-1 {
+         border-bottom: 5px solid white
+     }
+     
+     .main-2 {
+         border-bottom: 5px solid white;
+         padding: 0px 0px 10% 0px;
+     }
+     
+     .數據 {
+         position: relative;
+         top: 0px;
+         left: 0px;
+         margin: 0px auto;
+         color: #000;
+         font-size: 2em;
+     }
+     
+     .數據 p {
+         padding: 2%;
+     }
+     
+     .灰字 {
+         text-align: center;
+         font-size: 0.5em;
+         color: #2E2C2C
+     }

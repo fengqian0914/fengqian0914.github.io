@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/top.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/網頁.css">
+    <link rel="stylesheet" type="text/css" href="css/rwd.css">
+    <link rel="stylesheet" type="text/css" href="css/page3.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3.css">
+
+    <title>浪浪想要家</title>
+    <style type="text/css">
+        .w3-container h2{
+                color: white;
+                font-family: 微軟正黑體;
+                font-size: 2em;
+        }
+        .button {
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            padding: 20px 20px;
+            border: 1px solid #1e6fc6;
+            border-radius: 20px;
+            background: #31b5ff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#31b5ff), to(#1e6fc6));
+            background: -moz-linear-gradient(top, #31b5ff, #1e6fc6);
+            background: linear-gradient(to bottom, #31b5ff, #1e6fc6);
+            -webkit-box-shadow: #2ea7ff 0px 0px 10px 0px;
+            -moz-box-shadow: #2ea7ff 0px 0px 10px 0px;
+            box-shadow: #2ea7ff 0px 0px 10px 0px;
+            text-shadow: #96c8fa 2px 1px 1px;
+            font: normal normal bold 20px arial;
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .button:hover,
+        .button:focus {
+            background: #3bd9ff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#3bd9ff), to(#2485ee));
+            background: -moz-linear-gradient(top, #3bd9ff, #2485ee);
+            background: linear-gradient(to bottom, #3bd9ff, #2485ee);
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .button:active {
+            background: #1e6fc6;
+            background: -webkit-gradient(linear, left top, left bottom, from(#1e6fc6), to(#1e6fc6));
+            background: -moz-linear-gradient(top, #1e6fc6, #1e6fc6);
+            background: linear-gradient(to bottom, #1e6fc6, #1e6fc6);
+        }
+        
+        .button:before {
+            content: "\0000a0";
+            display: inline-block;
+            height: 24px;
+            width: 24px;
+            line-height: 24px;
+            margin: 0 4px -6px -4px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIidWVsU6EQBRFzyM0rlYWJjYOgcZY+QsWJv6E37I/YO9P2PoDFhp6K+MSIKGx2MJoJG6WZ7NDcESdrGD0NvMC5N65981jBAgYEZa8+eR9M0TtOgiGrr8S+DFkaMI+uLYGjSh0xJrYRFugU1HSWVlcJHvRgcKO52bn4XJxe1dVbYM/RJQYcwJyiVJKQKINFeInoKqPwG5WFrV9Zh20iopcgZ4JpPd50cTGHAni6UDm4XJRr/gCy7tOk7170HuKEmO2FXnKivx1DfF3sAJtRLExh6LcKHK98bJ5XE+ez4F9dPW1XemtH1BOZ2VeW16/eBxy7WyvWztoXAet2JARwcj/InfQiE00AZ2ikmZl3g6aCOj3fegOWn9EYw0aVvGvDJo3ug5GE/r1G21Q/P+I3gCal5AWOcHtSgAAAABJRU5ErkJggg==") no-repeat left center transparent;
+            background-size: 100% 100%;
+        }
+        
+      
+        #aaaa {
+            display: none;
+        }
+        
+        #id01 {
+            padding: 200px 0%;
+        }
+        
+        .w3-container {
+            background: #92C4CE;
+            color: white;
+        }
+        
+        .w3-container li {
+            margin: 3% 0%;
+            list-style: none;
+            text-align: center;
+            font-size: 2em
+        }
+        
+        .w3-container li:hover {
+            background: #009688;
+            color: white;
+        }
+        
+        .w3-container a {
+            text-decoration: none;
+        }
+        
+        .w3-container a:hover {
+            color: white;
+        }
+        
+        .w3-container a:visited {
+            color: white;
+        }
+        
+        .w3-black,
+        .w3-hover-black:hover {
+            color: #000 !important;
+        }
+        
+        @media screen and (max-width: 1200px) {
+            #aaaa {
+                display: block;
+                background: none !important;
+            }
+            button {
+                margin: 2% 0%;
+                height: 80%;
+                position: absolute;
+                right: 5%;
+                color: #000;
+                float: right !important;
+            }
+            .lia {
+                display: none;
+            }
+            .lia-1 {
+                display: block;
+                width: 20vw;
+            }
+            .lia-1 img {
+                height: 10vh;
+                width: 25vw;
+            }
+            .nav {
+                height: 10%;
+            }
+        }
+        .lib {
+            width: 20%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="loading-wrapper">
+        <div class="loading la-square-jelly-box la-2x"><img src="img/奔跑.gif">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <nav class="nav">
+        <ul class="ula">
+            <li class="lia lia-1">
+                <a href="index.html"><img src="img/1106.png"></a>
+            </li>
+            <li class="lia"><a href="page1.html">前言  </a>
+
+            </li>
+            <li class="lia"><a href="page2.html">安樂死</a>
+
+            </li>
+            <li class="lia"><a href="page3.html"><span>Tnvr</span></a>
+                <ul class="ulb">
+                    <li class="lib" id="p3g1">
+                        <a href="#">Tnvr介紹</a>
+                    </li>
+                    <li class="lib" id="p3g2">
+                        <a href="#">Tnvr成效</a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="lia"><a href="page4.html">領養</a></li>
+            <li class="lia"><a href="page5.html">問卷</a></li>
+            <li class="lia"><a href="page6.html">專題結論</a></li>
+            <li class="lia"><a href="page7.html">參考資料</a></li>
+            <li class="lia"><a href="narrative.html">專題簡報</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black button" id="aaaa">MENU</button>
+
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="main-1">
+                    <h1>TNVR介紹</h1>
+                    <p>
+                        TNVR的主張就是讓那些和人類相處上沒有問題的浪犬、浪貓們可以繼續在原地生存。也是現在世界各國處理流浪貓狗問題採取的主要方法之一，用T（捕捉）N(結紮)V(接種疫苗)R(原地回置)讓那些出現在我們各個角落，與人共同生活的小傢伙們不會製造出太多麻煩，例如:貓狗四處繁衍後代、傳染狂犬病或是母貓叫春等等，施行完TNVR之後待牠們從手術復原後，再把牠們放回原來牠們熟悉，對牠們也能友善接納的區域。
+
+                    </p>
+                </div>
+                <div class="main-2">
+                    <div class="tnvrmain col-12  tnvrmain-1">
+                        <div class="petQ">
+                            <img src="img/a3.png">
+                            <p>T(Trap)捕捉</p>
+                        </div>
+                        <div class="tnvrimg">
+                            <p class="tnvrpimg"><img src="img/捕捉.gif" width="100%" height="100%"></p>
+                        </div>
+
+                        <p class="tnvrtext">根據統計，每年至少有十萬隻的流浪貓狗會被捕捉進入公立的收容所裡，但礙於民間團體的人力和資源有限，通常會以能夠生育的母貓犬作為優先捕捉的對象。在實際捕捉的過程中，「誘捕籠」是最常使用的工具，只要在籠內外沿路放置食物，引誘貓狗進入籠內，當誘捕籠的機關被踩踏，籠子便會自動關起來。
+                            <br> 若常常發現家中附近有街貓，且耳朵上沒有剪耳記號，可以協助TNVR，避免其繼續產下更多小貓，貓是夜行性動物，晚上比白天容易執行。但若發現貓咪脖子上有項圈，或是確認有植晶片，不要誤抓去結紮剪耳。
+                        </p>
+                        <img src="img/a5.png" class="catQleft">
+                    </div>
+                    <div class="tnvrmain col-12 tnvrmain-2">
+                        <div class="petQ">
+                            <img src="img/a4.png">
+                            <p>N(Neuter)結紮</p>
+
+                        </div>
+                        <div class="tnvrimg">
+                            <p class="tnvrpimg"><img src="img/結紮.gif" width="100%" height="100%"></p>
+                        </div>
+
+                        <div class="tnvrtext">
+
+                            <span>1.預防疾病</span>
+                            <p class="a1225">
+                                母狗在結紮後子宮相關病變都不會發生；而公狗結紮後，也可以避免攝護腺腫大等等的問題。
+                            </p>
+
+                            <span>2.解決發情引發的問題</span>
+
+                            <p class="a1225">發情可能會產生一些公狗變得衝動、跟其他的狗打架</p>
+
+                            <span>3.抑制流浪貓狗數量</span>
+                            <p class="a1225">
+                                幫貓狗進行結紮手術，可以避免貓狗不小心懷孕的問題，每年都有成千上萬的貓狗出生，無法找到合適的認養主人
+                            </p>
+                        </div>
+                        <img src="img/a5.png" class="catQright">
+
+                    </div>
+                    <div class="tnvrmain  col-12  tnvrmain-3">
+                        <div class="petQ">
+                            <img src="img/a2.png">
+                            <p>V(Vaccinate)疫苗施打</p>
+                        </div>
+                        <div class="tnvrimg">
+                            <p class="tnvrpimg"><img src="img/疫苗施打.gif" width="100%" height="100%"></p>
+                        </div>
+
+                        <p class="tnvrtext">替浪犬、浪貓施打預防針，有很多流浪動物在外飽受疾病的痛苦，透過打針讓牠們不會生病，也不會傳染病菌，不但能在保護動物，也能讓環境的安全上能夠更家完善。</p>
+                        <img src="img/a5.png" class="catQleft">
+
+                    </div>
+                    <div class="tnvrmain col-12  tnvrmain-4">
+                        <div class="petQ">
+                            <img src="img/a1.png">
+                            <p>R(Return)原地放養</p>
+                        </div>
+                        <div class="tnvrimg">
+                            <p class="tnvrpimg"><img src="img/原地放養.gif" width="100%" height="100%"></p>
+                        </div>
+
+                        <p class="tnvrtext">在完成以上步驟的貓犬，等到身體狀況良好，便會被帶回原本捕捉的地點進行釋放，且根據動物的地域性，可防止更多其他流浪動物的進入，以控制流浪貓犬數量。</p>
+
+                    </div>
+                </div>
+                <div class="main-3">
+                    <h1>TNVR成效</h1>
+
+                    <h1><img src="img/b12.png" width="100%" height="100%">
+                    </h1>
+                    <p class="灰字">
+                        數據來源：動物保護資訊網 圖表製作：團隊自己製作
+                    </p>
+                    <p>
+                        從全國數據來看，從104年開始實施收容所的隻數呈現明顯減少趨勢，但其實在都市以及城鄉上，卻有差異的不同的結果產生。</p>
+                    <p>
+                        台南市、宜蘭縣實施TNVR原則上TNVR是有減少、抑止流浪犬數，但部分地區不明顯，呈現城鄉差距，例如台南市學甲區效果並不明顯。 但是新北市實施四年TNVR管控街頭流浪動物數量，在2019年可望低於1萬隻，比起2015年少了足足有四成，可見TNVR可以有效的管控流浪動物數量。
+
+                    </p>
+                    <p>
+                        從上可看出，部分縣市可能擁有資源金錢較多、是否加強宣導、市長的支持、以及政府與民間合作的差異，導致分配不均，使部分地區有下降情況不明顯。建議未來TNVR政策的推動，須思考都會與鄉村採取不同的行政措施。
+
+                        <span>落實寵物晶片登記>處罰棄養>推動TNVR政策>增加寵物絕育。</span>四項政策支持度，都穩定超過七成，落實飼主責任( 晶片登記及處罰棄養)甚至逐年成長到接近九成。
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top">
+
+        <a href="#" id="goTop"><img src="img/top.png"></a>
+        <!--回首頁-->
+
+    </div>
+     <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-teal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">×</span>
+                <h2>浪浪想要家</h2>
+            </header>
+            <div class="w3-container">
+                <a href="page1.html">
+                    <li>前言</li>
+                </a>
+                <a href="page2.html">
+                    <li>安樂死</li>
+                </a>
+                <a href="page3.html">
+                    <li>Tnvr</li>
+                </a>
+                <a href="page4.html">
+                    <li>領養</li>
+                </a>
+                <a href="page5.html">
+                    <li>問卷</li>
+                </a>
+                <a href="page6.html">
+                    <li>專題結論</li>
+                </a>
+                <a href="page7.html">
+                    <li>參考資料</li>
+                </a>
+                <a href="narrative.html">
+                    <li>專題簡報</li>
+                </a>
+            </div>
+         
+        </div>
+    </div>
+    <footer>Chrome最佳瀏覽解析度1920*1080 │Copyright ©2019 </footer>
+</body>
+
+</html>

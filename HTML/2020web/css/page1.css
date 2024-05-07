@@ -1,0 +1,53 @@
+ @media screen and (max-width: 1200px) {
+     .background {
+         background-image: none !important;
+     }
+ }
+ 
+ .background {
+     background-image: url(../img/門牌.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ 
+ .backgroundcolor {
+     height: 80%;
+     background: rgba(197, 208, 232, 0.8);
+     padding: 5%;
+ }
+ 
+ .backgroundcolor .text {
+     padding: 5%;
+     text-indent: 2em;
+ }
+ 
+ p {
+     font-size: 2em;
+ }
+ 
+ .backgroundcolor h1 {
+     padding: 5%;
+     font-size: 3em;
+     font-family: 微軟正黑體;
+     font-weight: 1000;
+     writing-mode: vertical-lr;
+ }
+ 
+ .container-fluid {
+     padding: 0px;
+ }
+ 
+ .col-2 {
+     vertical-align: middle;
+     padding-top: 10em;
+ }
+ 
+ .t1 {
+     text-align: center;
+     font-weight: bold
+ }
+ 
+ p img {
+     transform: translateX(0%);
+ }

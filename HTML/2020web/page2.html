@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="js/loading.js"></script>
+    <script src="js/top.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/page2.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/網頁.css">
+    <link rel="stylesheet" type="text/css" href="css/rwd.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3.css">
+    <title>浪浪想要家</title>
+    <style type="text/css">
+        .w3-container h2{
+                color: white;
+                font-family: 微軟正黑體;
+                font-size: 2em;
+        }
+        .button {
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            padding: 20px 20px;
+            border: 1px solid #1e6fc6;
+            border-radius: 20px;
+            background: #31b5ff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#31b5ff), to(#1e6fc6));
+            background: -moz-linear-gradient(top, #31b5ff, #1e6fc6);
+            background: linear-gradient(to bottom, #31b5ff, #1e6fc6);
+            -webkit-box-shadow: #2ea7ff 0px 0px 10px 0px;
+            -moz-box-shadow: #2ea7ff 0px 0px 10px 0px;
+            box-shadow: #2ea7ff 0px 0px 10px 0px;
+            text-shadow: #96c8fa 2px 1px 1px;
+            font: normal normal bold 20px arial;
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .button:hover,
+        .button:focus {
+            background: #3bd9ff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#3bd9ff), to(#2485ee));
+            background: -moz-linear-gradient(top, #3bd9ff, #2485ee);
+            background: linear-gradient(to bottom, #3bd9ff, #2485ee);
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .button:active {
+            background: #1e6fc6;
+            background: -webkit-gradient(linear, left top, left bottom, from(#1e6fc6), to(#1e6fc6));
+            background: -moz-linear-gradient(top, #1e6fc6, #1e6fc6);
+            background: linear-gradient(to bottom, #1e6fc6, #1e6fc6);
+        }
+        
+        .button:before {
+            content: "\0000a0";
+            display: inline-block;
+            height: 24px;
+            width: 24px;
+            line-height: 24px;
+            margin: 0 4px -6px -4px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIidWVsU6EQBRFzyM0rlYWJjYOgcZY+QsWJv6E37I/YO9P2PoDFhp6K+MSIKGx2MJoJG6WZ7NDcESdrGD0NvMC5N65981jBAgYEZa8+eR9M0TtOgiGrr8S+DFkaMI+uLYGjSh0xJrYRFugU1HSWVlcJHvRgcKO52bn4XJxe1dVbYM/RJQYcwJyiVJKQKINFeInoKqPwG5WFrV9Zh20iopcgZ4JpPd50cTGHAni6UDm4XJRr/gCy7tOk7170HuKEmO2FXnKivx1DfF3sAJtRLExh6LcKHK98bJ5XE+ez4F9dPW1XemtH1BOZ2VeW16/eBxy7WyvWztoXAet2JARwcj/InfQiE00AZ2ikmZl3g6aCOj3fegOWn9EYw0aVvGvDJo3ug5GE/r1G21Q/P+I3gCal5AWOcHtSgAAAABJRU5ErkJggg==") no-repeat left center transparent;
+            background-size: 100% 100%;
+        }
+        
+      
+        #aaaa {
+            display: none;
+        }
+        
+        #id01 {
+            padding: 200px 0%;
+        }
+        
+        .w3-container {
+            background: #92C4CE;
+            color: white;
+        }
+        
+        .w3-container li {
+            margin: 3% 0%;
+            list-style: none;
+            text-align: center;
+            font-size: 2em
+        }
+        
+        .w3-container li:hover {
+            background: #009688;
+            color: white;
+        }
+        
+        .w3-container a {
+            text-decoration: none;
+        }
+        
+        .w3-container a:hover {
+            color: white;
+        }
+        
+        .w3-container a:visited {
+            color: white;
+        }
+        
+        .w3-black,
+        .w3-hover-black:hover {
+            color: #000 !important;
+        }
+        
+        @media screen and (max-width: 1200px) {
+            #aaaa {
+                display: block;
+                background: none !important;
+            }
+            button {
+                margin: 2% 0%;
+                height: 80%;
+                position: absolute;
+                right: 5%;
+                color: #000;
+                float: right !important;
+            }
+            .lia {
+                display: none;
+            }
+            .lia-1 {
+                display: block;
+                width: 20vw;
+            }
+            .lia-1 img {
+                height: 10vh;
+                width: 25vw;
+            }
+            .nav {
+                height: 10%;
+            }
+        }
+        .lib {
+            width: 25%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="loading-wrapper">
+        <div class="loading la-square-jelly-box la-2x"><img src="img/奔跑.gif">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <ul class="ula">
+            <li class="lia lia-1">
+                <a href="index.html"><img src="img/1106.png"></a>
+            </li>
+            <li class="lia"><a href="page1.html">前言  </a>
+
+            </li>
+            <li class="lia"><a href="page2.html"><span>安樂死</span></a>
+                <ul class="ulb">
+                    <li class="lib" id="p2g1">
+                        <a href="#">安樂死介紹</a>
+                    </li>
+                    <li class="lib" id="p2g2">
+                        <a href="#">安樂死法規
+</a>
+                    </li>
+                    <li class="lib" id="p2g3">
+                        <a href="#">其他相關法規
+</a>
+                    </li>
+                    <li class="lib" id="p2g4">
+                        <a href="#">安樂死利弊
+
+</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="lia"><a href="page3.html">Tnvr</a>
+
+            </li>
+            <li class="lia"><a href="page4.html">領養</a></li>
+            <li class="lia"><a href="page5.html">問卷</a></li>
+            <li class="lia"><a href="page6.html">專題結論</a></li>
+            <li class="lia"><a href="page7.html">參考資料</a></li>
+            <li class="lia"><a href="narrative.html">專題簡報</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black button" id="aaaa">MENU</button>
+
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="backgroundcolor">
+            <h1>安樂死介紹</h1>
+            <p class="文字">
+                流浪動物的是台灣長久以來的問題，以往路上的流浪動物一旦被抓入收容所，只要12日沒有人認領，就可能會進行安樂死，但也無助於改善問題的發生；在電影十二夜上映之後，這些問題又被搬上檯面，經過民代和動保組織的推動之下，成功於民國104年通過立法，民國106年開始實施，在短短的兩年就實施，看似動作迅數，可是急促的實施，卻沒有相對應的配套措施，讓SPCA（台灣防止虐待動物協會）提出質疑，並要求配套措施須立即執行；也導致一名園長因承受不了壓力，服下狗用安樂死藥劑自殺，英國 BBC也曾針對台灣寵物遭大量遺棄且繼續繁殖的問題提出質疑，若無法改善其根本問題始終無法解決流浪動物產生的問題。</p>
+            <br>
+            <p class="文字">安樂死，原名為人道毀滅，是以最低的受痛苦程度，把動物的生命「人為結束」，安樂死一般的原因是不治的疾病、經濟上無法繼續飼養、或者實驗室的實驗程序需要，對於被飼養的動物，這個程序被委婉的稱為上路或者說再見。
+            </p>
+            <p style="text-align: center;color:#585656;font-size:20px;">
+                <img src="img/安樂死SPCA.png">
+                <br>
+                <br> 圖片來源：台灣防止虐待動物協會(SPCA)
+            </p>
+            <div style="width: 100%;height:500px" class="bds1">
+            </div>
+            <h1>安樂死法規</h1>
+            <p class="文字">
+                民國104年將動物保護法第二章的十二條第七項的俗稱十二日條款進行修正及刪除 第十二條 對動物不得任意宰殺。但有下列情事之一者，不在此限：
+                <br> 7.收容於動物收容處所或直轄市、縣（市）主管機關指定之場所，經通知或公告逾十二日而無人認領、認養或無適當之處置。
+                <br> 修正為
+                <br> 收容於動物收容處所或直轄市、縣（市）主管機關指定之場所，經獸醫師檢查患有法定傳染病、重病無法治癒、嚴重影響環境衛生之動物或其他緊急狀況，嚴重影響人畜健康或公共安全。
+            </p>
+            <div style="width: 100%;height:500px" class="bds2"></div>
+
+            <h1>其他相關法規</h1>
+            <P>動物保護法
+                <br>
+                <br> 第 12 條
+                <br>對動物不得任意宰殺。但有下列情事之一者，不在此限：
+                <br> 三、為控制動物群體疾病或品種改良之目的。
+                <br> 四、為控制經濟動物數量過賸，並經主管機關許可。
+                <br> 五、為解除動物傷病之痛苦。
+                <br> 六、為避免對人類生命、身體、健康、自由、財產或公共安全有立即危險 。
+                <br> 七、收容於動物收容處所或直轄市、縣（市）主管機關指定之場所，經獸 醫師檢查患有法定傳染病、重病無法治癒、嚴重影響環境衛生之動物 或其他緊急狀況，嚴重影響人畜健康或公共安全。
+                <br>
+                <br> 第 13 條
+                <br> 依前條第一項所定事由宰殺動物時，應以使動物產生最少痛苦之人道方式 為之，並遵行下列規定：
+                <br> 一、除主管機關公告之情況外，不得於公共場所或公眾得出入之場所宰殺 動物。
+                <br> 二、為解除寵物傷病之痛苦而宰殺寵物，除緊急情況外，應由獸醫師執行 之。
+                <br> 三、宰殺收容於動物收容處所或直轄市、縣（市）主管機關指定場所之動 物，應由獸醫師或在獸醫師監督下執行之。
+                <br> 四、宰殺數量過賸之動物，應依主管機關許可之方式為之。
+                <br> 中央主管機關得依實際需要，訂定以人道方式宰殺動物之準則。
+                <br>
+            </P>
+            <div style="width: 100%;height:500px" class="bds3"></div>
+
+            <h1>安樂死利弊</h1>
+            <p>
+                雖然動物收容所的”十二夜”已經廢除兩年多了，但現在還是可以安樂死的，但是要有專業人員評估，可以在適當的情況下幫助寵物，同時也是幫助主人脫離痛苦，但是雖然聽起沒什麼，但是凡事有利必有弊，即使法律有規定了，但不可能所有人都遵守，在不為人知的地方一定還是有隨便亂安樂死的人，我們無從得知也無從幫忙，我們唯一能做的就只有約束自己，不要將動物的生命隨意揮霍。
+            </p>
+        </div>
+
+    </div>
+    <div class="top">
+
+        <a href="#" id="goTop"><img src="img/top.png"></a>
+        <!--回首頁-->
+
+    </div>
+     <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-teal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">×</span>
+                <h2>浪浪想要家</h2>
+            </header>
+            <div class="w3-container">
+                <a href="page1.html">
+                    <li>前言</li>
+                </a>
+                <a href="page2.html">
+                    <li>安樂死</li>
+                </a>
+                <a href="page3.html">
+                    <li>Tnvr</li>
+                </a>
+                <a href="page4.html">
+                    <li>領養</li>
+                </a>
+                <a href="page5.html">
+                    <li>問卷</li>
+                </a>
+                <a href="page6.html">
+                    <li>專題結論</li>
+                </a>
+                <a href="page7.html">
+                    <li>參考資料</li>
+                </a>
+                <a href="narrative.html">
+                    <li>專題簡報</li>
+                </a>
+            </div>
+         
+        </div>
+    </div>
+    <footer>Chrome最佳瀏覽解析度1920*1080 │Copyright ©2019 </footer>
+</body>
+
+</html>
