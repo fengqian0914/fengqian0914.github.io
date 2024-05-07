@@ -180,8 +180,8 @@
 </thead>
 <tbody style="text-align: center;">
   <tr>
-    <td rowspan="3" width="60%"><img src="img/MapleStort_Preview.jpg"></td>
-    <td align="center" width="40%">  <b>新楓之谷-經驗計算機</b> </td>
+    <td rowspan="3"><img src="img/MapleStort_Preview.jpg"></td>
+    <td align="center">  <b>新楓之谷-經驗計算機</b> </td>
   </tr>
   <tr>
     <td>介紹：
@@ -276,8 +276,8 @@
 </thead>
 <tbody style="text-align: center;">
   <tr>
-    <td rowspan="3" width="60%"><img src="https://img.youtube.com/vi/nogRXboCR-I/maxresdefault.jpg"></td>
-    <td align="center" width="40%">  <b>集章達人</b> <br><b>開發中</b> </td>
+    <td rowspan="3"><img src="https://img.youtube.com/vi/nogRXboCR-I/maxresdefault.jpg"></td>
+    <td align="center">  <b>集章達人</b> <br><b>開發中</b> </td>
   </tr>
   <tr>
     <td>介紹：
@@ -340,8 +340,8 @@
 </thead>
 <tbody style="text-align: center;">
   <tr>
-    <td rowspan="3" width="60%"><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>
-    <td align="center" width="40%">  <b>Line Chatbot機器人-校園百寶袋</b>  </td>
+    <td rowspan="3"><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>
+    <td align="center">  <b>Line Chatbot機器人-校園百寶袋</b>  </td>
   </tr>
   <tr>
     <td>介紹：
