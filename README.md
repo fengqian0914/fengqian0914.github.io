@@ -1,4 +1,4 @@
-<h1 > 關於我</h1>
+ <h1 > 關於我</h1>
 
 - 姓名：徐逢謙 (Jack)
 - 生日 : 09/14/2002
@@ -183,7 +183,8 @@
 </thead>
 <tbody>
   <tr>
-    <td rowspan="4" width="60%">圖片</td>
+    <td rowspan="4" width="60%">      <img src="HTML/Cherish-food/img/Preview.jpg">
+</td>
     <td width="40%">新楓之谷-經驗計算機</td>
   </tr>
 
@@ -227,7 +228,9 @@
     <td>標註</td>
   </tr>
   <tr>
-    <td rowspan="4"><img src="HTML/2020web/img/Preview.png"></td>
+    <td rowspan="4">
+      <img src="HTML/2020web/img/Preview.png">
+    </td>
     <td>浪浪想要家</td>
   </tr>
 
