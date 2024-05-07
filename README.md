@@ -366,32 +366,7 @@
 
 
 <h2 id="School_transcript">在校成績單</h2>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
+<img src="img/School.png">
 
 <h2 id="Interest"> 興趣</h2>
 OOXXX<br>
