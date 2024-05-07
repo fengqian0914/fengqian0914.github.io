@@ -188,7 +188,11 @@
       <br><br>基於新楓之谷遊戲中經常提供許多秘藥，我們開發了一款方便使用的計算機工具，旨在幫助玩家最大化地利用這些秘藥，從而提高遊戲中的效益。
       <br><br>這款計算機工具具有直觀的用戶界面，讓玩家可以輕鬆地輸入不同的秘藥信息並進行計算。它可以根據玩家當前的情況和需求，提供最佳的秘藥使用方案。
       <br><br>並將此網站同步在社群平台上發布協助玩家計算工具網站，目前已有超過<b>2萬多人</b>使用過。
-          <br><br><img src="img/tag_HTML、CSS、JS.png" width="100px">
+          <br><br>
+     <img src="img/tag1.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag2.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag3.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -205,7 +209,10 @@
   <tr>
     <td>
      這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。
-          <br><br> <img src="img/tag_HTML、CSS、JS.png" width="100px">
+          <br><br> 
+     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag11.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag17.png" width="150px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -220,7 +227,8 @@
       <br><br>本網站致力於介紹惜食相關議題，以引發社會對資源節約的關注。透過網站首頁的視差捲動效果和黑白模式，我們致力於提供更引人入勝的瀏覽體驗。
       <br><br>在現今面對多重挑戰的時代，我們期望能夠保持節約資源的理念。這種理念不僅僅限於能源，還包括我們每天所食用的食物。我們努力探討如何節省食物，讓食物得以妥善循環利用，從而實現可持續發展的目標。
           <br><br>
-    <img src="img/tag_HTML、CSS、JS.png" width="100px">
+     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag12.png" width="150px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -236,7 +244,102 @@
         <br><br>比賽的主題是寵物保育，我們通過團隊合作，共同探討了寵物保育的重要性，並設計了相關的專題項目。我們努力研究和討論，克服了許多困難，最終成功地完成了專題。
         <br><br>我們的努力得到了肯定，順利地拿下了比賽的銅獎。這次比賽不僅讓我們更深入地了解了寵物保育的重要性，也增強了我們的團隊合作能力和解決問題的能力。這是一個難忘且有意義的經歷，也為我們的高中生活增添了色彩。
      <br><br>
-    <img src="img/tag_HTML、CSS、JS.png" width="100px">
+     <img src="img/tag18.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag12.png" width="150px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td>連結：<a href="https://fengqian0914.github.io/HTML/2020web/index.html">Github</a></td>
+  </tr>
+<!--   <tr>
+    <td rowspan="3">圖片</td>
+    <td>亞比麵包店</td>
+  </tr>
+  <tr>
+    <td>介紹</td>
+  </tr>
+  <tr>
+    <td>連結</td>
+  </tr> -->
+</tbody>
+</table>
+<br>
+<br>
+<br>
+<table>
+<thead>
+  <tr>
+    <th colspan="2">APP類</th>
+  </tr>
+</thead>
+<tbody style="text-align: center;">
+  <tr>
+    <td rowspan="3"><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>
+    <td align="center">  <b>Line Chatbot機器人-校園百寶袋</b> </td>
+  </tr>
+  <tr>
+    <td>介紹：
+      <br><br>基於新楓之谷遊戲中經常提供許多秘藥，我們開發了一款方便使用的計算機工具，旨在幫助玩家最大化地利用這些秘藥，從而提高遊戲中的效益。
+      <br><br>這款計算機工具具有直觀的用戶界面，讓玩家可以輕鬆地輸入不同的秘藥信息並進行計算。它可以根據玩家當前的情況和需求，提供最佳的秘藥使用方案。
+      <br><br>並將此網站同步在社群平台上發布協助玩家計算工具網站，目前已有超過<b>2萬多人</b>使用過。
+          <br><br>
+     <img src="img/tag1.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag2.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag3.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td>連結: <br>
+       <a href="https://www.youtube.com/watch?v=maxresdefault"> Youtube</a>     
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="3" align="center" >設計中</td>
+    <td align="center">  <b>會員點餐系統</b><br><b>開發中</b> </td>
+  </tr>
+  <tr>
+    <td>
+     這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。
+          <br><br> 
+     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag11.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag17.png" width="150px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td>連結：暫無</td>
+  </tr>
+  <tr>
+    <td rowspan="3"><img src="HTML/Cherish-food/img/Preview.jpg"></td>
+    <td align="center">  <b>食在浪費-惜食網</b> </td>
+  </tr>
+  <tr>
+    <td>介紹：
+      <br><br>本網站致力於介紹惜食相關議題，以引發社會對資源節約的關注。透過網站首頁的視差捲動效果和黑白模式，我們致力於提供更引人入勝的瀏覽體驗。
+      <br><br>在現今面對多重挑戰的時代，我們期望能夠保持節約資源的理念。這種理念不僅僅限於能源，還包括我們每天所食用的食物。我們努力探討如何節省食物，讓食物得以妥善循環利用，從而實現可持續發展的目標。
+          <br><br>
+     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag12.png" width="150px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td>連結：<a href="https://fengqian0914.github.io/HTML/Cherish-food/"> Github</a></td>
+  </tr>
+  <tr>
+    <td rowspan="3"><img src="HTML/2020web/img/Preview.png"></td>
+    <td align="center">  <b>浪浪想要家</b> </td>
+  </tr>
+  <tr>
+    <td>介紹：
+        <br><br>在高中時期，我們參加了2020年台灣學校網界博覽會比賽，並且榮獲了銅獎。這次比賽是由老師安排，要求我們以團隊合作的方式完成專題。
+        <br><br>比賽的主題是寵物保育，我們通過團隊合作，共同探討了寵物保育的重要性，並設計了相關的專題項目。我們努力研究和討論，克服了許多困難，最終成功地完成了專題。
+        <br><br>我們的努力得到了肯定，順利地拿下了比賽的銅獎。這次比賽不僅讓我們更深入地了解了寵物保育的重要性，也增強了我們的團隊合作能力和解決問題的能力。這是一個難忘且有意義的經歷，也為我們的高中生活增添了色彩。
+     <br><br>
+     <img src="img/tag18.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag15.png" width="150px"> &nbsp;&nbsp;
+     <img src="img/tag12.png" width="150px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
