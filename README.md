@@ -181,13 +181,11 @@
     <th colspan="2">網頁類</th>
   </tr>
 </thead>
-<tbody>
+<tbody style="text-align:center;">
   <tr>
-    <td rowspan="4" width="60%">      <img src="HTML/Cherish-food/img/Preview.jpg">
-</td>
-    <td width="40%">新楓之谷-經驗計算機</td>
+    <td rowspan="4">圖片</td>
+    <td>新楓之谷-經驗計算機</td>
   </tr>
-
   <tr>
     <td>介紹</td>
   </tr>
@@ -198,26 +196,22 @@
     <td>標註</td>
   </tr>
   <tr>
-    <td rowspan="4">圖片</td>
-    <td style="text-align: center;">員工點餐系統　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{red}製作中}}$　</td>
+    <td rowspan="4">設計中</td>
+    <td>員工點餐系統  <br>開發中 </td>
   </tr>
-
   <tr>
     <td>這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。</td>
   </tr>
   <tr>
-    <td>連結：</td>
+    <td>連結</td>
   </tr>
   <tr>
     <td>標註</td>
   </tr>
   <tr>
-    <td rowspan="4">
-      <img src="HTML/Cherish-food/img/Preview.jpg">
-    </td>
-    <td>食在浪費-惜食網頁</td>
+    <td rowspan="4"><img src="HTML/Cherish-food/img/Preview.jpg"></td>
+    <td>食在浪費-惜食網</td>
   </tr>
-
   <tr>
     <td>介紹</td>
   </tr>
@@ -228,31 +222,27 @@
     <td>標註</td>
   </tr>
   <tr>
-    <td rowspan="4">
-      <img src="HTML/2020web/img/Preview.png">
-    </td>
+    <td rowspan="4"><img src="HTML/2020web/img/Preview.png"></td>
     <td>浪浪想要家</td>
   </tr>
-
   <tr>
     <td>介紹</td>
   </tr>
   <tr>
-    <td><a href="https://fengqian0914.github.io/HTML/2020web/index.html">Github</a></td>
+    <td>連結</td>
   </tr>
   <tr>
     <td>標註</td>
   </tr>
   <tr>
     <td rowspan="4">圖片</td>
-    <td>亞比麵包店</td>
+    <td>標題</td>
   </tr>
-
   <tr>
     <td>介紹</td>
   </tr>
   <tr>
-    <td>連結</td>
+    <td><a href="https://fengqian0914.github.io/HTML/2020web/index.html">Github</a></td>
   </tr>
   <tr>
     <td>標註</td>
