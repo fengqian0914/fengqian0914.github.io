@@ -32,28 +32,15 @@
 
 
 <h2 id="Autobiography">  自傳 </h2>
-OOXXX<br>OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
+<h3>自傳</h3>
+
+我是徐逢謙，畢業於致理科技大學商務科技管理系 （ ${\textsf{\color{#79a2d5}資訊模組}}$ ），同時輔修了資訊管理系。在大學期間，我主修商務科技管理系（資訊模組），並且歷年成績系排多在前10%。為了加強資訊方面的能力，我輔修了資訊管理系，這使我能夠更全面地了解資訊科技領域。同時，由於對韓國文化的熱愛，我也學習了韓文，並設定了韓文作為第二外語的目標，通過相應的語言檢定考試加以驗證和提高。
+
+專業經歷
+除了學術上的成就外，在大學期間，我積極參與了各種學術和實踐項目，包括參加由叡揚資訊舉辦的GSS AI Chatbot Hackathon校園組，並且榮獲亞軍。這次比賽不僅豐富了我的實戰經驗，還讓我更深入地了解了人工智慧和機器學習在實際應用中的價值和潛力。我還擅長網頁設計，曾在社群平台上發布協助玩家計算工具網站，目前已有超過2萬多人使用過。
+
+未來展望
+我對資訊科技行業充滿熱情，希望能在這個領域中不斷學習和成長。我期待著能夠與優秀的團隊合作，共同開發創新的產品和解決方案，為社會帶來價值和影響
 
 <h2 id="Educational_qualifications">學歷</h2>
 
