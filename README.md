@@ -132,7 +132,9 @@
       <br> <br> 儘管我們的機器人為校園帶來了許多便利，但很遺憾地，由於主辦方平台的關閉，我們的機器人目前已失效，無法再提供以上功能。我们對此感到非常遺憾，希望有機會能夠重新啟動這個有用的機器人。
     
   - 2020年 2020臺灣學校網界博覽會 銅獎      `網頁設計`
-    - 網站連結 主辦方：<a href="http://librarywork.taiwanschoolnet.org/cyberfair2020/ntdp7172/index.htm">臺灣學校網界博覽會</a>
+    - 網站連結
+      <br>主辦方：<a href="http://librarywork.taiwanschoolnet.org/cyberfair2020/ntdp7172/index.htm">臺灣學校網界博覽會</a>
+      <br>備份：<a href="https://fengqian0914.github.io/HTML/2020web/index.html">Github</a>
     - 介紹
       - 在高中時期，我們參加了2020年台灣學校網界博覽會比賽，並且榮獲了銅獎。這次比賽是由老師安排，要求我們以團隊合作的方式完成專題。
         <br> <br>比賽的主題是寵物保育，我們通過團隊合作，共同探討了寵物保育的重要性，並設計了相關的專題項目。我們努力研究和討論，克服了許多困難，最終成功地完成了專題。
@@ -235,8 +237,8 @@ OOXXX<br>
     <tr>
       <td>浪浪想要家</td>
       <td>HTML</td>
-      <td><img src="https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg"></td>     
-      <td><a href="https://www.youtube.com/watch?v=maxresdefault"> Github</a></td>
+      <td><img src="HTML/2020web/img/Preview.jpg"></td>     
+      <td><a href="https://fengqian0914.github.io/HTML/2020web/index.html">Github</a></td>
       <td>這是我們的大學專題題目，透過Android Studio製作</td>
   </tr>
 </table>
