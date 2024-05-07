@@ -211,7 +211,9 @@
     <td>標註</td>
   </tr>
   <tr>
-    <td rowspan="4"><img src="HTML/Cherish-food/img/Preview.jpg"></td>
+    <td rowspan="4">
+      <img src="HTML/Cherish-food/img/Preview.jpg">
+    </td>
     <td>食在浪費-惜食網頁</td>
   </tr>
 
