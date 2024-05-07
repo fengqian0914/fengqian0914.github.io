@@ -153,33 +153,34 @@
   >>- 2020 高三班級模範生
 
 <h2 id="Portfolio"> 證照</h2>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
-OOXXX<br>
+
+- 電腦軟體應用  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}乙級}}$
+- 電腦軟體應用  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}丙級}}$
+- 會計事務 - 資訊 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}丙級}}$
+- 會計事務 - 人工記帳 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}丙級}}$
+- TQC Word &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}專業級}}$
+- TQC Excel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}專業級}}$
+- TQC PowerPoint &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}專業級}}$
+- (ITS) Information Technology Specialist-Database 資料庫管理核心能力
+- (ITS) Information Technology Specialist-Python 程式語言核心能力
+- (ICT) Information and Communication Technology Certification 計算機綜合能力國際認證
+- ERP Application Engineer for Financial Module [ERP軟體應用師(財務模組)]
+- ERP Application Engineer for Distribution Module [ERP軟體應用師(配銷模組)] (鼎新GP版)
+- (TBSA) 商務企劃能力檢定
+- Endiva Certified Web Community Manager
+- English Vocabulary Quotient in ICT
+
 
 <h2 id="certificate"> 作品集</h2>
+<h4  align="center">網頁類</h4>
+
 <table align="center" width="100vw">
   <tr>
-    <th>作品名稱</th>
-    <th>類型</th>
-    <th>範例</th>
-    <th>連結</th>
-    <th>介紹</th>
+      <td><img src="https://img.youtube.com/vi/nogRXboCR-I/maxresdefault.jpg"></td>
+      <td> <b width="100vw" align="center">員工點餐系統</b>  <br> Github <br>這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。 </td>
+
   </tr>
+</table>
   <tr>
       <td>集章達人</td>
       <td>Android Application</td>
