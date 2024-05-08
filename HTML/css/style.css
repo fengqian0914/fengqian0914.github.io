@@ -1,0 +1,662 @@
+body,
+p {
+    font-family: "Helvetica", "Arial", "LiHei Pro", "微軟正黑體", "黑體-繁", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--background-color);
+    transition: all 0.5s;
+}
+
+:root {
+    --background-color: #ccc;
+}
+
+.video {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* 下方 倒數計時器 */
+
+#number {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/presidential\ palace.jpg) no-repeat center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#number p {
+    color: white;
+    font-size: 40px;
+}
+
+/* 上方 倒數計時器 */
+
+
+
+
+
+/* 下方 年數器 */
+
+.box {
+    width: 800px;
+    z-index: 999;
+    height: 100px;
+    color: #000;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+}
+
+.box ul {
+    display: flex;
+    position: fixed;
+    padding: 0;
+}
+
+.box ul li {
+    position: relative;
+    width: 60px;
+    height: 90px;
+    margin: 0em 5px;
+    background: #e66b6b;
+    border-radius: 1em;
+    writing-mode: vertical-lr;
+    /*垂直展示 */
+    text-orientation: upright;
+    /* 文字垂直 */
+    user-select: none;
+    /* 禁止文字选取 */
+    overflow: hidden;
+}
+
+.ring-left:before,
+.ring-left:after {
+    background: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+    content: "";
+    display: inline-block;
+    margin: 4px 12px;
+    height: 20px;
+    width: 6px;
+}
+
+.box .ring-left {
+    position: fixed;
+    top: 85px;
+    left: 25px;
+}
+
+.box .ring-left:nth-child(2) {
+    position: fixed;
+    top: 85px;
+    left: 95px;
+}
+
+.box .ring-left:nth-child(3) {
+    position: fixed;
+    top: 85px;
+    left: 165px;
+}
+
+.box .ring-left:nth-child(4) {
+    position: fixed;
+    top: 85px;
+    left: 235px;
+}
+
+
+.box ul li span {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    letter-spacing: 16px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    transition: transform 1s ease-in-out;
+    transform: translate(-50%, 0);
+    font-weight: 900;
+}
+
+/* 上方 年數器 */
+
+/* 下方 nav */
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 5rem;
+    line-height: 5rem;
+    float: right;
+    background: rgb(29, 30, 34, 0.4);
+    display: flex;
+    z-index: 999;
+}
+
+nav div {
+    margin: 1rem 3rem;
+    line-height: 50px;
+    font-size: 20px;
+    height: 50px;
+    color: white;
+}
+
+nav div:nth-child(1) {
+    font-size: 2rem;
+}
+
+nav div a:link,
+a:active,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* 上方 nav */
+
+
+.y_contant,
+.y_bg_contant {
+
+    background: #000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.y_bg_contant {
+    position: sticky;
+}
+
+.y_w_c_img {
+    width: 800px;
+    height: 800px;
+    background-size: 100% 100%;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+
+    color: #1b255f !important;
+    font-weight: bold !important;
+    font-size: 60px !important;
+}
+
+
+
+.y_contant_white {
+    font-size: 30px;
+    background: var(--background-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    color: #000;
+
+}
+
+
+
+.y_w_c {
+    width: 800px;
+    height: auto;
+}
+
+.y_contant_white h1 {
+    color: #1b255f;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.y_contant_white p {
+
+    font-size: 24px;
+
+}
+
+#y1950_6m_1 img {
+    width: 800px;
+    margin: 40px 0px;
+}
+
+.y_contant p {
+    background: rgba(137, 137, 137, 0.8);
+    padding: 20px;
+    width: 100vw;
+    font-size: 30px;
+}
+
+.y_bg_contant p:nth-child(1) {
+    font-size: 120px;
+    text-shadow: #000 10px 20px 10px;
+
+}
+
+.y_bg_contant p:nth-child(2) {
+    width: 600px;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30vh;
+}
+
+.slick-slide img {
+    padding: 20px 0px;
+}
+
+.source {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 14px;
+    width: 100%;
+    text-align: right;
+}
+
+.contain_source {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    text-align: right;
+}
+
+.y_contant .contain_source {
+    transform: translate(-5%, 40vh);
+}
+
+.y_bg_contant .contain_source {
+    transform: translate(-5%, 15vh);
+}
+
+.korea_table {
+    font-size: 18px;
+    text-align: left;
+}
+
+.korea_table tr,
+td {
+    padding: 5px;
+}
+
+.korea_table tr {
+    border-bottom: 2px solid #9d9d9d;
+}
+
+.letter {
+    color: #1b255f;
+    font-size: 30px;
+}
+
+.backgroundImg-container {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.backgroundImg-container img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.backgroundImgText-container_bg {
+    margin: 0 auto;
+    padding: 30px 30px 20px 30px;
+    background: rgba(160, 142, 51, .95);
+    color: #fff;
+    width: 800px;
+}
+
+.backgroundImgText-container p {
+    text-align: center;
+    font-size: 120px;
+    color: white;
+    text-shadow: #000 10px 20px 10px;
+}
+
+.backgroundImgText-container .title {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+
+.title .contain_source {
+    color: white;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    background: white;
+}
+
+.tg td {
+    border: 2px solid black;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 5px 5px;
+    word-break: break-all;
+}
+
+.tg th {
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 5px 5px;
+    word-break: break-all;
+}
+
+.tg .tg-0pky {
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top
+}
+
+.vote_year {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.vote_year div:nth-child(2) {
+    background: url(../img/1996.svg) no-repeat center cover;
+}
+
+.w-60 {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.w-60 img {
+    width: 100%;
+}
+
+.w-40 {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+}
+
+ol li {
+    font-size: 18px;
+}
+
+.table_921 {
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.table_921 tr,
+td {
+
+    text-align: left;
+
+}
+
+.table_921 td {
+    border: 1px solid #000;
+}
+
+
+
+.table_921 tr td:nth-child(1) {
+    width: 6em;
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+}
+
+.p_921 {
+    width: 2em;
+    float: left;
+    display: inline-block;
+
+
+}
+
+.td_p_921 td {
+    display: flex;
+    flex-direction: row;
+    border: 0px;
+
+}
+
+.td_p_921 p {
+    float: left;
+    width: fit-content;
+    display: inline;
+}
+
+#y1999_9m_2 .y_w_c div {
+    background-size: cover;
+    border: 3px solid #fff;
+
+}
+
+
+
+#y1999_9m_2 .y_w_c {
+    display: grid;
+    grid-template: repeat(2, 200px)/repeat(5, 200px);
+}
+
+#a921_4 {
+    grid-column: 4/5;
+    grid-row: 1/3
+}
+
+#a921_5 {
+    grid-column: 1/3;
+    grid-row: 2/3
+}
+
+#a921_6 {
+    grid-column: 3/4;
+    grid-row: 2/3
+}
+
+caption {
+    /*因套件導致內建失效所寫*/
+    caption-side: top !important;
+    color: #000;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer {
+    width: 100vw;
+    height: fit-content;
+    background: #99a08f;
+    color: #000;
+    text-align: center;
+    line-height: 35px;
+    padding: 30px;
+}
+
+/* 十大建設 */
+#y1973_10m_1 .y_w_c {
+    display: grid;
+    grid-template: repeat(3, 200px)/repeat(5, 300px);
+}
+
+#y1973_10m_1 .y_w_c div {
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all .5s;
+    padding: 30px;
+    font-size: 30px;
+    border: 2px solid #fff;
+}
+
+#y1973_10m_1 .y_w_c div:hover {
+    text-align: left;
+    font-size: 20px;
+}
+
+.a1973 .y_w_c {
+    width: 100vw
+}
+
+#a1973_1 {
+    grid-column: 2/3;
+    grid-row: 1/2
+}
+
+#a1973_2 {
+    grid-column: 3/4;
+    grid-row: 1/2
+}
+
+#a1973_3 {
+    grid-column: 4/7;
+    grid-row: 3/4
+}
+
+#a1973_6 {
+    grid-column: 2/3;
+    grid-row: 2/3
+}
+
+#a1973_5 {
+    grid-column: 6/7;
+    grid-row: 1/3
+}
+
+#a1973_7 {
+    grid-column: 1/4;
+    grid-row: 3/4
+}
+
+#a1973_8 {
+    grid-column: 5/6;
+    grid-row: 1/2
+}
+
+#a1973_9 {
+    grid-column: 3/6;
+    grid-row: 2/3
+}
+
+#a1973_10 {
+    grid-column: 1/2;
+    grid-row: 1/3
+}
+
+
+
+/*  十大建設*/
+.test {
+    border: 2px solid #000;
+    width: fit-content;
+}
+
+fieldset {
+    padding: .35em .625em .75em;
+    margin: 0 2px;
+    border: 1px solid silver;
+    margin: 0 auto;
+    text-align: left;
+    float: none;
+}
+
+legend {
+    padding: .5em;
+    border: 0;
+    width: auto;
+    float: none;
+    text-align: center;
+}
+
+fieldset p {
+    font-size: 20px;
+
+    padding: auto;
+}
+
+.radio {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.radio:nth-of-type(2) {
+    margin: 0 10px 0px 30px;
+}
+
+.btn {
+    background: #1A883B;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: #15682e;
+    color: #fff;
+}
+
+textarea {
+    height: 100%;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.w-100 {
+    min-height: 60px;
+}
+
+#y2010_bg .contain_source {
+    transform: translate(-5%, 0vh) !important;
+}
