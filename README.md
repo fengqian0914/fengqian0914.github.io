@@ -395,7 +395,7 @@
     <td align="center">   <h3> 卡牌翻翻樂</h3>  </td>
   </tr>
  <tr>
-      <td> <a href="Csharp/卡牌/WindowsFormsApp1"><img src="Csharp/Preview/OpenCard.png"></a></td>
+      <td align="center"> <a href="Csharp/卡牌/WindowsFormsApp1"><img src="Csharp/Preview/OpenCard.png"></a></td>
  </tr>
   <tr>
     <td>介紹：
@@ -413,7 +413,7 @@
     <td align="center">   <h3> 打字遊戲</h3>  </td>
   </tr>
  <tr>
-      <td> <a href="Csharp/打字遊戲"><img src="Csharp/Preview/drop_game.png"></a></td>
+      <td align="center"> <a href="Csharp/打字遊戲"><img src="Csharp/Preview/drop_game.png"></a></td>
  </tr>
   <tr>
     <td>介紹：
