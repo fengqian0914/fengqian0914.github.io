@@ -431,7 +431,7 @@
     <td align="center">   <h3> 魔術方陣</h3>  </td>
   </tr>
  <tr>
-      <td> <a href="Csharp/魔術方陣"><img src="Csharp/Preview/Magic_square_1.png"></a></td>
+      <td align="center"> <a href="Csharp/魔術方陣"><img src="Csharp/Preview/Magic_square_1.png"></a></td>
  </tr>
   <tr>
     <td>介紹：
@@ -449,7 +449,7 @@
     <td align="center">   <h3> 猜數字(1A2B)</h3>  </td>
   </tr>
  <tr>
-      <td> <a href="Csharp/猜數字"><img src="Csharp/Preview/number.png"></a></td>
+      <td align="center"> <a href="Csharp/猜數字"><img src="Csharp/Preview/number.png"></a></td>
  </tr>
   <tr>
     <td>介紹：
@@ -504,7 +504,7 @@
     <td align="center">   <h3> 反應遊戲</h3>  </td>
   </tr>
  <tr>
-      <td> <a href="Csharp/反應遊戲"><img src="Csharp/Preview/reaction_game.png"></a></td>
+      <td align="center"> <a href="Csharp/反應遊戲"><img src="Csharp/Preview/reaction_game.png"></a></td>
  </tr>
   <tr>
     <td>介紹：
