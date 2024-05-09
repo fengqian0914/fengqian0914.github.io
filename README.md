@@ -246,7 +246,7 @@
     </td>
   </tr>
   <tr>
-    <td>連結：<br>< a href="https://fengqian0914.github.io/HTML/Taiwan_Story/index.html">網站連結</a></td>
+    <td>連結：<br><a href="https://fengqian0914.github.io/HTML/Taiwan_Story/index.html">網站連結</a></td>
   </tr>
   <tr>
     <td align="center">  <h3>食在浪費-惜食網</h3> </td>
