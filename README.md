@@ -221,6 +221,32 @@
   <tr>
     <td>連結：<br>暫無</td>
   </tr>
+   <tr>
+    <td>連結: <br>
+     <a href="https://github.com/MaplestoryExpCount/MaplestoryExpCount.github.io">Github 庫</a>、
+     <a href="https://maplestoryexpcount.github.io/">網站連結</a>、
+     <a href="https://forum.gamer.com.tw/C.php?bsn=7650&snA=1014201">社群平台</a><br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">  <h3>台灣記事</h3> </td>
+  </tr>
+ <tr>
+      <td  align="center" ><img src="HTML/Taiwan_Story/img/Preview.png"</td>
+ </tr>
+  <tr>
+    <td>
+     <br><br>我們開發了一個有關台灣歷史年表的網頁，涵蓋了從1949年到2024年的重大事件。這個網頁通過視差捲動方式，增加了互動性，使用者可以更加身臨其境地回顧台灣的歷史。
+    <br><br>當使用者滾動網頁時，畫面左上角會顯示當前捲動到的年份，讓使用者清楚地知道正在觀看的事件所屬的年份，告知使用者時間的流逝，以及該事件發生已經多久。。而在畫面的後方，則會顯示系統時間到2024的投票倒數計時器，
+    <br><br>這個網頁不僅提供了台灣歷史的全面回顧，還通過視差捲動和倒數計時器等功能，營造了更加生動、互動的瀏覽體驗，讓使用者可以更加深入地了解台灣的歷史。
+          <br><br> 
+     <img src="img/tag12.png" width="200px"> &nbsp;&nbsp;
+     <img src="img/tag15.png" width="200px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td>連結：<br>< a href="https://fengqian0914.github.io/HTML/Taiwan_Story/index.html">Github</a></td>
+  </tr>
   <tr>
     <td align="center">  <h3>食在浪費-惜食網</h3> </td>
   </tr>
