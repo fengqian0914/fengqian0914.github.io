@@ -157,13 +157,13 @@
 
 <h2 id="Portfolio"> 證照</h2>
 
-- 電腦軟體應用  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}乙級}}$
-- 電腦軟體應用  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}丙級}}$
-- 會計事務 - 資訊 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}丙級}}$
-- 會計事務 - 人工記帳 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}丙級}}$
-- TQC Word &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}專業級}}$
-- TQC Excel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}專業級}}$
-- TQC PowerPoint &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}專業級}}$
+- 電腦軟體應用  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/a_level1.png" width=100px>
+- 電腦軟體應用 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/a_level2.png" width=100px>
+- 會計事務 - 資訊 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/a_level2.png" width=100px>
+- 會計事務 - 人工記帳 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/a_level2.png" width=100px>
+- TQC Word &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/a_level3.png" width=100px>
+- TQC Excel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/a_level3.png" width=100px>
+- TQC PowerPoint &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/a_level3.png" width=100px>
 - (ITS) Information Technology Specialist-Database 資料庫管理核心能力
 - (ITS) Information Technology Specialist-Python 程式語言核心能力
 - (ICT) Information and Communication Technology Certification 計算機綜合能力國際認證
@@ -225,13 +225,7 @@
   <tr>
     <td>連結：<br>暫無</td>
   </tr>
-   <tr>
-    <td>連結: <br>
-     <a href="https://github.com/MaplestoryExpCount/MaplestoryExpCount.github.io">Github 庫</a>、
-     <a href="https://maplestoryexpcount.github.io/">網站連結</a>、
-     <a href="https://forum.gamer.com.tw/C.php?bsn=7650&snA=1014201">社群平台</a><br>
-    </td>
-  </tr>
+
   <tr>
     <td align="center">  <h3>台灣記事</h3> </td>
   </tr>
