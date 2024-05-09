@@ -132,6 +132,7 @@
       <br> <br> 儘管我們的機器人為校園帶來了許多便利，但很遺憾地，由於主辦方平台的關閉，我們的機器人目前已失效，無法再提供以上功能。我们對此感到非常遺憾，希望有機會能夠重新啟動這個有用的機器人。
     
   - 2020年 2020臺灣學校網界博覽會 銅獎      `網頁設計`
+    - 畫面 <br><img src="HTML/2020web/img/Preview.png">
     - 網站連結
       <br>主辦方：<a href="http://librarywork.taiwanschoolnet.org/cyberfair2020/ntdp7172/index.htm">臺灣學校網界博覽會</a>
       <br>備份：<a href="https://fengqian0914.github.io/HTML/2020web/index.html">Github</a>
