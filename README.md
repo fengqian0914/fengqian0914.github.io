@@ -252,7 +252,7 @@
     <td align="center">  <h3>食在浪費-惜食網</h3> </td>
   </tr>
  <tr>
-      <td ><img src="HTML/Cherish-food/img/Preview.jpg"></td>
+      <td ><a href="https://fengqian0914.github.io/HTML/Cherish-food/"> <img src="HTML/Cherish-food/img/Preview.jpg"></a></td>
 
  </tr>
   <tr>
@@ -265,7 +265,7 @@
     </td>
   </tr>
   <tr>
-    <td>連結：<br><a href="https://fengqian0914.github.io/HTML/Cherish-food/"> Github</a></td>
+    <td>連結：<br><a href="https://fengqian0914.github.io/HTML/Cherish-food/"> 網站連結</a></td>
   </tr>
   <tr>
     <td align="center">  <h3>浪浪想要家</h3> </td>
