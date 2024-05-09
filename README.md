@@ -85,39 +85,39 @@
 <h4 id="Office_software" align="center"> 辦公室軟體</h4>
 
 ---  
-  - Microsoft Word &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$
+  - Microsoft Word &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level3.png" width=100px>
     - 熟練使用Microsoft Word進行文件編輯和排版。
     - 能夠製作專業水準的文件和報告。
     - 熟悉Word的高級功能，如郵件合併、格式設置等。
-  - Microsoft PowerPoint &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$
+  - Microsoft PowerPoint &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level3.png" width=100px>
     - 具有豐富的Microsoft PowerPoint使用經驗。
     - 能夠設計和製作具有吸引力和效果的演示文稿。
     - 熟悉PowerPoint的動畫和轉場效果，能夠增強演示效果。
-  - Microsoft Excel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightgreen}進階}}$
+  - Microsoft Excel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level3.png" width=100px>
     - 熟練應用Microsoft Excel進行數據分析和處理。
     - 能夠設計和管理複雜的Excel工作表和公式。
     - 具有Excel的數據可視化和報告製作能力。
 <h4 id="Graphic_design_and_imageprocessing" align="center" > 圖形設計和影像處理</h4>
 
 --- 
-  - Adobe Photoshop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{#FF9224}中等}}$
+  - Adobe Photoshop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level2.png" width=100px>
     - 能夠進行影像編修和修飾，如調整色彩、修復照片等。
     - 具備基礎的平面設計能力，能夠製作簡單的圖片和視覺素材。
-  - Adobe Illustrator &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{#FF9224}中等}}$
+  - Adobe Illustrator &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level2.png" width=100px>
     - 能夠進行商業識別設計，如製作標誌、圖標等。
     - 具備基礎的向量圖形設計能力，能夠創建簡單的圖形和插圖。
           
 <h4 id="Other" align="center">其他</h4>
 
 --- 
-  - 企業資源規劃(ERP) 鼎新系統 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
+  - 企業資源規劃(ERP) 鼎新系統 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level1.png" width=100px>
     - 具備初階的企業資源規劃系統鼎新系統使用經驗。
     - 能夠進行基本的系統操作和功能設置。
     - 具備基礎的鼎新系統使用能力，能夠進行簡單的數據查詢和報表生成。
-  - Qilk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
+  - Qilk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level1.png" width=100px>
     - 能夠進行基本的數據分析和視覺化操作。
     - 具備基礎的報表生成和數據探索能力。
-  - Google Analytics 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
+  - Google Analytics 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level1.png" width=100px>
     - 能夠進行基本的網站流量分析和報告生成。
     - 具備基礎的數據探索和分析能力。
     
