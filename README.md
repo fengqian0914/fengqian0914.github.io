@@ -317,7 +317,7 @@
     <td align="center" >  <h3>集章達人  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 開發中 </h3> </td>
   </tr>
  <tr>
-      <td ><img src="https://img.youtube.com/vi/nogRXboCR-I/maxresdefault.jpg"></td>
+      <td ><a href="https://www.youtube.com/watch?v=8hVXF3OG-NM">  <img src="https://img.youtube.com/vi/8hVXF3OG-NM/maxresdefault.jpg">  </a></td>
 
  </tr>
   <tr>
@@ -334,7 +334,7 @@
   </tr>
   <tr>
     <td>連結: <br>
-      <a href="https://www.youtube.com/watch?v=nogRXboCR-I"> Youtube</a>
+      <a href="https://www.youtube.com/watch?v=8hVXF3OG-NM"> Youtube</a>
    </td>
   </tr>
   <tr>
