@@ -58,26 +58,26 @@
 <h4 id="Program_Development" align="center"> 程式開發</h4>
 
 --- 
-  - HTML、CSS、JS <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level3.png" width=150px>
+  - HTML、CSS、JS  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level3.png" width=100px>
 
 
 
     - 使用具意義的方式來構建HTML。
     - 熟悉RWD以及Bootstrap3、4。
-  - C# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{#FF9224}中等}}$
+  - C# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level2.png" width=100px>
      - 能應用C#語言進行程式開發。
      - 能夠設計並實現中等複雜度的應用程式。
-  - Microsoft SQL Server &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{#FF9224}中等}}$
+  - Microsoft SQL Server &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level2.png" width=100px>
     - 熟悉Microsoft SQL Server資料庫管理系統。
     - 能夠設計和優化複雜的SQL查詢。
     - 具有基本的資料庫設計和管理能力。
-  - PHP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{#FF9224}中等}}$
+  - PHP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level2.png" width=100px>
     - 能應用PHP進行網頁開發。
     - 能夠中等規模開發的Web應用程式。
-  - Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
+  - Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level1.png" width=100px>
     - 具備基本的Python編程能力。
     - 了解Python的基本語法和應用場景。
-  - Android Kotlin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${\textsf{\color{lightblue}初階}}$
+  - Android Kotlin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level1.png" width=100px>
     - 具備基本的Android應用程式開發能力。
     - 能夠使用Kotlin語言進行Android應用程式開發。
     - 了解Android應用程式的基本結構和開發流程
