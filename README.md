@@ -395,19 +395,32 @@
     <td align="center">   <h3> 卡牌翻翻樂</h3>  </td>
   </tr>
  <tr>
-      <td > <a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/C%23/%E5%8D%A1%E7%89%8C/WindowsFormsApp1"> <img src="C#/Preview/OpenCard.png"></a></td>
+      <td> <img src="Csharp/Preview/OpenCard.png"></td>
  </tr>
   <tr>
     <td>介紹：
 
-<br><br>我們參加了GSS AI Chatbot Hackathon比賽，並推出了名為「校園百寶袋」的機器人。這款機器人可以登入學生或老師的帳號，提供了多項便捷的功能，包括查詢登記成績、查詢課表以及進行對話等功能。此外，我們還添加了圖書館功能，讓使用者能夠預約書本或租借研究小間。為了提升校園管理的效率，我們還整合了修繕以及遺失物的登記系統，讓使用者能夠快速回報相關問題。
-
-<br><br>除了校園管理功能，我們的機器人還提供了一些生活服務。我們連接了氣象局的API，讓使用者可以查詢所在地的3天內氣象預報結果。此外，我們還加入了隨機取得餐點的功能，並連接了Google Map API，以推薦使用者所在地附近的餐廳。
-
-<br><br>儘管我們的機器人為校園帶來了許多便利，但很遺憾地，由於主辦方平台的關閉，我們的機器人目前已失效，無法再提供以上功能。我们對此感到非常遺憾，希望有機會能夠重新啟動這個有用的機器人。
+<br><br>使用C# Windows Forms 完成，這個遊戲有兩個不同時間限制的關卡，玩家需要在限定時間內將檯面上的卡牌進行配對。配對成功的卡牌將會消失，失敗則會重新蓋回去。完成所有配對並在限定時間內完成，即可獲勝。
           <br><br>
      <img src="img/tag14.png" width="200px"> &nbsp;&nbsp;
-   
+    </td>
+  </tr>
+  <tr>
+    <td>連結: <br>
+      <a href="Csharp/卡牌/WindowsFormsApp1">Github</a>   </td>
+  </tr>
+    <tr>
+    <td align="center">   <h3> 打字遊戲</h3>  </td>
+  </tr>
+ <tr>
+      <td> <img src="Csharp/Preview/drop_game.png"></td>
+ </tr>
+  <tr>
+    <td>介紹：
+
+<br><br>使用C# Windows Forms 完成，這款遊戲共有5種掉落物，上面可能是符號、英文或數字。玩家需要輸入正確的符號，以使符號反彈。輸入錯誤或未輸入將導致損失生命條。在限定時間內輸入越多且未達到失敗條件，即可獲勝。
+          <br><br>
+     <img src="img/tag14.png" width="200px"> &nbsp;&nbsp;
     </td>
   </tr>
   <tr>
