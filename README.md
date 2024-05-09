@@ -478,6 +478,10 @@
     </td>
   </tr>
     <tr>
+    <td>連結: <br>
+      <a href="Csharp/剪刀石頭布_單機互打">Github</a>   </td>
+  </tr>
+    <tr>
     <td align="center">   <h3> 剪刀石頭布 (與電腦版本)</h3>  </td>
   </tr>
      <tr>
@@ -495,10 +499,6 @@
   <tr>
     <td>連結: <br>
       <a href="Csharp/剪刀石頭布_VS_PC">Github</a>   </td>
-  </tr>
-  <tr>
-    <td>連結: <br>
-      <a href="Csharp/剪刀石頭布_單機互打">Github</a>   </td>
   </tr>
           <tr>
     <td align="center">   <h3> 反應遊戲</h3>  </td>
