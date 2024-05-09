@@ -395,7 +395,7 @@
     <td align="center">   <h3> 卡牌翻翻樂</h3>  </td>
   </tr>
  <tr>
-      <td> <img src="Csharp/Preview/OpenCard.png"></td>
+      <td> <a href="Csharp/卡牌/WindowsFormsApp1"><img src="Csharp/Preview/OpenCard.png"></a></td>
  </tr>
   <tr>
     <td>介紹：
@@ -409,11 +409,11 @@
     <td>連結: <br>
       <a href="Csharp/卡牌/WindowsFormsApp1">Github</a>   </td>
   </tr>
-    <tr>
+  <tr>
     <td align="center">   <h3> 打字遊戲</h3>  </td>
   </tr>
  <tr>
-      <td> <img src="Csharp/Preview/drop_game.png"></td>
+      <td> <a href="Csharp/打字遊戲"><img src="Csharp/Preview/drop_game.png"></a></td>
  </tr>
   <tr>
     <td>介紹：
@@ -425,7 +425,98 @@
   </tr>
   <tr>
     <td>連結: <br>
-      <a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/C%23/%E5%8D%A1%E7%89%8C/WindowsFormsApp1">Github</a>   </td>
+      <a href="Csharp/打字遊戲">Github</a>   </td>
+  </tr>
+    <tr>
+    <td align="center">   <h3> 魔術方陣</h3>  </td>
+  </tr>
+ <tr>
+      <td> <a href="Csharp/魔術方陣"><img src="Csharp/Preview/Magic_square_1.png"></a></td>
+ </tr>
+  <tr>
+    <td>介紹：
+
+<br><br>使用C# Windows Forms 完成，這款遊戲通過輸入奇數值生成魔術方陣(幻方)。
+          <br><br>
+     <img src="img/tag14.png" width="200px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td>連結: <br>
+      <a href="Csharp/魔術方陣">Github</a>   </td>
+  </tr>
+      <tr>
+    <td align="center">   <h3> 猜數字(1A2B)</h3>  </td>
+  </tr>
+ <tr>
+      <td> <a href="Csharp/猜數字"><img src="Csharp/Preview/number.png"></a></td>
+ </tr>
+  <tr>
+    <td>介紹：
+
+<br><br>使用C# Windows Forms 完成，遊戲開始後，系統會產生不重複的隨機數字。玩家需要根據輸入的數字與答案進行配對，得到幾A(正確位置且正確數字)幾B(錯誤位置但正確數字)的結果。當達到4A時，顯示完成所需次數。
+          <br><br>
+     <img src="img/tag14.png" width="200px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td>連結: <br>
+      <a href="Csharp/猜數字">Github</a>   </td>
+  </tr>
+        <tr>
+    <td align="center">   <h3> 剪刀石頭布 (玩家單機版)</h3>  </td>
+  </tr>
+ <tr>
+      <td> <a href="Csharp/剪刀石頭布_單機互打"><img src="Csharp/Preview/Paper_scissors_stone_VS.png"></a></td>
+ </tr>
+  <tr>
+    <td>介紹：
+
+<br><br>使用C# Windows Forms 完成，遊戲開始後，玩家A輸入左方數字鍵盤，玩家B輸入右方數字鍵盤，最後顯示最終贏家。
+          <br><br>
+     <img src="img/tag14.png" width="200px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+    <tr>
+    <td align="center">   <h3> 剪刀石頭布 (與電腦版本)</h3>  </td>
+  </tr>
+     <tr>
+      <td> <a href="Csharp/剪刀石頭布_VS_PC"><img src="Csharp/Preview/Paper_scissors_stone.png"></a></td>
+ </tr>
+ 
+  <tr>
+    <td>介紹：
+
+<br><br>使用C# Windows Forms 完成，遊戲開始後，玩家需要與電腦進行三戰兩勝的比賽，最終顯示最終贏家。
+          <br><br>
+     <img src="img/tag14.png" width="200px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td>連結: <br>
+      <a href="Csharp/剪刀石頭布_VS_PC">Github</a>   </td>
+  </tr>
+  <tr>
+    <td>連結: <br>
+      <a href="Csharp/剪刀石頭布_單機互打">Github</a>   </td>
+  </tr>
+          <tr>
+    <td align="center">   <h3> 反應遊戲</h3>  </td>
+  </tr>
+ <tr>
+      <td> <a href="Csharp/反應遊戲"><img src="Csharp/Preview/reaction_game.png"></a></td>
+ </tr>
+  <tr>
+    <td>介紹：
+
+<br><br>使用C# Windows Forms 完成，遊戲開始後，玩家需要在限定時間內按下相應的數字。若未按到則失敗，並且可以調整最短反應時間。
+          <br><br>
+     <img src="img/tag14.png" width="200px"> &nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td>連結: <br>
+      <a href="Csharp/反應遊戲">Github</a>   </td>
   </tr>
 </tbody>
 </table>
@@ -467,6 +558,7 @@
       <a href="https://youtu.be/MeMtXf6m2OI?si=peKd87ahmE8NBDe-"> Youtube</a>
    </td>
   </tr>
+
 </tbody>
 </table>
 
