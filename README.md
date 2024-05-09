@@ -175,7 +175,7 @@
 <table>
 <thead>
   <tr>
-    <th colspan="2">網頁類</th>
+    <th colspan="2"><h2>網頁類</h2></th>
   </tr>
 </thead>
 <tbody style="text-align: center;">
@@ -309,7 +309,7 @@
 <table>
 <thead>
   <tr>
-    <th colspan="2">APP類</th>
+    <th colspan="2"><h2>APP類</h2></th>
   </tr>
 </thead>
 <tbody style="text-align: center;">
@@ -387,7 +387,7 @@
 <table>
 <thead>
   <tr>
-    <th colspan="2">C#</th>
+    <th colspan="2"><h2>C#</h2></th>
   </tr>
 </thead>
 <tbody style="text-align: center;">
@@ -529,7 +529,7 @@
 <table>
 <thead>
   <tr>
-    <th colspan="2">其他</th>
+    <th colspan="2"><h2>其他</h2></th>
   </tr>
 </thead>
 <tbody style="text-align: center;">
