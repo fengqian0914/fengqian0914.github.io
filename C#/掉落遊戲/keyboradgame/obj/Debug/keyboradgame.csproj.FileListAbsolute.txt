@@ -1,0 +1,55 @@
+C:\Users\chan\source\repos\keyboradgame\keyboradgame\bin\Debug\keyboradgame.exe.config
+C:\Users\chan\source\repos\keyboradgame\keyboradgame\bin\Debug\keyboradgame.exe
+C:\Users\chan\source\repos\keyboradgame\keyboradgame\bin\Debug\keyboradgame.pdb
+C:\Users\chan\source\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.csproj.AssemblyReference.cache
+C:\Users\chan\source\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.Form1.resources
+C:\Users\chan\source\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.Properties.Resources.resources
+C:\Users\chan\source\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.csproj.GenerateResource.cache
+C:\Users\chan\source\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.csproj.CoreCompileInputs.cache
+C:\Users\chan\source\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.exe
+C:\Users\chan\source\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.pdb
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\bin\Debug\keyboradgame.exe.config
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\bin\Debug\keyboradgame.exe
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\bin\Debug\keyboradgame.pdb
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.csproj.AssemblyReference.cache
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.Form1.resources
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.Properties.Resources.resources
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.csproj.GenerateResource.cache
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.csproj.CoreCompileInputs.cache
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.exe
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.pdb
+C:\Users\chan\Desktop\repos\keyboradgame\keyboradgame\obj\Debug\keyboradgame.Form2.resources
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\bin\Debug\keyboradgame.exe.config
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\bin\Debug\keyboradgame.exe
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\bin\Debug\keyboradgame.pdb
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.csproj.AssemblyReference.cache
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.Form1.resources
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.Form2.resources
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.Properties.Resources.resources
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.csproj.GenerateResource.cache
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.csproj.CoreCompileInputs.cache
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.exe
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.pdb
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\bin\Debug\Interop.WMPLib.dll
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\Interop.WMPLib.dll
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.csproj.ResolveComReference.cache
+C:\Users\chan\Desktop\repos\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.Form3.resources
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\bin\Debug\keyboradgame.exe.config
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\bin\Debug\keyboradgame.exe
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\bin\Debug\keyboradgame.pdb
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\bin\Debug\Interop.WMPLib.dll
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\bin\Debug\AxInterop.WMPLib.dll
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.csproj.AssemblyReference.cache
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\Interop.WMPLib.dll
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\AxInterop.WMPLib.dll
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.csproj.ResolveComReference.cache
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.Form1.resources
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.Form2.resources
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.Form3.resources
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.Properties.Resources.resources
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.csproj.GenerateResource.cache
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.csproj.CoreCompileInputs.cache
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.exe
+E:\大學\C#程式\keyboradgame - 複製 (2)\keyboradgame\obj\Debug\keyboradgame.pdb

@@ -1,0 +1,10 @@
+E:\程式設計\自己練習\剪刀石頭不\剪刀石頭不\obj\Debug\剪刀石頭不.csproj.AssemblyReference.cache
+E:\程式設計\自己練習\剪刀石頭不\剪刀石頭不\obj\Debug\剪刀石頭不.Form1.resources
+E:\程式設計\自己練習\剪刀石頭不\剪刀石頭不\obj\Debug\剪刀石頭不.Properties.Resources.resources
+E:\程式設計\自己練習\剪刀石頭不\剪刀石頭不\obj\Debug\剪刀石頭不.csproj.GenerateResource.cache
+E:\程式設計\自己練習\剪刀石頭不\剪刀石頭不\obj\Debug\剪刀石頭不.csproj.CoreCompileInputs.cache
+E:\程式設計\自己練習\剪刀石頭不\剪刀石頭不\bin\Debug\剪刀石頭不.exe.config
+E:\程式設計\自己練習\剪刀石頭不\剪刀石頭不\bin\Debug\剪刀石頭不.exe
+E:\程式設計\自己練習\剪刀石頭不\剪刀石頭不\bin\Debug\剪刀石頭不.pdb
+E:\程式設計\自己練習\剪刀石頭不\剪刀石頭不\obj\Debug\剪刀石頭不.exe
+E:\程式設計\自己練習\剪刀石頭不\剪刀石頭不\obj\Debug\剪刀石頭不.pdb

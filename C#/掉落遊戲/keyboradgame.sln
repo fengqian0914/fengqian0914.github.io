@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keyboradgame", "keyboradgame\keyboradgame.csproj", "{EEBEF710-C6BF-420E-8742-0BB166859B75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEBEF710-C6BF-420E-8742-0BB166859B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBEF710-C6BF-420E-8742-0BB166859B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBEF710-C6BF-420E-8742-0BB166859B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBEF710-C6BF-420E-8742-0BB166859B75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA597430-BA29-4229-BDA4-C043C47476F8}
+	EndGlobalSection
+EndGlobal

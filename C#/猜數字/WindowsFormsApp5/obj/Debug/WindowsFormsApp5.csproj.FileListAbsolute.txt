@@ -1,0 +1,20 @@
+C:\Users\chan\source\repos\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe.config
+C:\Users\chan\source\repos\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe
+C:\Users\chan\source\repos\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.pdb
+C:\Users\chan\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\chan\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Properties.Resources.resources
+C:\Users\chan\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.GenerateResource.cache
+C:\Users\chan\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.CoreCompileInputs.cache
+C:\Users\chan\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.exe
+C:\Users\chan\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.pdb
+C:\Users\chan\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.AssemblyReference.cache
+E:\下載\資料結構 (3)\猜數字\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe.config
+E:\下載\資料結構 (3)\猜數字\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe
+E:\下載\資料結構 (3)\猜數字\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.pdb
+E:\下載\資料結構 (3)\猜數字\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.AssemblyReference.cache
+E:\下載\資料結構 (3)\猜數字\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Form1.resources
+E:\下載\資料結構 (3)\猜數字\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Properties.Resources.resources
+E:\下載\資料結構 (3)\猜數字\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.GenerateResource.cache
+E:\下載\資料結構 (3)\猜數字\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.CoreCompileInputs.cache
+E:\下載\資料結構 (3)\猜數字\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.exe
+E:\下載\資料結構 (3)\猜數字\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.pdb

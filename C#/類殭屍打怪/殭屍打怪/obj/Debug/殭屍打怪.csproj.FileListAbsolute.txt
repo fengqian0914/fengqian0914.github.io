@@ -1,0 +1,10 @@
+E:\程式設計\自己練習\殭屍打怪\殭屍打怪\bin\Debug\殭屍打怪.exe.config
+E:\程式設計\自己練習\殭屍打怪\殭屍打怪\bin\Debug\殭屍打怪.exe
+E:\程式設計\自己練習\殭屍打怪\殭屍打怪\bin\Debug\殭屍打怪.pdb
+E:\程式設計\自己練習\殭屍打怪\殭屍打怪\obj\Debug\殭屍打怪.csproj.AssemblyReference.cache
+E:\程式設計\自己練習\殭屍打怪\殭屍打怪\obj\Debug\殭屍打怪.Form1.resources
+E:\程式設計\自己練習\殭屍打怪\殭屍打怪\obj\Debug\殭屍打怪.Properties.Resources.resources
+E:\程式設計\自己練習\殭屍打怪\殭屍打怪\obj\Debug\殭屍打怪.csproj.GenerateResource.cache
+E:\程式設計\自己練習\殭屍打怪\殭屍打怪\obj\Debug\殭屍打怪.csproj.CoreCompileInputs.cache
+E:\程式設計\自己練習\殭屍打怪\殭屍打怪\obj\Debug\殭屍打怪.exe
+E:\程式設計\自己練習\殭屍打怪\殭屍打怪\obj\Debug\殭屍打怪.pdb

@@ -1,0 +1,51 @@
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+E:\程式設計\期末報告\鋪克牌版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\程式設計\期末報告\鋪克牌版 - 複製 (2)\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\程式設計\期末報告\正確版\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
