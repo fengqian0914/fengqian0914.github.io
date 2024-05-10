@@ -7,6 +7,7 @@
   - 輔系：致理科技大學-資訊管理系              預計於113年修業完畢
 - 居住 : 新北市
 - 信箱 : fengqian0914@gmail.com
+- 履歷：<a href="https://drive.google.com/drive/folders/1kaPb8smEbPoCDdZt5VkV7gpw7_ykDDu9?usp=drive_link">雲端</a>
 <h2 > 目錄 </h2>
 
 - [自傳](https://github.com/fengqian0914/fengqian.github.io#Autobiography)
