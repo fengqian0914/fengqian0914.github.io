@@ -1,4 +1,5 @@
  <h1 > 關於我</h1>
+ <h4 align=center ><img src="img/photo.png" width="100px" height="100px" > </h4>
 
 - 姓名：徐逢謙 (Jack)
 - 生日 : 09/14/2002
