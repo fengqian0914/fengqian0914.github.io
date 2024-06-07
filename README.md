@@ -568,11 +568,7 @@
 
 <h2 id="School_transcript">在校成績單</h2>
 <img src="img/School.png">
-<img src="img/transcript.jpg">
-<img src="img/s1.jpg">
-<img src="img/s2.jpg">
-<img src="img/s3.jpg">
-<img src="img/s4.jpg">
+
 <img src="img/s1.png">
 
 <!-- <h2 id="Interest"> 興趣</h2>
