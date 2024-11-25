@@ -9,35 +9,12 @@
 
 <body>
     <button id="notify-btn">設定通知</button>
-    <script>
-    // 確認瀏覽器是否支持通知 API
-    if (!("Notification" in window)) {
-        alert("您的瀏覽器不支持通知功能！");
-    } else {
-        // 請求通知權限
-        Notification.requestPermission().then(permission => {
-            if (permission === 'granted') {
-                // 創建一個測試通知
-                setTimeout(() => {
-                    new Notification('蔬菜即將到期！', {
-                        body: '您的蔬菜還有3天到期，請儘快使用！',
-                        icon: 'https://via.placeholder.com/128'
-                    });
-                }, 3000);
-            } else if (permission === 'denied') {
-                alert("通知權限已被拒絕，請在瀏覽器設定中允許通知！");
-            } else {
-                alert("通知權限未授權！");
-            }
-        });
-    }
-</script>
 
-<!-- 
     <script>
         // 在頁面加載時檢查通知權限狀態
         document.addEventListener('DOMContentLoaded', () => {
             const notifyButton = document.getElementById('notify-btn');
+            const statusElement = document.getElementById('notify-btn');
 
             // 當按鈕被點擊時
             notifyButton.addEventListener('click', () => {
@@ -49,6 +26,8 @@
                             scheduleNotification();
                         } else if (permission === 'denied') {
                             alert('通知權限已被拒絕，請手動到瀏覽器設定中開啟通知。');
+                            statusElement.textContent = `通知權限已被拒絕，請手動到瀏覽器設定中開啟通知。`;
+
                         }
                     });
                 } else if (Notification.permission === 'granted') {
@@ -56,6 +35,8 @@
                     scheduleNotification();
                 } else {
                     // 如果權限已被拒絕，提示用戶手動操作
+                    statusElement.textContent = `您通知權限被禁止，請依照以下步驟啟用通知：`;
+
                     alert('通知權限被禁止，請依照以下步驟啟用通知：\n1. 點擊瀏覽器地址欄左側的🔒或🔓圖示。\n2. 選擇「通知」，並允許通知功能。');
                 }
             });
@@ -70,9 +51,13 @@
                     body: '這是一條測試通知。',
                 });
             }, timeInSeconds * 1000); // 將秒數轉為毫秒
+
+
+            const statusElement = document.getElementById("status");
+
         }
 
-    </script> -->
+    </script>
 
 </body>
 
