@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="notify-btn">設定通知</button>
+
+    <script>
+        // 在頁面加載時檢查通知權限狀態
+        document.addEventListener('DOMContentLoaded', () => {
+            const notifyButton = document.getElementById('notify-btn');
+
+            // 當按鈕被點擊時
+            notifyButton.addEventListener('click', () => {
+                if (Notification.permission === 'default') {
+                    // 第一次或尚未處理權限時，詢問權限
+                    Notification.requestPermission().then(permission => {
+                        if (permission === 'granted') {
+                            // 權限允許後，設定通知
+                            scheduleNotification();
+                        } else if (permission === 'denied') {
+                            alert('通知權限已被拒絕，請手動到瀏覽器設定中開啟通知。');
+                        }
+                    });
+                } else if (Notification.permission === 'granted') {
+                    // 如果已允許權限，直接發送通知
+                    scheduleNotification();
+                } else {
+                    // 如果權限已被拒絕，提示用戶手動操作
+                    alert('通知權限被禁止，請依照以下步驟啟用通知：\n1. 點擊瀏覽器地址欄左側的🔒或🔓圖示。\n2. 選擇「通知」，並允許通知功能。');
+                }
+            });
+        });
+
+        // 排程通知
+        function scheduleNotification() {
+            // 設定倒計時，這裡以 10 秒為例
+            const timeInSeconds = 10;
+            setTimeout(() => {
+                new Notification('提醒通知', {
+                    body: '這是一條測試通知。',
+                });
+            }, timeInSeconds * 1000); // 將秒數轉為毫秒
+        }
+
+    </script>
+
+</body>
+
+</html>
