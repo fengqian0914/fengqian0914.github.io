@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <button id="notify-btn">設定通知</button>
+    <button id="notify-btn">設定通知123</button>
 
     <script>
         // 在頁面加載時檢查通知權限狀態
@@ -33,6 +33,8 @@
                 } else if (Notification.permission === 'granted') {
                     // 如果已允許權限，直接發送通知
                     scheduleNotification();
+                    statusElement.textContent = `設置中`;
+
                 } else {
                     // 如果權限已被拒絕，提示用戶手動操作
                     statusElement.textContent = `您通知權限被禁止，請依照以下步驟啟用通知：`;
