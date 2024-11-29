@@ -77,8 +77,8 @@
     - 能應用PHP進行網頁開發。
     - 能夠中等規模開發的Web應用程式。
   - Android Kotlin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level2.png" width=100px>
-    - 具備基本的Android應用程式開發能力。
-    - 能夠使用Kotlin語言進行Android應用程式開發。
+    - 能應用Koltin開發APP能力。
+    - 能夠使用多種技術串連至API。
     - 了解Android應用程式的基本結構和開發流程
   - Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/img/level1.png" width=100px>
     - 具備基本的Python編程能力。
