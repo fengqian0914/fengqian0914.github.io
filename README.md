@@ -129,6 +129,12 @@
 <h4 id="Contest_Record" > 競賽紀錄 </h4>
 
 --- 
+  - 2024  致理科大商管系 CTM實務專題成果展 科技組 第一名  `Android APP`
+    - 影片
+      [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WiQyS0wx8Bg/maxresdefault.jpg)](https://www.youtube.com/watch?v=WiQyS0wx8Bg)
+    - 介紹
+      - OOXX
+
   - 2023 GSS AI Chatbot Hackathon 校園組 亞軍  `Line Bot 機器人`
     - 影片
       [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/MeMtXf6m2OI/maxresdefault.jpg)](https://www.youtube.com/watch?v=MeMtXf6m2OI)
