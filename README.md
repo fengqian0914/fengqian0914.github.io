@@ -159,7 +159,7 @@
 
 --- 
  - 2024 致理科大商管系 CTM實務專題成果展 科技組 第一名
- -  <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/%E7%8D%8E%E7%8B%80/%E8%87%B4%E7%90%86%E5%95%86%E7%AE%A1%E7%B3%BB%E5%B0%88%E9%A1%8C%E7%AB%B6%E8%B3%BD%E7%AC%AC%E4%B8%80%E5%90%8D.jpg" >
+ -  <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/%E7%8D%8E%E7%8B%80/%E8%87%B4%E7%90%86%E5%95%86%E7%AE%A1%E7%B3%BB%E5%B0%88%E9%A1%8C%E7%AB%B6%E8%B3%BD%E7%AC%AC%E4%B8%80%E5%90%8D.jpg"  width="50%">
  - 
  - 2023 GSS AI Chatbot Hackathon 校園組 亞軍
  - 2022 大二上 班級排名 第三名
