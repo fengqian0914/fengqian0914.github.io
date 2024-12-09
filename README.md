@@ -247,7 +247,7 @@
     </td>
   </tr>
   <tr>
-    <td>連結：<br><a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/PHP/%E6%A8%A1%E6%93%AC%E8%A8%82%E9%A4%90%E7%B3%BB%E7%B5%B1">網站連結</a></td>
+    <td>連結：<br><a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/PHP/%E6%A8%A1%E6%93%AC%E8%A8%82%E9%A4%90%E7%B3%BB%E7%B5%B1">Github</a></td>
   </tr>
 
   <tr>
@@ -356,7 +356,7 @@
   </tr>
   <tr>
     <td>連結: <br>
-      <a href="https://www.youtube.com/watch?v=WiQyS0wx8Bg"> Youtube</a>
+      <a href="https://www.youtube.com/watch?v=WiQyS0wx8Bg"> Youtube</a>、<a heef="https://github.com/fengqian0914/Metro-Journey-Stamp-Collection">Github</a>
    </td>
   </tr>
   <tr>
