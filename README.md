@@ -230,14 +230,16 @@
     </td>
   </tr>
   <tr>
-    <td align="center">  <h3>會員點餐系統 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;開發中</h3> </td>
+    <td align="center">  <h3>會員點餐系統 </h3> </td>
   </tr>
  <tr>
-      <td  align="center" >畫面設計中</td>
+      <td  align="center" ><a href="https://fengqian0914.github.io/HTML/Taiwan_Story/index.html"><img src="PHP/模擬訂餐系統/員工訂餐系統_圖.png"></a></td>
  </tr>
   <tr>
     <td>
-     這款員工點餐系統是一個基於 PHP 開發的方便實用的工具，旨在幫助企業組織更有效地管理員工餐飲需求。該系統提供了一個直觀友好的界面，讓員工可以輕鬆地在指定的時間範圍內訂購餐點。
+     這個程式的功能是為了解決店家與餐點資料管理的需求，提供簡單直觀的操作方式。使用者可以透過介面新增店家類型、餐點類型、店家與餐點資料，系統會自動生成唯一的編號（如 Store_type_1 或 Meal_1），確保資料的唯一性與一致性。程式使用 PHP 作為後端技術，搭配 MySQL 資料庫進行資料存取與管理。<br>
+在操作上，系統會根據使用者的選擇接收 POST 請求，處理對應的資料操作，並即時提供成功或錯誤的操作反饋。<br>
+此系統設計簡單易用，適合用於需要管理多家店面與餐點資料的情境，例如餐飲連鎖店或中央廚房管理平台，提升數據管理的效率與準確性。
           <br><br> 
      <img src="img/tag15.png" width="200px"> &nbsp;&nbsp;
      <img src="img/tag11.png" width="200px"> &nbsp;&nbsp;
@@ -245,7 +247,7 @@
     </td>
   </tr>
   <tr>
-    <td>連結：<br>暫無</td>
+    <td>連結：<br><a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/PHP/%E6%A8%A1%E6%93%AC%E8%A8%82%E9%A4%90%E7%B3%BB%E7%B5%B1">網站連結</a></td>
   </tr>
 
   <tr>
@@ -333,7 +335,7 @@
 </thead>
 <tbody style="text-align: center;">
   <tr>
-    <td align="center" >  <h3>集章達人  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 開發中 </h3> </td>
+    <td align="center" >  <h3>集章達人  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </h3> </td>
   </tr>
  <tr>
       <td ><a href="https://www.youtube.com/watch?v=WiQyS0wx8Bg">  <img src="https://img.youtube.com/vi/WiQyS0wx8Bg/maxresdefault.jpg">  </a></td>
