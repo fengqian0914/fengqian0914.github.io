@@ -336,14 +336,15 @@
     <td align="center" >  <h3>集章達人  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 開發中 </h3> </td>
   </tr>
  <tr>
-      <td ><a href="https://www.youtube.com/watch?v=8hVXF3OG-NM">  <img src="https://img.youtube.com/vi/8hVXF3OG-NM/maxresdefault.jpg">  </a></td>
+      <td ><a href="https://www.youtube.com/watch?v=WiQyS0wx8Bg">  <img src="https://img.youtube.com/vi/WiQyS0wx8Bg/maxresdefault.jpg">  </a></td>
 
  </tr>
   <tr>
     <td>介紹：
-      <br><br>這款捷運集章達人App是使用Android Kotlin開發的應用程式。使用者可以利用App內建的QRcode掃描器，在捷運站內掃描隱藏的QRcode，將抵達的站點記錄下來。通過完成任務和達成成就，使用者可以獲得積分，並且可以用這些積分來兌換商品或獎勵。
-
- <br><br>此外，這個App還提供了捷運API的功能，讓使用者可以在App中獲取路網、路線時程等捷運相關資訊，方便使用者在旅途中查詢和規劃路線。這款捷運集章達人App結合了遊戲性和實用性，讓使用者在使用捷運的同時，也能享受到集章的樂趣和獎勵。
+      <br><br>這款捷運集章達人App是使用<b>Android Kotlin</b>開發的應用程式。使用者可以利用App內建的QRcode掃描器，在捷運站內掃描特定的QRcode，將抵達的站點記錄下來。通過達成成就，使用者可以獲得積分，並且可以用這些積分來兌換商品或獎勵。<br>
+      此外，這個App還提供了捷運API的功能，讓使用者可以在App中獲取路網、路線時程等捷運相關資訊，方便使用者在旅途中查詢和規劃路線。這款捷運集章達人App結合了遊戲性和實用性，讓使用者在使用捷運的同時，也能享受到集章的樂趣和獎勵。<br>
+      在本次專題中我專責App程式碼撰寫，並且使用到<b>API串接、firebase</b>等技術。<br>
+      並且此專題於畢業專題競賽中取得<b>第一名</b>。
           <br><br>
      <img src="img/tag6.png" width="200px"> &nbsp;&nbsp;
      <img src="img/tag7.png" width="200px"> &nbsp;&nbsp;
@@ -353,7 +354,7 @@
   </tr>
   <tr>
     <td>連結: <br>
-      <a href="https://www.youtube.com/watch?v=8hVXF3OG-NM"> Youtube</a>
+      <a href="https://www.youtube.com/watch?v=WiQyS0wx8Bg"> Youtube</a>
    </td>
   </tr>
   <tr>
