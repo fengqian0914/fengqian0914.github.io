@@ -160,22 +160,22 @@
 --- 
  - 2024 致理科大商管系 CTM實務專題成果展 科技組 第一名
    
- -  <div align="center">
+<div align="center">
     <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/%E7%8D%8E%E7%8B%80/%E8%87%B4%E7%90%86%E5%95%86%E7%AE%A1%E7%B3%BB%E5%B0%88%E9%A1%8C%E7%AB%B6%E8%B3%BD%E7%AC%AC%E4%B8%80%E5%90%8D.jpg" width="50%">
 </div>
  - 2023 GSS AI Chatbot Hackathon 校園組 亞軍
  
- - <div align="center">
+<div align="center">
     <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/%E7%8D%8E%E7%8B%80/2023%20GSS%20AI%20Chatbot%20Hackathon%20%E6%A0%A1%E5%9C%92%E7%B5%84%20%E4%BA%9E%E8%BB%8D.jpg" width="50%">
 </div>
  - 2022 大二上 班級排名 第三名
  
- - <div align="center">
+<div align="center">
     <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/%E7%8D%8E%E7%8B%80/2022%20%E8%87%B4%E7%90%86%E7%A7%91%E5%A4%A7%20%E5%A4%A7%E4%BA%8C%E4%B8%8A%20%E7%8F%AD%E7%B4%9A%E6%8E%92%E5%90%8D%20%E7%AC%AC%E4%B8%89%E5%90%8D.jpg" width="50%">
 </div>
  - 2020 2020臺灣學校網界博覽會 銅獎
  
- - <div align="center">
+ <div align="center">
     <img src="https://github.com/fengqian0914/fengqian0914.github.io/blob/main/%E7%8D%8E%E7%8B%80/2020%E8%87%BA%E7%81%A3%E5%AD%B8%E6%A0%A1%E7%B6%B2%E7%95%8C%E5%8D%9A%E8%A6%BD%E6%9C%83%20%E9%8A%85%E7%8D%8E.jpg" width="50%">
 </div>
  
