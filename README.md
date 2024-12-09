@@ -335,7 +335,7 @@
 </thead>
 <tbody style="text-align: center;">
   <tr>
-    <td align="center" >  <h3>捷旅印然  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </h3> </td>
+    <td align="center" >  <h3>捷旅印然(畢業專題)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </h3> </td>
   </tr>
  <tr>
       <td ><a href="https://www.youtube.com/watch?v=WiQyS0wx8Bg">  <img src="https://img.youtube.com/vi/WiQyS0wx8Bg/maxresdefault.jpg">  </a></td>
