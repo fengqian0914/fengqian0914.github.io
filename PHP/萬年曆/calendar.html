@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <body>
+    <form id="form1" name="form1" method="post" action="calendar.php">
+
+      <p>
+        <label for="yearSelect">選擇年份：</label>
+        <select id="yearSelect" name="selectedYear" title="年份選擇">
+        </select>
+      </p>
+      <p>
+        <label for="monthSelect">月：</label>
+        <select id="monthSelect" name="selectedMonth" title="月份選擇">
+        </select>
+      </p>
+
+      <input type="submit" name="button" id="button" value="送出" />
+    </form>
+  </body>
+
+</body>
+<script>
+  // 取得當前年份
+  var currentYear = new Date().getFullYear();
+  // 選單元素
+  var yearSelect = document.getElementById("yearSelect");
+  var monthSelect = document.getElementById("monthSelect");
+
+  // 生成所有年份選項
+  for (var i = currentYear; i >= currentYear - 100; i--) {
+    var option = document.createElement("option");
+    option.text = i;
+    option.value = i;
+    yearSelect.appendChild(option);
+  }
+  for (var i = 1; i <= 12; i++) {
+    var option = document.createElement("option");
+    option.text = i;
+    option.value = i;
+    monthSelect.appendChild(option);
+  }
+</script>
+
+</html>

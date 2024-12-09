@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>點餐系統</title>
+</head>
+
+<body>
+	<div class="content">
+		<h1>會員註冊</h1></br>
+		<form id="form1" name="form1" method="post" action="register.php" onsubmit="return validateForm()">
+			<!-- onsubmit="return validateForm()" 是送出表單前先執行 validateForm() 回傳值是true才送出表單 -->
+
+			<div class="account">
+				<h3>帳號：</h3>
+				<input title="account" name="account" type="text" id="id" size="20" maxlength="14" required
+					onKeyUp="value=value.replace(/[^A-Za-z0-9]/g, '')" />
+				<!-- 用正規表達式來驗證+必填 降低送出錯誤 -->
+
+			</div>
+			<div class="name">
+				<h3>姓名：</h3>
+				<input title="name" name="name" type="text" id="name" size="20" maxlength="14" required>
+
+			</div>
+			<div class="phone">
+				<h3>電話號碼：</h3>
+				<input title="phone" type="phone" id="phone" name="phone" required>
+
+			</div>
+			<div class="email">
+				<h3>電子郵件：</h3>
+				<input title="email" type="email" id="email" name="email" required>
+			</div>
+			<div class="password">
+				<h3>密碼：</h3>
+				<input title="password1" name="password1" type="password" id="password1" size="20" maxlength="8"
+					required onKeyUp="value=value.replace(/[^A-Za-z0-9]/g, '')" />
+				<!-- 用正規表達式來驗證+必填 降低送出錯誤 -->
+
+
+			</div>
+			<div class="password">
+				<h3>確認密碼：</h3>
+				<input title="password2" name="password2" type="password" id="password2" size="20" maxlength="8"
+					required onKeyUp="value=value.replace(/[^A-Za-z0-9]/g, '')" />
+				<!-- 用正規表達式來驗證+必填 降低送出錯誤 -->
+
+			</div>
+			</br></br>
+			<input type="submit" name="button" id="button1" value="註冊" size="10" />
+			<input type="button" name="login" id="button2" value="返回" onclick="window.location.href='login.html';" />
+	</div>
+	</form>
+	</div>
+
+	<script>
+		function validateForm() {  // 執行 validateForm() 
+			var password1 = document.getElementById("password1").value; //取得密碼欄位一 值
+			var password2 = document.getElementById("password2").value; //取得密碼欄位二 值
+			if (password1 == " " || password2 == " ") { //判定密碼欄位是否為空
+				alert("欄位不得為空"); // 彈跳視窗 顯示 欄位不得為空
+				return false;  // 回傳false 代表 輸入格式失敗
+			}
+			if (password1 !== password2) {   //判定密碼欄位是否兩次不一致
+				alert("密碼不相同，請重新輸入。"); // 彈跳視窗 顯示 密碼不相同，請重新輸入。
+				return false; // 回傳false 代表 輸入格式失敗
+			}
+
+			return true; // 回傳false 代表 輸入格式正確 可以送出表單
+		}
+	</script>
+</body>
+</br></br></br></br></br>
+<hr>
+<center>
+	<img src="img/footer.png" width=15% />
+	<img src="img/footer.png" width=15% />
+	<img src="img/footer.png" width=15% />
+	<img src="img/footer.png" width=15% />
+	<img src="img/footer.png" width=15% />
+	</img></img></img></img></img>
+</center>
+
+</html>

@@ -1,0 +1,263 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft JhengHei;
+}
+
+
+nav {
+    top: 0;
+    width: 100vw;
+    height: 80px;
+    font-size: 30px;
+    position: fixed;
+    background: rgb(156, 194, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    font-weight: bold;
+    /* 确保 nav 处于更高的堆叠顺序 */
+}
+
+nav div {
+    cursor: pointer;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    margin: 100px 0px 50px 0px;
+
+    /* 给 container 腾出 80px 的空间 */
+}
+
+.w-50 {
+    width: 50vw;
+}
+
+.w-100 {
+    width: 100vw;
+    height: 300px;
+}
+
+.w-100 img {
+    width: 100%;
+    /* 確保圖片填滿其容器的寬度 */
+    height: 100%;
+    /* 確保圖片填滿其容器的高度 */
+    object-fit: cover;
+    border-radius: 20px;
+    /* 圖片填充容器，保持比例並裁剪多餘部分 */
+}
+
+.storeName h1 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.cards {
+    margin: 20px 0px;
+}
+
+.cardimg {
+    width: 100%;
+    height: 300px;
+}
+
+.cardimg img {
+    width: 100%;
+    /* 確保圖片填滿其容器的寬度 */
+    height: 100%;
+    /* 確保圖片填滿其容器的高度 */
+    object-fit: cover;
+
+}
+
+.card-title {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card-text {
+    height: 200px;
+}
+
+nav button {
+    font-size: 30px;
+}
+
+nav div {
+    flex-direction: column;
+    flex: 1;
+    line-height: 80px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+
+
+nav a,
+nav a:link,
+nav a:hover,
+nav a:visited,
+nav a:active {
+    text-decoration: none;
+    color: black;
+}
+
+/* nav img {
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+} */
+
+
+
+#Menu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+html>body {
+    background: #c9c3b3;
+
+}
+
+.store {
+    margin: 10px;
+    background: white;
+
+}
+
+.store_img {
+    width: 100%;
+    height: 200px;
+}
+
+.store_data {
+    width: 100%;
+    padding: 10px;
+}
+
+.store_name {
+    font-weight: bold;
+}
+
+.store img {
+    width: 100%;
+    /* 確保圖片填滿其容器的寬度 */
+    height: 100%;
+    /* 確保圖片填滿其容器的高度 */
+    object-fit: cover;
+    /* 圖片填充容器，保持比例並裁剪多餘部分 */
+}
+
+#Store_menu button,
+#Store_menu input {
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+select,
+input {
+    font-size: 30px;
+}
+
+.items {
+    background: white;
+    border-radius: 3px;
+    height: 100px;
+    width: 100%;
+
+    justify-content: center;
+    /* 水平居中對齊 */
+    align-items: center;
+    /* 垂直居中對齊 */
+    margin: 20px 0px;
+
+    display: flex;
+    /* 父元素定位 */
+}
+
+#carts {
+    background: gray;
+    /* min-height: 300px; */
+    bottom: 0;
+    min-height: 50vh;
+    height: 50vh;
+    overflow-y: scroll;
+    width: 100%;
+    position: fixed;
+}
+
+#carts h1 {
+    text-align: center;
+    color: white;
+}
+
+#cart-items {
+    margin: 10px;
+    padding: 20px 20px 50px 20px;
+    height: 100%;
+}
+
+#cart-items img {
+    max-width: 80px;
+    max-height: 80px;
+    margin: 10px;
+    flex: 1;
+}
+
+.items div {
+    line-height: 100px;
+    text-align: center;
+}
+
+.items div div {
+    padding: 0px 10px;
+}
+
+.item_detail {
+    flex: 1;
+    display: flex;
+}
+
+
+
+
+
+.count_div button {
+    margin: 0px 5px;
+    padding: 10px;
+}
+
+.content {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+.footer{
+	
+	
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>點餐系統</title>
+</head>
+
+<body>
+  <div class="content">
+    <h1>會員登入</h1>
+    <form id="form1" name="form1" method="post" action="login.php">
+      <p>
+      <div class="Account">
+        <h3>帳號：</h3>
+      </div>
+      <input title="Account" name="Account" type="text" id="id" size="20" maxlength="14" required
+        onKeyUp="value=value.replace(/[^A-Za-z0-9]/g, '')" />
+      <!-- 用正規表達式來驗證+必填 降低送出錯誤 -->
+
+      </p>
+      <p>
+      <div class="password">
+        <h3>密碼：</h3>
+      </div>
+      <input title="password" name="password" type="password" id="password" size="10" maxlength="8" required
+        onKeyUp="value=value.replace(/[^A-Za-z0-9]/g, '')" />
+      <!-- 用正規表達式來驗證+必填 降低送出錯誤 -->
+
+      </p></br>
+      <input type="submit" name="login" id="button1" value="登入" />
+      <input type="button" name="login" id="button2" value="忘記密碼" onclick="window.location.href='forget.html';" />
+      <br><br><br>
+
+      <a href="register.html">還沒有帳號，註冊一個！</a>
+    </form>
+
+  </div>
+</body>
+<center>
+  <img src="img/Login.png" width=40% height=40%></img>
+</center>
+
+</br></br></br></br></br>
+<hr>
+<center>
+  <img src="img/footer.png" width=15% />
+  <img src="img/footer.png" width=15% />
+  <img src="img/footer.png" width=15% />
+  <img src="img/footer.png" width=15% />
+  <img src="img/footer.png" width=15% />
+  </img></img></img></img></img>
+</center>
+
+</html>
