@@ -356,7 +356,8 @@
   </tr>
   <tr>
     <td>連結: <br>
-      <a href="https://www.youtube.com/watch?v=WiQyS0wx8Bg"> Youtube</a>、<a heef="https://github.com/fengqian0914/Metro-Journey-Stamp-Collection">Github</a>
+      <a href="https://www.youtube.com/watch?v=WiQyS0wx8Bg"> Youtube </a> 、
+      <a heef="https://github.com/fengqian0914/Metro-Journey-Stamp-Collection">Github</a>
    </td>
   </tr>
   <tr>
