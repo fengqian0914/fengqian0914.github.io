@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    android:layout_margin="4dp"
+    android:padding="12dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:minWidth="160dp"
+    android:minHeight="160dp">
+
+    <TextView
+        android:id="@+id/item_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新北市"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/item_sitename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鶯歌觀測站"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/item_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="程度"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/item_aqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="52 aqi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>
