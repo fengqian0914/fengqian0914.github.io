@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">API 整合系統</string>
+    <string name="app_nameTitle">台灣API</string>
+
+    <string name="APOD_Date">日期：</string>
+    <string name="CWA_APIBtn">現在天氣</string>
+    <string name="APOD_APIBtn">NASA 每日照片</string>
+    <string name="APOD_Title">主題：</string>
+    <string name="APOD_explanation">介紹：</string>
+    <string name="APOD_todayPicture">今日照片</string>
+    <string name="APOD_randomPicture">隨機照片</string>
+    <string name="CWA_RelativeHumidity">濕度</string>
+    <string name="percentage">%</string>
+    <string name="slash">/</string>
+    <string name="degree">°</string>
+    <string name="Current_location">目前所在位置：</string>
+    <string name="Get_location_btn">取得位置</string>
+    <string name="No_position_yet">尚未取得位置</string>
+    <string name="CWA36_APIBtn">台灣各縣市36小時預報</string>
+    <string name="Rainstation_APIBtn">雨量站</string>
+    <string name="Gas_APIBtn">中油加油站</string>
+
+    <string name="earthquake">地震報告</string>
+
+    <string name="Magnitude">規模</string>
+    <string name="Maxvalue">最大震度</string>
+    <string name="FocalDepth">深度</string>
+    <string name="longitude">經度：</string>
+    <string name="latitude">緯度:</string>
+    <string name="earthquake_btn_web">查看網址</string>
+    <string name="earthquake_btn_img">查看圖片</string>
+    <string name="distance">距離</string>
+    <string name="TodaySunMoonbtn">台灣各縣市日出時間</string>
+
+    <string name="pm25">空氣品質</string>
+    <string name="sunrise">日出</string>
+    <string name="sunset">日落</string>
+    <string name="NowTime">現在時間：</string>
+
+    <string-array name="city_array">
+        <item>臺北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>臺中市</item>
+        <item>臺南市</item>
+        <item>高雄市</item>
+        <item>基隆市</item>
+        <item>新竹市</item>
+        <item>新竹縣</item>
+        <item>苗栗縣</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>嘉義縣</item>
+        <item>嘉義市</item>
+        <item>屏東縣</item>
+        <item>宜蘭縣</item>
+        <item>花蓮縣</item>
+        <item>臺東縣</item>
+        <item>澎湖縣</item>
+        <item>金門縣</item>
+        <item>連江縣</item>
+    </string-array>
+
+
+</resources>

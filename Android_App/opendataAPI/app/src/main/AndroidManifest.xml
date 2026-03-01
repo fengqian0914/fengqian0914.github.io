@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.opendataAPI"
+        tools:targetApi="31">
+        <activity
+            android:name=".PM25_RecyclerviewAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".PM25Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TodaySunMoon_RecyclerviewAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".TodaySunMoon"
+            android:exported="false" />
+        <activity
+            android:name=".earthquake_Image"
+            android:exported="false" />
+        <activity
+            android:name=".earthquake_RecyclerviewAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".earthquake"
+            android:exported="false" />
+        <activity
+            android:name=".Gas_station"
+            android:exported="false" />
+        <activity
+            android:name=".rainfall_station"
+            android:exported="false" />
+        <activity
+            android:name=".CWA_week"
+            android:exported="false" />
+        <activity
+            android:name=".APOD_picture"
+            android:exported="false" />
+        <activity
+            android:name=".current_weather"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
