@@ -111,10 +111,14 @@
 - 實習期間深入理解科技教育產業的數位行銷策略、課程推廣流程及業界趨勢。
 
 <p align="center">
-  <img src="https://fengqian0914.lovable.app/assets/work-1-DnwVFq-4.png" alt="無人機穿越障礙" width="180" />
-  <img src="https://fengqian0914.lovable.app/assets/work-2-nZNGz0L4.jpg" alt="無人機編隊表演" width="180" />
-  <img src="https://fengqian0914.lovable.app/assets/work-3-BK1B1syj.jpg" alt="無人機地面設置" width="180" />
-  <img src="https://fengqian0914.lovable.app/assets/work-4-CXm3lAZ0.png" alt="公司網站設計" width="180" />
+  <img src="https://fengqian0914.lovable.app/assets/work-1-DnwVFq-4.png" alt="無人機穿越障礙" width="45%" />
+  <img src="https://fengqian0914.lovable.app/assets/work-3-BK1B1syj.jpg" alt="無人機地面設置" width="45%" />
+
+</p>
+<p align="center">
+  <img src="https://fengqian0914.lovable.app/assets/work-2-nZNGz0L4.jpg" alt="無人機編隊表演" width="40%" />
+
+  <img src="https://fengqian0914.lovable.app/assets/work-4-CXm3lAZ0.png" alt="公司網站設計" width="55%" />
 </p>
 
 ---
@@ -130,7 +134,7 @@
 
 <p align="center">
   
-  <img src="https://fengqian0914.lovable.app/assets/graduation-app-CdxEb2l1.png" alt="捷旅印然 - APP 畫面" width="200" />
+  <img src="https://fengqian0914.lovable.app/assets/graduation-app-CdxEb2l1.png" alt="捷旅印然 - APP 畫面" width="400" />
 </p>
 
 <p align="center">
@@ -140,15 +144,28 @@
 
 ---
 
+
 ## 📱 作品集 — APP
 
+---
+
+### 🍽️ RouteEats — 路吃
+**AI VibeCoding** | `Flutter` `Firebase` `Claude` | *開發中*
+
+一款以「路途」為核心的餐廳探索雙平台 App。不同於傳統「找附近的餐廳」，RouteEats 讓你在從 A 到 B 的移動途中，找到順路可以停靠的餐廳，並支援新增中途停靠點、規劃多段路線與一鍵導航。採用 Flutter 3.x 跨平台開發，整合 Google Maps、Directions API、Places Nearby Search API 與 Firebase Auth + Cloud Firestore，以 Provider 狀態管理實現流暢使用體驗。
+
+<p align="center">
+  <img src="https://fengqian0914.lovable.app/assets/route-eats-BkkJcfDx.png" alt="RouteEats 路吃" width="400" />
+</p>
+
+---
 ### 📡 API 整合系統
 **Android APP** | `Kotlin` `API` `OpenData`
 
 一款以 OpenData 為核心的行動應用程式，透過串接多項中央氣象署 API，實現即時資料與動態顯示，並處理 JSON 結構以實現動態更新。整合日出日落時間、即時天氣與地震資訊三大功能，以視覺化方式呈現。
 
 <p align="center">
-  <img src="https://fengqian0914.lovable.app/assets/cake-api-system-CSES49Sc.png" alt="API 整合系統" width="300" />
+  <img src="https://fengqian0914.lovable.app/assets/cake-api-system-CSES49Sc.png" alt="API 整合系統" width="400" />
 </p>
 
 <p align="center">
@@ -163,7 +180,7 @@
 開發發票對獎器的 App Inventor 應用程式，提供直觀的介面讓使用者可選擇發票期數並輸入末三碼以進行對獎，支援語音輸入與 QRcode 掃描功能，提升輸入效率及整體使用便利性。
 
 <p align="center">
-  <img src="https://fengqian0914.lovable.app/assets/cake-invoice-checker-16tC6MWU.png" alt="發票兌獎器" width="300" />
+  <img src="https://fengqian0914.lovable.app/assets/cake-invoice-checker-16tC6MWU.png" alt="發票兌獎器" width="400" />
 </p>
 
 <p align="center">
@@ -178,7 +195,7 @@
 利用政府開放平台的 API 即時查詢各地區空氣品質狀況，操作介面提供帳號登入和遊客模式，註冊帳號儲存於 Firebase，支援密碼修改與驗證碼重設功能。
 
 <p align="center">
-  <img src="https://fengqian0914.lovable.app/assets/cake-air-quality-BKL8amwR.png" alt="台灣空氣品質監測系統" width="300" />
+  <img src="https://fengqian0914.lovable.app/assets/cake-air-quality-BKL8amwR.png" alt="台灣空氣品質監測系統" width="400" />
 </p>
 
 <p align="center">
@@ -211,7 +228,7 @@
 開發一套以 PHP 為後端、MySQL 為資料庫的餐飲資料管理系統，提供簡單直觀的介面，方便店家與餐點資料新增與查詢。系統自動生成唯一編號確保資料一致性與唯一性。
 
 <p align="center">
-  <img src="https://fengqian0914.lovable.app/assets/cake-order-system-BQUMPtTT.png" alt="會員點餐系統" />
+  <img src="img/員工訂餐系統_圖.png" alt="會員點餐系統" width="100%"/>
 </p>
 
 <p align="center">
@@ -297,7 +314,10 @@
 
 ### 🔢 魔術方陣
 以 C# Windows Forms 開發，實現輸入奇數值自動生成魔術方陣（幻方）的功能。
-
+<p align="center">
+  <img src="Csharp/Preview
+/Magic_square_1.png" alt="猜數字 1A2B" />
+</p>
 <p align="center">
   <a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/Csharp/%E9%AD%94%E8%A1%93%E6%96%B9%E9%99%A3"><img src="https://img.shields.io/badge/💻_GitHub-查看原始碼-black?style=for-the-badge&logo=github" /></a>
 </p>
@@ -366,7 +386,7 @@
 一款以「路途」為核心的餐廳探索雙平台 App。不同於傳統「找附近的餐廳」，RouteEats 讓你在從 A 到 B 的移動途中，找到順路可以停靠的餐廳，並支援新增中途停靠點、規劃多段路線與一鍵導航。採用 Flutter 3.x 跨平台開發，整合 Google Maps、Directions API、Places Nearby Search API 與 Firebase Auth + Cloud Firestore，以 Provider 狀態管理實現流暢使用體驗。
 
 <p align="center">
-  <img src="https://fengqian0914.lovable.app/assets/route-eats-BkkJcfDx.png" alt="RouteEats 路吃" />
+  <img src="https://fengqian0914.lovable.app/assets/route-eats-BkkJcfDx.png" alt="RouteEats 路吃" width="300px" />
 </p>
 
 ---
