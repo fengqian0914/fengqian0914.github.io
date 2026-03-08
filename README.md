@@ -315,8 +315,7 @@
 ### 🔢 魔術方陣
 以 C# Windows Forms 開發，實現輸入奇數值自動生成魔術方陣（幻方）的功能。
 <p align="center">
-  <img src="Csharp/Preview
-/Magic_square_1.png" alt="猜數字 1A2B" />
+  <img src="Csharp/Preview/Magic_square_1.png" alt="魔術方陣" />
 </p>
 <p align="center">
   <a href="https://github.com/fengqian0914/fengqian0914.github.io/tree/main/Csharp/%E9%AD%94%E8%A1%93%E6%96%B9%E9%99%A3"><img src="https://img.shields.io/badge/💻_GitHub-查看原始碼-black?style=for-the-badge&logo=github" /></a>
